@@ -11,6 +11,7 @@ tags:
   - markup
 ---
 
+Our goal was to create a virtual research environment (VRE) using the expansive data from the Republic of Letters.
 
 ### Project leader: Charles van den Heuvel
 
