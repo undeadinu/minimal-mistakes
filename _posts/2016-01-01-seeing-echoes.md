@@ -45,7 +45,7 @@ The findings of Sinai’s STSM raised a challenge: the results were simply too m
 
 |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image1](assets/images/2016-g01/image11.png) | ![image2](assets/images/2016-g01/image2.png) |
+| ![image1]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g01/image11.png) | ![image2]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g01/image2.png) |
 
 Here, however, the first problem arises: while the Gephi visualization may provide insights, it does not enable further analysis of each cluster. The first coding mission was therefore to isolate the clusters and prepare them for visualization of a different kind.
 
