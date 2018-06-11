@@ -16,7 +16,6 @@ tags:
 
 ### Scholars: Ludovica Marinucci, Sinai Rusinek
 
-[animated.gif]
 
 ## About the project
 
