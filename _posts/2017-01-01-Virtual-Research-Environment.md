@@ -1,17 +1,21 @@
-# Virtual Research Environment
+title: "Virtual Research Environment"
+description: "What can the nearly 60,000 lives documented in the *Oxford Dictionary of National Biography (ODNB)* tell us -in aggregate and individually- about the development and character of internationalism over time?"
+categories:
+  - 2017 COST Action
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
 
-### Project leader
 
-##### Charles van den Heuvel
+### Project leader: Charles van den Heuvel
 
-#### Scholars
+### Scholars: Charles van den Heuvel, Celine Frohn, Meliha Handzic, Stefan Trausan Matu
 
-##### Charles van den Heuvel, Celine Frohn, Meliha Handzic, Stefan Trausan Matu
-
-#### Design researchers
-
-##### Ángeles Briones, Michele Invernizzi
-
+### Design researchers: Ángeles Briones, Michele Invernizzi
 
 
 ## About the project
