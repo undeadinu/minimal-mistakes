@@ -1,4 +1,4 @@
---
+---
 title: "International Lives and National Biographies: Visualisation Against the Grain"
 categories:
   - 2016 COST Action
