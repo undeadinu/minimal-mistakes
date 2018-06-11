@@ -1,4 +1,14 @@
-# International Lives and National Biographies: Visualisation Against the Grain
+--
+title: "International Lives and National Biographies: Visualisation Against the Grain"
+categories:
+  - 2016 COST Action
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
 
 ##### Project Leader
 
