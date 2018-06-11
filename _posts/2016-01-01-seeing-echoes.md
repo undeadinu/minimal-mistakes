@@ -10,17 +10,11 @@ tags:
   - markup
 ---
 
-##### Project Leader
+### Project Leader: Sinai Rusinek
 
-#### Sinai Rusinek
+### Design Researchers: Tommaso Elli, Giovanni Moretti
 
-##### Design Researchers
-
-#### Tommaso Elli, Giovanni Moretti
-
-##### Scholars
-
-#### Ludovica Marinucci, Sinai Rusinek
+### Scholars: Ludovica Marinucci, Sinai Rusinek
 
 [animated.gif]
 
