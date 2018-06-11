@@ -1,5 +1,6 @@
 ---
 title: "International Lives and National Biographies: Visualisation Against the Grain"
+description: "What can the nearly 60,000 lives documented in the *Oxford Dictionary of National Biography (ODNB)* tell us -in aggregate and individually- about the development and character of internationalism over time?"
 categories:
   - 2016 COST Action
 tags:
