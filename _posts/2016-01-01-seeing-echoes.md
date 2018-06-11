@@ -61,33 +61,33 @@ In order to proceed to the visualization challenges, Giovanni Moretti, the team�
 
 ##### The clusterer
 
-![image8](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/image8.png)
+![image8]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image8.png)
 
 Parallel to Giovanni’s coding work, Tommaso Elli worked with Adobe Illustrator to create the design. What could perhaps count as “the most interesting obstacle” we encountered was that even after clustering, the results were too many to conveniently analyse. We therefore had to move up a level, and present meta-clusters - clusters of clusters, as in the illustration below. The further challenge was to then convey to the viewer that the nodes in the visualization are in fact clusters, and this was done by representing them as polygons. A legend (here on the left) would then explicate this representation. In addition, the meta-clusters will be coloured according to their commonality (technically, their centrality in the meta-network of clusters). 
 
 For example, a cluster such as “Vale...cum uxore”, has many variants (such as, ”Vale, frater optimus, cum uxore” or “salve, frater cum uxore et liberis”, and is therefore likely to be represented as hexagone. It is also related to several similar clusters, e.g. “Vale...  vir illustrissimus” or “Deus te, frater optimus… sospitet”, and it is therefore coloured green, for its commonality. The viewer can also set the threshold of similarity (represented as “cluster gravity”, since the threshold determines clustering).
 
-![image6](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/image6.png)
+![image6]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image6.png)
 
 Clicking each cluster in the network will open and reveal its inner structure. The inner circle of the nodes will be coloured by the author. In the detail on the left we see that all text units (nodes) were written by the same author. The circle stroke will be coloured by the recipients. Here, one of the text units was sent to a different recipients (and therefore surrounded with blue) than others.
 
-![imageJ](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/imageJ.png)
+![imageJ]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/imageJ.png)
 
 As a cluster reveals its inner structure, its analysis will also appear below. Here, an external tool, the TraViz, created by Stefan Jaenicke from Leipzig University, was used to visualize a collation of the text units in the cluster. The TraViz visualization is interactive and can be explored by highlighting a selected unit. In addition to the collation, a network view of the cluster will show who used the text units, addressing whom. The correlation between the two illustrations, as well as with the nodes in the cluster network above,  will be conveyed by the correlation of the colors, and clicking each nodes in the author/recipient network (below right) will highlight the respective lines in the collation (below left).
 
-![imageJ3](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/imageJ3.png)
+![imageJ3]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/imageJ3.png)
 
 Below the collation, a different view will be provided to enable additional analysis of the cluster of texts. The scholar could chose to sort the text units according to time, author or recipient, and highlight the version less, or most used, and also center on a chosen word in the cluster. The colours in the margins will represent the author and recipient of each text unit, again in accordance with the colours in the other visualizations of the same cluster.
 
-![imageJ2](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/imageJ2.png)
+![imageJ2]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/imageJ2.png)
 
 Having detected, surveyed and analysed the text reuse clusters, what is needed further is to contextualize them by locating them in the larger socially networked whole, that is the correspondence corpus. The contextualization box illustrated below ( differently than the prototype, in that it does not show the edges) will appear under the author/recipient visualization box on the right. The background correspondence network is similar to the networked visualization provided in the Epistolarium, but the cluster studied will be highlighted. 
 
-![imageJ4](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/imageJ4.png)
+![imageJ4]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/imageJ4.png)
 
 The same can be done with each textual phenomenon in the letters. Here below the correspondences which include one of the forms of the concept Potentia (captured by the regular expression) are highlighted against the background of the correspondence corpus. The same can be done with topics, collocation and co-occurrence pairs.
 
-![image7](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/image7.png)
+![image7]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png)
 
 [application-architecture.jpg]
 
@@ -99,7 +99,7 @@ The image shows the workflow and the order of boxes in the prototype created in 
 
 One important main feature that, for lack of time, was not implemented in the demo is a scroll bar under the correspondence network that would make it possible to select the letters (represented as edges) written in a certain period of time, while rendering opaque the rest of the edges. 
 
-![image10](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/image10.png)
+![image10]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image10.png)
 
 Three additional features were mentioned:
 
@@ -109,7 +109,7 @@ Three additional features were mentioned:
 
  These three views are implemented already by Stefan Jaenicke in his Text Reuse reader, the dot plot and grid view, as well as the gridview below. These could be adopted to the workflow of our project. The latter, however, should be further developed to provide more flexibility, and enable the scholar to manipulate the grid according to the various facets available in the metadata. 
 
-![image9](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2016_G1 Images/image9.png)
+![image9]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image9.png)
 
 If, as we explained before, the first challenge of our work was to enable an analysis of a certain pattern (text reuse) in a text by clustering and processing of each cluster, and the second challenge was taking a subset of the corpus which represents a certain textual phenomenon (text reuse or uses of keywords), and superimpose it on a visualization of the corpus, then it is obvious that the tools described here will be useful for many other research scenarios. The integration of alignment and grid views into our workflow will make it usable for the study of any textual phenomena which appears in large numbers in a corpus.
 
