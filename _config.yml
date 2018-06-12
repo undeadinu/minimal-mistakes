@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "COST Action Projects 2016-2017"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Pablo Sao Pablo"
+  name             : "Index"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "um cara"
-  location         : "Milao"
+  bio              : "To be updated with content"
+  location         : 
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
