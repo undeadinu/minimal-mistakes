@@ -1,20 +1,21 @@
 ---
-title: "Seeing Echoes: Visualizing Text Reuse in Correspondence"
+title: "Seeing Echoes"
 categories:
   - 2016 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - Correspondence network
+  - Graphs
+  - Text reuse
+  - formulae in letters
 ---
 
-### Project Leader: Sinai Rusinek
+*Visualizing Text Reuse in Correspondence*
 
-### Design Researchers: Tommaso Elli, Giovanni Moretti
+**Project Leader:** Sinai Rusinek
 
-### Scholars: Ludovica Marinucci, Sinai Rusinek
+**Design Researchers:** Tommaso Elli, Giovanni Moretti
+
+**Scholars:** Ludovica Marinucci, Sinai Rusinek
 
 
 ## About the project
@@ -32,19 +33,17 @@ Together with the corpus, we had two additional data sets:
 A list of text reuse candidates (pairs of paragraphs) with a number of common features and a number that represents the degree of their similarity. These will be the edges in the clustered network. 
 A subset of the nodes which included the various forms of the lexeme ‘Potentia’.
 
-## **Aim of the project**
+## Aim of the project
 
 The findings of Sinai’s STSM raised a challenge: the results were simply too many, most of which are the ubiquitous formulae of opening and closing letters. For someone who is rather interested in quotes, aphorisms and similar kinds of text reuse, looking for relevant findings would be like finding a needle in a haystack. But even scholars interested in the biographical and social insights that a study of the “hay” itself (the formulae) can provide, have too many results to process. To solve this issue, Sinai used network analysis to organize the data and identify ‘clusters’: groups of similar text units that were found to be similar to each other. A Gephi visualization can not only map such clusters, but also color the nodes according to the author or recipient, in a way that would teach us about the use of formulae by certain individuals, or in addressing certain individuals. The two images below are snippet of the same part of the large network, where the nodes represent paragraphs (which appear in the labels), clustered according to their similarity, and colored by author (left) or recipient (right). 
 
-|                                                              |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![image1]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image11.png) | ![image2]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image2.png) |
 
 Here, however, the first problem arises: while the Gephi visualization may provide insights, it does not enable further analysis of each cluster. The first coding mission was therefore to isolate the clusters and prepare them for visualization of a different kind.
 
 The second, and more significant problem we faced,  is that while in a normal corpus, results of a search may be easily mapped on the parts of the corpus, for example, in a histogram or concordance plot, these two dimensional tools will not suffice to make sense of the data in the context of the complex, networked structure of a correspondence corpus. This seminal problem is common to various scenarios of studies in addition to that of text reuse detection results. How, for example, can one understand and evaluate the group of letters in a correspondence which discuss ‘’potentia”, use the term “potentia dei”, or both “potentia” and “ratio”?  The second challenge was therefore taking a subset of the corpus which represents a certain textual phenomenon, and superimpose it on a correspondence network.
 
-## **Case study**
+## Case study
 
 The corpus our team was working with is the corpus of CKCC (Circulation of Knowledge and Learned Practices in the 17th-century Dutch Republic), a corpus which consists of various correspondences of scholars who were active in the Netherlands in the 17th-century. It was downloaded from DANS in XML form and was converted to plain text files using python scripts. The phenomena studied in it were Text re-use, Collocations and Keywords.
 
@@ -52,7 +51,7 @@ The corpus our team was working with is the corpus of CKCC (Circulation of Knowl
 
 In order to proceed to the visualization challenges, Giovanni Moretti, the team’s developer, converted the data to Json format (first figure below), and developed a java parser (second figure below) to compute clusters. The results was therefore nodes aggregated in clusters according to a given threshold of similarity. The clustering pattern would obviously change according to the threshold, and it would be interesting to explore, at a later stage, their interaction.
 
-##### The clusterer
+### The clusterer
 
 ![image8]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image8.png)
 
@@ -86,7 +85,7 @@ The same can be done with each textual phenomenon in the letters. Here below the
 
 
 
-## **Conclusions**
+## Conclusions
 
 The image shows the workflow and the order of boxes in the prototype created in Como. As soon as a cluster-node is clicked in the cluster network, the analysis and contextualization windows will appear below it (before it is clicked, the place could be used for an explanation). Not all features have been implemented in the prototype.
 
@@ -100,7 +99,7 @@ Three additional features were mentioned:
 - Parallel view for comparison of two or three letters, where the text reuse compared is highlighted.
 - And finally, a visualization of the phenomenon studied mapped onto a visualization of the corpus NOT as network, but rather as a faceted grid.
 
- These three views are implemented already by Stefan Jaenicke in his Text Reuse reader, the dot plot and grid view, as well as the gridview below. These could be adopted to the workflow of our project. The latter, however, should be further developed to provide more flexibility, and enable the scholar to manipulate the grid according to the various facets available in the metadata. 
+These three views are implemented already by Stefan Jaenicke in his Text Reuse reader, the dot plot and grid view, as well as the gridview below. These could be adopted to the workflow of our project. The latter, however, should be further developed to provide more flexibility, and enable the scholar to manipulate the grid according to the various facets available in the metadata. 
 
 ![image9]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image9.png)
 
