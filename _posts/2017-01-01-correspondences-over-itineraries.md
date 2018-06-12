@@ -23,7 +23,7 @@ sidebar:
 
 **Scholars:** Roberto Evangelista, Magnus Ulrich Ferber, Vladimir Urbanek
 
-<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g2/2016_G2.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g2/image6.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g2/2017_G2.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g2/image6.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
