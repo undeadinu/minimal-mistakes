@@ -98,6 +98,7 @@ First challenge: Simultaneous view of more filters
 
 Link to [demo version](https://drive.google.com/open?id=0B3X8CNVByqGvOGxvTC1WTFNmZXM)
 
+#### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g3/2016_G3_arch.png)
 
 ## Conclusions

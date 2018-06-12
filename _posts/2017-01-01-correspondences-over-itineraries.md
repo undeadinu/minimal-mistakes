@@ -129,6 +129,7 @@ Within this diagram the stays and the movements of Comenius are shown as a "snak
 
 *Fig. 7: This figure represents a refined matrix-map prototype.*
 
+#### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g2/2017_G2_arch.png)
 
 ## Conclusions

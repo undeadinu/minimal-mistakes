@@ -121,6 +121,7 @@ As the resulting graphs are not expected to be particularly complex (few letters
 
 A further interesting exploration would include the proportion of each language (in terms of number of words) within multi-language letters, to give a better approximation of their relevance within the corpus.
 
+#### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g5/2016_G5_arch.png)
 
 ## Conclusions

@@ -258,6 +258,7 @@ At every stage, reference was made to past examples of good practice in data vis
       - In this mode of visualisation, each city is visualised as a square, within which letter icons would be arranged in chronological from top left to bottom right.
       - When insufficient room is available to visualise adjacent centres, their squares are merged.  Merged squares are distinguished by a thicker black border.  Mousing over a merged square provides an impression of the number of centres merged within in it.  Zooming in allows the user to see how those centres are distributed geographically.
 
+#### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/2017_G3_arch.png)
 
 ## Conclusions

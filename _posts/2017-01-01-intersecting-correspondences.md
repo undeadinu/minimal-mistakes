@@ -57,6 +57,7 @@ It was helpful that some group members had had previous experience not only with
 
 The user journey starts with (**SUNBURST VIEW**), while views (**TRIANGULAR, QUADRANGULAR, or PENTANGULAR** ) and (**SCATTERPLOTISH VIEW**) can be accessed through embedded links from that first screen.
 
+#### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g1/2017_G1_arch.png)
 
 ## Conclusions

@@ -92,6 +92,7 @@ Following are several screenshots of the two different visualizations.
 
 *Figure 2.2. Only posthumous publications.*
 
+#### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g7/2016_G7_arch.png)
 
 ## Conclusions
