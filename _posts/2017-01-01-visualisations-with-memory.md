@@ -13,8 +13,9 @@ tags:
   - animation
   - cognitive zoom
 toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.*
@@ -236,8 +237,7 @@ At every stage, reference was made to past examples of good practice in data vis
       - highlights the time of sending on the timeline, and
       - indicates on the map the location of Erasmus at the time of sending.
 
-  -
-    **Fourth step:** switch to ‘memory’ mode for people.  This has three immediate effects:
+  - **Fourth step:** switch to ‘memory’ mode for people.  This has three immediate effects:
 
     - Functionality:
       - In this mode, the individual letter icons are clustered according to the people with whom they were exchanged.  
@@ -258,7 +258,7 @@ At every stage, reference was made to past examples of good practice in data vis
       - In this mode of visualisation, each city is visualised as a square, within which letter icons would be arranged in chronological from top left to bottom right.
       - When insufficient room is available to visualise adjacent centres, their squares are merged.  Merged squares are distinguished by a thicker black border.  Mousing over a merged square provides an impression of the number of centres merged within in it.  Zooming in allows the user to see how those centres are distributed geographically.
 
-#### Project Diagram
+### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/2017_G3_arch.png)
 
 ## Conclusions

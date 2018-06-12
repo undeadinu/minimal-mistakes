@@ -13,6 +13,10 @@ tags:
   - Intellectual Geography
   - Intellectual History
   - History of Science
+toc: true
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Exploring early modern academic travel culture.*
@@ -40,16 +44,16 @@ Explore and visualise the relationship between geography (space), chronology (ti
 
 The data provided were:
 
-#### Geography (Space)
+### Geography (Space)
 
 - Cities visited
 - Countries visited
 
-#### Chronology (Time)
+### Chronology (Time)
 
 - Period of travel (start and end date)
 
-#### Prosopographical attributes
+### Prosopographical attributes
 
 - Institutional affiliation
 - Scholarly division - subdivided in chairs
@@ -64,7 +68,7 @@ The data provided were:
 
 The design of the visualisation tool’s interface is based on the three main categories explained in the previous section, thus dividing the interface into three main blocks: 1) Geographical frame (Placement: main field), 2) Chronological frame (placement: bottom), and finally 3) the attribute frame (Placement: left side).
 
-#### Geographical frame
+### Geographical frame
 
 The geographical frame shows the map view and travel destinations visited (cities). The map is zoomable and will appear as a heat (density) map when zoomed out and as a point map when zoomed in.
 Design functionalities:
@@ -74,7 +78,7 @@ Design functionalities:
 - Ideal Version: It should be able to add political, linguistic and confessional borders.
 - Ideal Version: The possibility to select other views (visualisations) than only geographical views, e.g. such as cluster visualisations.
 
-#### Chronological frame
+### Chronological frame
 
 The chronological frame shows a time axis divided in years, where certain time periods can be chosen. Ideal Version: Along the time axis important major events could be placed in the time frame above the  ‘worms’ (e.g. The Seven Year War 1756-1763).
 
@@ -88,7 +92,7 @@ Second challenge: Uncertain start and end dates
 
 - A second challenge was uncertain or missing start and end dates. To combat this each uncertain ‘worm’ would fade in or fade out in the adjacent years, thereby indicating the uncertainty for the reader.
 
-#### Attribute frame
+### Attribute frame
 
 The third and final frame consist of smaller filter visualisations; i.e. bars, boxes and minor maps.
 
@@ -98,7 +102,7 @@ First challenge: Simultaneous view of more filters
 
 Link to [demo version](https://drive.google.com/open?id=0B3X8CNVByqGvOGxvTC1WTFNmZXM)
 
-#### Project Diagram
+### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g3/2016_G3_arch.png)
 
 ## Conclusions

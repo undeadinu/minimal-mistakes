@@ -7,6 +7,10 @@ tags:
   - GUI
   - Multiverse of Knowledge metaphor
   - Interfaces for Linked Data
+toc: true
+classes: wide
+sidebar:
+  nav: "home"
 ---
 *Create a virtual research environment (VRE) using the expansive data from the Republic of Letters.*
 
@@ -117,7 +121,7 @@ A second example displays the facility of viewing the weaving of threads of idea
 
 ![Paper trausan 2]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-2.png)
 
-#### Project Diagram
+### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/2017_G5_arch.png)
 
 ## Conclusions

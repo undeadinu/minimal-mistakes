@@ -10,6 +10,10 @@ tags:
   - usability
   - visibility
   - cross-searchability
+toc: true
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period*
@@ -47,7 +51,7 @@ The group therefore recommends that EMLO includes yet another category of corpus
 
 The results of search should bring the user to the close reading window, the outline of which was developed as an extendible view. A basic view should contain the text of single document (letter), its main metadata and a navigation bar. Optionally images of the source, apparatus criticus, factual commentary, similia, translation or summary (linked to the paragraphs) and further metadata on the text (its manuscript sources, publications etc.) can appear. A user that chooses to register her- or himself can use a personalized user note-book, in which (s)he can easily copy parts of the text and make and store personal notes. The reader can also easily export his note-book as well as the results of the search.
 
-#### Project Diagram
+### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g4/2017_G4_arch.png)
 
 ## Conclusions

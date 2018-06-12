@@ -12,5 +12,9 @@
   #   url: /sitemap/
 
 home:
+  - title: "Home"
+    url: /
   - title: "All COST Actions"
     url: /all-costs/
+  - title: "Research Keywords"
+    url: /keywords/

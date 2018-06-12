@@ -4,6 +4,10 @@ categories:
   - 2016 COST Action
 tags:
   - report missing
+toc: true
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Description not available.*

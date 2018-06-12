@@ -8,6 +8,10 @@ tags:
   - Exploratory Analysis
   - Interactive Visualizations
   - DH Innovation
+toc: true
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Designing visual interfaces for browsing the EMLO repository.*
@@ -34,7 +38,7 @@ More specifically, we focused on Hartlib’s data to explore the characteristics
 
 The main dimensions that characterize the data are:
 
-#### Geography
+### Geography
 
 The geographical dimension has a crucial role since it often consists of notations about both modern and historical places. For example "Heidelberg, Baden-Württemberg, (Electoral Rhenisch Imperial Circle) Germany, (Holy Roman Empire)" represents two different views of geography:
 
@@ -43,11 +47,11 @@ The geographical dimension has a crucial role since it often consists of notatio
 
 Using mostly regular expressions, we split these notations into modern/historical classes, and we created hierarchies that could be leveraged during browsing.
 
-#### Time
+### Time
 
 We also explored the temporal dimension in order to identify the fuzziness that usually characterizes historical chronologies, and the possibility of dealing with notations expressed using different calendars (e.g Julian and Gregorian).
 
-#### People and Languages
+### People and Languages
 
 We didn’t perform specific data analyses on people and languages for two main reasons:
 
@@ -58,7 +62,7 @@ We didn’t perform specific data analyses on people and languages for two main 
 
 A few visual solutions were explored as a preliminary proof of concept aligning with the main dimensions emerging from the discussion.
 
-#### Geography
+### Geography
 
 The representation of the Geographical view has highlighted a number of criticalities related to the temporal and subjective variability of political borders.
 On the one hand the geolocation as reported in the dataset is often conflicting, registering the contemporary reference and the historical one at different levels of geographical granularity (i.e. nation, region, city). On the other hand both contemporary and historical reference are relevant for the exploration of correspondence.  Moreover, even when the geographical unit in question remains unchanged (e.g. in reference to Poland, Hungary, or France), the boundaries shift over time in complex ways which have yet to be captured by any sophisticated and open-source digital system, making a precise representation of political boundaries at every stage of the past impossible at the present time.
@@ -72,7 +76,7 @@ The visualisation of geography as also tackled from two points of view. Contempo
 
 For both levels, it is also possible to visualize the constituent parts of larger geographical entities (such as the circles of the Holy Roman Empire, within the example above).  Moreover, at both levels it is also possible to switch from a semi-cartographic representation to a network-like one, in order to represent the different levels of granularity at the geographical level (for example, highlighting the letters exchanged between a city and a country). The visualisation has been therefore approached by representing top level geographical units as metanodes, which can be expanded by the user to reveal the sub-nodes within them.
 
-#### Time
+### Time
 
 The temporal dimension is also highly relevant for the exploration of correspondence archives.  In this case, an additional level of uncertainty is added: not only as some dates missing or inferred, but this period witnessed the coexistence in Europe of three different calendars (Gregorian, Julian starting in January, and Julian starting in March).
 For this reason, in order to produce a better approximation in matching the exploration of the geographical and temporal dimension, we decided to represent the degree of fuzziness related to the selected timespan. This solution would also require a refinement of the database for the unknown records with the addition of inferrable date ranges together with their probability.
@@ -81,7 +85,7 @@ For this reason, in order to produce a better approximation in matching the expl
 
 The representation of the temporal uncertainty can be also flagged in a more general overview, and different levels of likelihood can be included when drilling down to a more detailed view.
 
-#### People
+### People
 
 A more detailed view by people has also been designed in order to explore visually the correspondence of single authors.
 
@@ -109,7 +113,7 @@ Clicking on any correspondent within the previous view might also produce a seco
 
 In a system including machine-readable full texts of letters, a possible further expansion would consider also the length of letters (as calculated by number of words).  Automated topic modelling might eventually populate the topical data field automatically and calculate the number of words devoted to each topic.
 
-#### Languages
+### Languages
 
 The different languages characterising certain collections inspired an additional exploration. In the case of Hartlib’s correspondence, several different languages were used, and a significant number of letters used more than one language (up to 3).
 
@@ -121,7 +125,7 @@ As the resulting graphs are not expected to be particularly complex (few letters
 
 A further interesting exploration would include the proportion of each language (in terms of number of words) within multi-language letters, to give a better approximation of their relevance within the corpus.
 
-#### Project Diagram
+### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g5/2016_G5_arch.png)
 
 ## Conclusions

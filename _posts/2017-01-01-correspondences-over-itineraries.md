@@ -9,6 +9,10 @@ tags:
   - exiled scholars
   - intellectual hubs
   - Thirty Years War
+toc: true
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Strategies for superimposing the correspondence of a given individual on top of the physical itinerary of that individual.*
@@ -66,7 +70,7 @@ The group’s work was divided into five days and five steps devoted to:
 
 
 
-##### Sketching and proposing various models of solution
+### Sketching and proposing various models of solution
 
 In the second step the members of the group devoted considerable time to brainstorming and sketching competing (and in some cases complementary) models of visualisation. These models were basically three:
 
@@ -129,7 +133,7 @@ Within this diagram the stays and the movements of Comenius are shown as a "snak
 
 *Fig. 7: This figure represents a refined matrix-map prototype.*
 
-#### Project Diagram
+### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g2/2017_G2_arch.png)
 
 ## Conclusions

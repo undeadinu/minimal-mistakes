@@ -11,6 +11,10 @@ tags:
   - Communalities
   - Transmission of letters
   - Sub-groups
+toc: true
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Exploring techniques for visualising multiple intersecting correspondences simultaneously*
@@ -57,12 +61,12 @@ It was helpful that some group members had had previous experience not only with
 
 The user journey starts with (**SUNBURST VIEW**), while views (**TRIANGULAR, QUADRANGULAR, or PENTANGULAR** ) and (**SCATTERPLOTISH VIEW**) can be accessed through embedded links from that first screen.
 
-#### Project Diagram
+### Project Diagram
 ![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g1/2017_G1_arch.png)
 
 ## Conclusions
 
-#### Findings
+### Findings
 
 A central finding concerned the fundamental structure of the interface/s: that in order not to overload a single visualisation, it is helpful to offer different views to address specific questions. Furthermore, that it is important already early on in the design stage to have crucial factors such as simplicity and ease of operation in view. The latter consideration was seen as being of great significance when seeking to create a fully linked-up design.    
 
@@ -70,7 +74,7 @@ Focusing on relatively small-scale problems of large corpora helps address quest
 
 Even if it is not reiterated, the format of the Design Sprint, applied to Design & Humanities, has proved once more extremely inspiring and at the same time productive.
 
-#### Conclusion and further research
+### Conclusion and further research
 
 Knowing that the likelihood of arriving at definitive results in five days’ work is extremely small, we deliberately left some of the options open for **further refinement and development**. In general terms, we regard the “scatterplotish” view as an aesthetically pleasing and yet highly functional container that could be enhanced with additional information. This concerns
 

@@ -7,8 +7,9 @@ tags:
   - Posthumous Publications
   - Zotero
 toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+classes: wide
+sidebar:
+  nav: "home"
 ---
 
 *Exploring techniques for visualising multiple intersecting correspondences simultaneously.*
