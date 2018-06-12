@@ -13,7 +13,6 @@ tags:
   - animation
   - cognitive zoom
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

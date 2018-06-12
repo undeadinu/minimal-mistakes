@@ -9,7 +9,6 @@ tags:
   - Interactive Visualizations
   - DH Innovation
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

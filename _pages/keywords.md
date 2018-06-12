@@ -2,7 +2,7 @@
 
 permalink: /keywords/
 title: "Research Keywords"
-layout: categories
+layout: tags
 entries_layout: grid
 classes: wide
 sidebar:

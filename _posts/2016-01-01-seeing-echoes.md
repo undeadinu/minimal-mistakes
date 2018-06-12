@@ -8,7 +8,6 @@ tags:
   - Text reuse
   - formulae in letters
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

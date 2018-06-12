@@ -12,7 +12,6 @@ tags:
   - Transmission of letters
   - Sub-groups
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

@@ -8,7 +8,6 @@ tags:
   - Multiverse of Knowledge metaphor
   - Interfaces for Linked Data
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

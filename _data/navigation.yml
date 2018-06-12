@@ -1,19 +1,4 @@
-# main links
-# main:
-  # - title: "All COST Actions"
-  #   url: {{ site.url }}{{ site.baseurl }}/all-costs/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
 home:
-  - title: "Home"
-    url: /
   - title: "All COST Actions"
     url: /all-costs/
   - title: "Research Keywords"

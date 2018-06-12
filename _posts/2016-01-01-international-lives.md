@@ -11,7 +11,6 @@ tags:
   - Geography
   - Profession
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

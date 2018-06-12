@@ -2,7 +2,7 @@
 
 permalink: /all-costs/
 title: "COST Action - 2016/2017"
-layout: tags
+layout: categories
 entries_layout: grid
 classes: wide
 sidebar:

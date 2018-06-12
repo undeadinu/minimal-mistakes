@@ -5,7 +5,6 @@ categories:
 tags:
   - report missing
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

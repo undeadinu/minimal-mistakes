@@ -11,7 +11,6 @@ tags:
   - visibility
   - cross-searchability
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

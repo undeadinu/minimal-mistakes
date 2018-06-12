@@ -14,7 +14,6 @@ tags:
   - Intellectual History
   - History of Science
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---

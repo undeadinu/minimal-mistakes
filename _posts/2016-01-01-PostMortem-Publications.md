@@ -7,7 +7,6 @@ tags:
   - Posthumous Publications
   - Zotero
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---
