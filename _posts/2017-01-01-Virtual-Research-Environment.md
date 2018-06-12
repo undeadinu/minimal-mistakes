@@ -12,11 +12,11 @@ tags:
 
 Creating a virtual research environment (VRE) using the expansive data from the Republic of Letters.
 
-### Project leader: Charles van den Heuvel
+**Project leader:** Charles van den Heuvel
 
-### Scholars: Charles van den Heuvel, Celine Frohn, Meliha Handzic, Stefan Trausan Matu
+**Scholars:** Charles van den Heuvel, Celine Frohn, Meliha Handzic, Stefan Trausan Matu
 
-### Design researchers: Ángeles Briones, Michele Invernizzi
+**Design researchers:** Ángeles Briones, Michele Invernizzi
 
 
 ## About the project
@@ -25,7 +25,7 @@ Our goal was to create a virtual research environment (VRE) using the expansive 
 
 As our project in itself is more of an exploration of what a VRE can look like and how it could work, this project report is not subdivided into methodology and findings, but rather provides a description of our process of designing conceptually in a collaborative way. There a several models describing the research practices in the analysis and visualization of data that can be taken as part of departure.(1) For the reason that the other four work groups were creating interfaces to real data, we decided in our group to concentrate on “exploration” rather than implementation. An important requirement for the development of our explorative interface was that it would allow for getting access to both unstructured and structured data. This distinction was necessary because in the four other workgroups the emphasis was on the development of structured (meta-)data which limits to great extent the analysis of full text of the Republic of Letters. Recurrent themes in Republic of Letters such as trust, confidentiality just cannot be found with simple keyword queries and require additional methods of text analyses and natural language processing techniques.
 
-![](/Users/valentina/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G5 Images/steps on the research journey.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/steps-on-the-research-journey.png)
 
 This report describes the process of sketching out an interface to such a VRE in a team of humanities researchers and designers. It concludes with some future visions of the VRE and recommendations for the design sprint format for the humanities.
 
@@ -68,13 +68,13 @@ Taking the multiverse concept to a more abstract level, it become useful to thin
 
 Images of inventions of Guerrini stand close to other secret inventions for instance the patented torpedo-submarine designed by Cornelis Drebbel that was tested out on the River Thames in London between 1620-24. In a visual exploration based on gravitational forces it might be expected that will be closer to each other than images with a different content. Using this case, we have created several static mock-ups that illustrate how the VRE might work.
 
-![](/Users/valentina/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G5 Images/process-02.png)
+![Process 02]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/process-02.png)
 
 
 
 In this case there is a difference between the intellectual and technical knowledge networks. The networks do not fully overlap, and the non-overlapping parts have a different nature of confidentiality. Compare the case of the role of Huygens in between intellectual and technological networks.(4) The letter exchanges amongst aristocrats are reciprocal, while the aristocrats request materials from artisans, and they do not send any drawings back. A graphic representation of this situation can be found below.
 
-![](/Users/valentina/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G5 Images/intellectual and tech knowledge exchange.png)
+![Intellectual and knowledge exchange]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/intellectual-and-tech-knowledge-exchange.png)
 
 
 
@@ -86,13 +86,13 @@ Here we have a difference in reciprocity, an aspect of letter exchanges that sho
 
 Given the enormous amount of (contextual) data produced in various geographical locations over long periods of time, we decided to make use of a comprehensive metaphor suitable for exploration. At first we considered the metaphor of the universe of knowledge not unknown in the history of the organisation of knowledge such as in the historiography of library sciences. However, we soon realized that this metaphor would have an important disadvantage. This metaphor would imply that the Republic of Letters would be one continuous information space in which the parameters (in our case reciprocity in correspondence) with which we try to explain its specific features would be based on one common law. From earlier studies we learned that there are many differences between communities of the Republic of Letters. For that reason we decided for the metaphor of the multiverse of knowledge.
 
-![](/Users/valentina/Google%20Drive/COST%20Packing-up%20sprints%20outcomes%20%5B2018-06%5D/01_Documentation/02_Images/2017_G5%20Images/schema%20galaxy.png)
+![Schema galaxy](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-galaxy.png)
 
 
 
 We understand by a multiverse a hypothetical set of multiple universes that comprise all reality. Each universe had different dimensions and have a different nature i.e. differences in gravity, that we want to explore from various perspectives. The different universes are not alternative or disjunctive: they are complementing each other. This metaphor seemed very apt for the “construct” of the Republic of Letters of which one can claim that is did not exist and existed in multiple version simultaneously. Conceptualizing our model as a single universe would explain less and provide a reductive view of the relationships between elements. In order to explore and to keep track of our journey in the multiverse of the Republic of Letters we introduced a telescope, a space ship and a space ship log book.
 
-![](/Users/valentina/Google%20Drive/COST%20Packing-up%20sprints%20outcomes%20%5B2018-06%5D/01_Documentation/02_Images/2017_G5%20Images/process-01.png)
+![Process 01]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/process-01.png)
 
 In order to include and provide the best access to the various dimensions, our model must be flexible and interactive. Each search query may rearrange the configuration of all elements, instead of simply selecting a part of a single configuration. Additionally, it must be possible to jump to other configurations and elements while in the exploration environment.
 
@@ -100,11 +100,11 @@ In order to include and provide the best access to the various dimensions, our m
 
 The VRE is based on this matrix adapted from the knowledge management (KM) literature.
 
-![](/Users/valentina/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G5 Images/generic framework schema.png)
+![Generic framework schema]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/generic-framework-schema.png)
 
 Ethically, we are interested in the implications of the “Socialization & Sharing” square – we want to visualize the consequences of sharing, the open/closedness of data, and the quality of the data. In reference to the fourth square, “Ideation & Creation”, it should become possible for scholars to contribute to the entries in the VRE. Another possibility is using crowdsourcing. This would make visualizing or otherwise categorizing the quality of the data more pertinent.
 
-![](/Users/valentina/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G5 Images/schema explore analysis.png)
+![Explore analysis]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-explore-analysis.png)
 
 In the development we concentrated more on the left side, organizing and analyzing the very diverse content. These are forms of explicit knowledge. Under “Capture & Organization” we consider linking all different repositories, so letters and all the other material generated in reassembling the Republic of Letters can be combined.
 
@@ -118,21 +118,11 @@ The below visualizations should be seen as additional to the visualization of th
 
 In the first pair of visualizations, the horizontal axis is the time and on the vertical one there are correspondents (marian, madalin, delia, etc). Letters are dots on the line of the sender. If there exist a conceptual link between two letters, a line is drawn between them. The colour of the line is green if there is an explicit link in the more recent letter to the referred one. A red colour indicates an implicit link: the letter does not explicitly mentions the other, but there is an implicit link, for example, when it refers to an idea, a concept of the other letter.
 
-![](/Users/valentina/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G5 Images/paper trausan 1.png)
-
-
+![Paper trausan]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-1.png)
 
 A second example displays the facility of viewing the weaving of threads of ideas. For example, somebody wants to see how an idea or a concept evolved and entered in interaction with other idea/concepts. In this visualization, lines link letters with common topics (ideas/concepts). For each topic a colour is assigned:
 
-![](/Users/valentina/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G5 Images/paper trausan 2.png)
-
-
-
-
-
-[**application-architecture.jpg**]
-
-
+![Paper trausan 2]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-2.png)
 
 ## **Conclusions**
 
@@ -163,7 +153,6 @@ It seems unlikely that the expected enormous amount of unstructured data of the 
 ### Experiences and Recommendations
 
 The second design sprint in Como was once again a success. For the humanities researchers in our workgroup, it was a joy to work together with imaginative designers. Design sprints are developed to come in a step-by-step approach to a concrete result. Four of the five workgroups followed that briefing with convincing results. Our group deliberately choose to stick to our imaginative multiverse metaphor and to sketch a less concrete interface for exploring a future VRE around the Republic of Letters. Generally speaking, the humanities do not have a culture of experimenting, as in the natural sciences. Although the natural sciences can learn much from the humanities, humanities researchers could benefit from this natural-scientific culture to build on experiments of others. Imagination and risk-taking are necessary to take (digital) humanities research further. For that reason we recommend that humanities researchers, computer scientists and designers participating in design sprints do not focus on concrete targets, but leave sufficient space for imagination and experiment. Humanities scholars are hardly ever in the situation to make use of the imagination of designers. It is important to exploit that to full extent. Therefore the “concrete products” after these design sprint week should be sketches and outlines rather than designs and plans; open ideas rather than “solutions” that can be implemented but might miss the wide scope that the humanities need.
-
 
 
 ## References
