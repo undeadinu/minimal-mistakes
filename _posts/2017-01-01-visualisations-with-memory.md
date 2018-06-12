@@ -26,7 +26,7 @@ sidebar:
 
 **Scholars:** Alex Butterworth, Howard Hotson, Christoph Kudella
 
-<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/2016_G3.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/fig4-1.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/2017_G3.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/fig4-1.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
