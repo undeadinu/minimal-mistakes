@@ -16,6 +16,7 @@ tags:
 
 **Design researchers:** Ángeles Briones, Michele Invernizzi
 
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
@@ -115,6 +116,8 @@ In the first pair of visualizations, the horizontal axis is the time and on the 
 A second example displays the facility of viewing the weaving of threads of ideas. For example, somebody wants to see how an idea or a concept evolved and entered in interaction with other idea/concepts. In this visualization, lines link letters with common topics (ideas/concepts). For each topic a colour is assigned:
 
 ![Paper trausan 2]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-2.png)
+
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/2017_G5_arch.png)
 
 ## Conclusions
 

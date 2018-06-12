@@ -19,6 +19,8 @@ toc_icon: "cog"
 
 **Scholars:** Riccardo Bellingacci
 
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
+
 ## About the project
 
 “Reassembling the Republic of Letters” ultimately aims at providing free access to machine-readable texts of all learned letters printed and unprinted from the period 1500-1800. The database Letters of the Republic of Letters (EROL) holds the title details of 1874 printed epistolaries, and the full texts of 1666 of these. This Project was devoted to testing the possibilities and limits of this bibliography.  Being a completely new bibliography, which started from scratch, it was important to try to visualize the main characteristics of these books, as for example, when and where they were published.
@@ -89,6 +91,8 @@ Following are several screenshots of the two different visualizations.
 ![image2-2]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g7/image2-2.png)
 
 *Figure 2.2. Only posthumous publications.*
+
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g7/2016_G7_arch.png)
 
 ## Conclusions
 

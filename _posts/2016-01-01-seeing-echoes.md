@@ -82,9 +82,7 @@ The same can be done with each textual phenomenon in the letters. Here below the
 
 ![image7]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png)
 
-[application-architecture.jpg]
-
-
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_arch.png)
 
 ## Conclusions
 
