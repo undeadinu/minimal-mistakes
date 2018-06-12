@@ -1,4 +1,16 @@
-# Visualizing the Distribution of Newton’s First-Edition (1687) Principia Copies
+---
+title: "Visualizing the Distribution of Newton’s First-Edition (1687) Principia Copies"
+categories:
+  - 2016 COST Action
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
+
+Description not available.
 
 ### Authors
 

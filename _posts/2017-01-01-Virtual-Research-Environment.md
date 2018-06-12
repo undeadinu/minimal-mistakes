@@ -9,7 +9,11 @@ tags:
   - Interfaces for Linked Data
 ---
 
+<<<<<<< HEAD
 *Create a virtual research environment (VRE) using the expansive data from the Republic of Letters.*
+=======
+Creating a virtual research environment (VRE) using the expansive data from the Republic of Letters.
+>>>>>>> ab46659b7765536899f689e9c8f95287ac6b9d8b
 
 **Project leader:** Charles van den Heuvel
 
@@ -28,7 +32,13 @@ As our project in itself is more of an exploration of what a VRE can look like a
 
 This report describes the process of sketching out an interface to such a VRE in a team of humanities researchers and designers. It concludes with some future visions of the VRE and recommendations for the design sprint format for the humanities.
 
+<<<<<<< HEAD
 ## Aim of the project
+=======
+
+
+## **Aim of the project**
+>>>>>>> ab46659b7765536899f689e9c8f95287ac6b9d8b
 
 To conceptualize a virtual research environment (VRE) that allows researchers to explore texts, images, metadata, and other types of information pertaining to the digitally Reassembled Republic of Letters.
 
@@ -49,15 +59,20 @@ How open is the Republic of Letters? (2)
 
 - What are related concepts to a certain concept? (Word clouds, for example)
 
-- How universal is knowledge within the ROL? 
+- How universal is knowledge within the ROL?
 
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab46659b7765536899f689e9c8f95287ac6b9d8b
 In the end we focused on the first question in which we used the second one as an indication of the openness/closeness of the Republic of Letters.
 
 
 
 ## **Case study**
 
-### Secrecy, confidentiality, and espionage in letter correspondences 
+### Secrecy, confidentiality, and espionage in letter correspondences
 
 Taking the multiverse concept to a more abstract level, it become useful to think in terms of panes. After a planet in an universe was reached, one may need to have access in the same time to data from several universes, superposed in a pane. One person can be part of several networks at the same time. The Italian engineer Guerrini who was sent by Cosimo III dei Medici to Germany, the Netherlands and England figures differently in the context of espionage and in a religious context. (3) It can be said that Guerrini exists in different universes simultaneously, that have different gravitational forces, in the sent the exchanges between the people around him are different (for instant more or less reciprocal) in the different contexts.
 
@@ -109,7 +124,7 @@ The journey of the researcher through our program typically involves these three
 
 Another metaphor that we explored was the one of polyphony that in the Readbench project was used in the context of topic modeling. The visualization of the movement of letters between correspondents can be enhanced using text-mining tools. The exchange of ideas/concepts and the joint construction of knowledge may be visualised and analysed starting from the polyphonic model.(5) There are two ways in which this model may be used: first, each correspondent is a “voice” that interacts with the voices of the others correspondents. Second, a “voice”, in a generalized way may be an idea, a concept that enters in interaction with other ideas/concepts. In the polyphonic weaving, starting from a metaphor inspired from music, each voice has an important feature of individuality. It enters in inter-animations with other voices through dissonances and consonances (divergences and convergences), driving towards a coherent whole (6). Several visualizations for the polyphonic model may be used, as in the examples below (7).
 
-The below visualizations should be seen as additional to the visualization of the links between sender and receiver (which is already done in the project *Intersecting correspondences*). The two visualizations below come in pairs, one of not so much collaboration (marian, madalin, delia, cristian) and the second with much more interaction (bogdan, Raluca, mares, florin). 
+The below visualizations should be seen as additional to the visualization of the links between sender and receiver (which is already done in the project *Intersecting correspondences*). The two visualizations below come in pairs, one of not so much collaboration (marian, madalin, delia, cristian) and the second with much more interaction (bogdan, Raluca, mares, florin).
 
 In the first pair of visualizations, the horizontal axis is the time and on the vertical one there are correspondents (marian, madalin, delia, etc). Letters are dots on the line of the sender. If there exist a conceptual link between two letters, a line is drawn between them. The colour of the line is green if there is an explicit link in the more recent letter to the referred one. A red colour indicates an implicit link: the letter does not explicitly mentions the other, but there is an implicit link, for example, when it refers to an idea, a concept of the other letter.
 
@@ -147,7 +162,7 @@ It seems unlikely that the expected enormous amount of unstructured data of the 
 
 ### Experiences and Recommendations
 
-The second design sprint in Como was once again a success. For the humanities researchers in our workgroup, it was a joy to work together with imaginative designers. Design sprints are developed to come in a step-by-step approach to a concrete result. Four of the five workgroups followed that briefing with convincing results. Our group deliberately choose to stick to our imaginative multiverse metaphor and to sketch a less concrete interface for exploring a future VRE around the Republic of Letters. Generally speaking, the humanities do not have a culture of experimenting, as in the natural sciences. Although the natural sciences can learn much from the humanities, humanities researchers could benefit from this natural-scientific culture to build on experiments of others. Imagination and risk-taking are necessary to take (digital) humanities research further. For that reason we recommend that humanities researchers, computer scientists and designers participating in design sprints do not focus on concrete targets, but leave sufficient space for imagination and experiment. Humanities scholars are hardly ever in the situation to make use of the imagination of designers. It is important to exploit that to full extent. Therefore the “concrete products” after these design sprint week should be sketches and outlines rather than designs and plans; open ideas rather than “solutions” that can be implemented but might miss the wide scope that the humanities need. 
+The second design sprint in Como was once again a success. For the humanities researchers in our workgroup, it was a joy to work together with imaginative designers. Design sprints are developed to come in a step-by-step approach to a concrete result. Four of the five workgroups followed that briefing with convincing results. Our group deliberately choose to stick to our imaginative multiverse metaphor and to sketch a less concrete interface for exploring a future VRE around the Republic of Letters. Generally speaking, the humanities do not have a culture of experimenting, as in the natural sciences. Although the natural sciences can learn much from the humanities, humanities researchers could benefit from this natural-scientific culture to build on experiments of others. Imagination and risk-taking are necessary to take (digital) humanities research further. For that reason we recommend that humanities researchers, computer scientists and designers participating in design sprints do not focus on concrete targets, but leave sufficient space for imagination and experiment. Humanities scholars are hardly ever in the situation to make use of the imagination of designers. It is important to exploit that to full extent. Therefore the “concrete products” after these design sprint week should be sketches and outlines rather than designs and plans; open ideas rather than “solutions” that can be implemented but might miss the wide scope that the humanities need.
 
 
 ## References
@@ -164,7 +179,11 @@ The second design sprint in Como was once again a success. For the humanities re
 
 (6) 6 Bakhtin, M.M. (1984), Problems of Dostoevsky’s Poetics. Ed. and trans. Caryl Emerson. Minneapolis: University of Minnesota Press.
 
+<<<<<<< HEAD
 (7) [Trausan-Matu, S., & Dascalu, M. (2015). Visualization of Polyphonic Voices Inter-animation in CSCL Chats. Revista Romana de Interactiune Om-Calculator, 8(4), 305–322.](http://rochi.utcluj.ro/rrioc/articole/RRIOC-8-4-Trausan-Matu.pdf)
 
 
 
+=======
+(7) Trausan-Matu, S., & Dascalu, M. (2015). Visualization of Polyphonic Voices Inter-animation in CSCL Chats. Revista Romana de Interactiune Om-Calculator, 8(4), 305–322. http://rochi.utcluj.ro/rrioc/articole/RRIOC-8-4-Trausan-Matu.pdf
+>>>>>>> ab46659b7765536899f689e9c8f95287ac6b9d8b

@@ -1,8 +1,20 @@
-# Intersecting correspondences
+---
+title: "Intersecting correspondences"
+categories:
+  - 2017 COST Action
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
+
+Exploring techniques for visualising multiple intersecting correspondences simultaneously
 
 ##### Project Leader
 
-#### Philip Beeley 
+#### Philip Beeley
 
 ##### Designers
 
@@ -23,7 +35,7 @@ Most visualisations of correspondence to date attempt to map or graph letters to
 The aim of the group was to focus on three main tasks:
 
 - To devise tools for visualizing large correspondence corpora in their relations to each other, using the metadata of 4-5 correspondences contained in EMLO, and to do this in a readily comprehensible way.
-- To help users navigate intersections of such corpora; especially when seeking to explore new aspects of the data such as the role played by sub-networks or gain new insights into knowledge exchanged between third parties. 
+- To help users navigate intersections of such corpora; especially when seeking to explore new aspects of the data such as the role played by sub-networks or gain new insights into knowledge exchanged between third parties.
 - To develop visualizations of a correspondence corpus that allow a better understanding of different scholarly roles: author as sender, author as recipient, and author mediator of exchanges between between third parties.
 
 ## **Case study**
@@ -37,13 +49,13 @@ It was helpful that some group members had had previous experience not only with
 
 **SUNBURST VIEW**. It was felt that a general introductory graphic would be useful, allowing users to navigate from this to intersecting correspondences. The *sunburst partition* model would feature the names of  catalogues (EMLO) or the names of fellows (Royal Society). This model can be enhanced with additional information (dates, memberships, country of origin, further hierarchies, and so on). The interior space can be used to advertize featured catalogues. The following presentation is based exclusively on the proposed EMLO application, but can be applied with minor changes to the study of institutional archives. - By selecting 3, 4, or 5 names from the circle one would determine the subjects of the “triangular”, “quadrangular”, or “pentagular” visualization; by selecting 2, the names would be subjects of the so-called “scatterplotish” view.
 
-**TRIANGULAR, QUADRANGULAR, or PENTANGULAR  VIEW.** This format is based on 3, 4 or 5 names from the sunburst view and depicts - without the dimension of time - both the entire correspondence networks and the communalities between catalogues, i.e. the persons present in more than one catalogue, distributed across the space according to the number of exchanged letters. 
+**TRIANGULAR, QUADRANGULAR, or PENTANGULAR  VIEW.** This format is based on 3, 4 or 5 names from the sunburst view and depicts - without the dimension of time - both the entire correspondence networks and the communalities between catalogues, i.e. the persons present in more than one catalogue, distributed across the space according to the number of exchanged letters.
 
-**SCATTERPLOTISH VIEW**. This view has a temporal component: it shows intersecting lives of individuals 
+**SCATTERPLOTISH VIEW**. This view has a temporal component: it shows intersecting lives of individuals
 
-1. across their **direct correspondenc**e between A and B (thereby providing a visual reflection of the depth and intensity of the exchanges between them); 
+1. across their **direct correspondenc**e between A and B (thereby providing a visual reflection of the depth and intensity of the exchanges between them);
 2. **debate** - this view can be enhanced by the addition of correspondence from their respective networks sent and received by A and B at the same moment in time;
-3. **Intersections of the networks** of these two correspondents, now particularized (in contrast to the triangular visualization and its cognates). The user is informed of the persons who exchanged letters with each of the two correspondents separately and of the dates at which these exchanges took place. Such information will provide users with an initial indication of the existence of subnetworks to be explored further. 
+3. **Intersections of the networks** of these two correspondents, now particularized (in contrast to the triangular visualization and its cognates). The user is informed of the persons who exchanged letters with each of the two correspondents separately and of the dates at which these exchanges took place. Such information will provide users with an initial indication of the existence of subnetworks to be explored further.
 4. Focusing on one single scholar, on can look at **letter pathways**, choosing for one specific individual the role as (1) sender (including double authorship of a letter and ghostwriting); (2) as an intermediary; and (3) as recipient of indirect correspondence. -- We discarded versions that would allow for a chronological view (see “Conclusions”) of letters of indirect correspondence, and also versions that tried to deal with non-intentional correspondence (in theory, one could tackle that by using different colours in the flow diagram; however, this tends to become more of an individual transmission history). Semi-intentional passing-on of letters (e.g. Leibniz, John Locke, Lady Masham and Samuel Clarke) could be handled, for instance, by weaker colours).
 
 The user journey starts with (**SUNBURST VIEW**), while views (**TRIANGULAR, QUADRANGULAR, or PENTANGULAR** ) and (**SCATTERPLOTISH VIEW**) can be accessed through embedded links from that first screen.
@@ -77,4 +89,3 @@ Regarding the **overall format of Design Sprints**, one can observe that there i
 - a clear choice could be made early on regarding the difference between “prototype” and “sketchbook”.
 
 - a take-away product could be a one/two-page specification usable for follow-up applications.
-

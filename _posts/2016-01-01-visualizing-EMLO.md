@@ -1,4 +1,16 @@
-# Visualizing EMLO
+---
+title: "Visualizing EMLO"
+categories:
+  - 2016 COST Action
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
+
+Designing visual interfaces for browsing the EMLO repository.
 
 ### Authors
 
@@ -24,12 +36,12 @@ EMLO (<http://emlo.bodleian.ox.ac.uk/>), “created by the Cultures of Knowledge
 
 The main research question we defined was: “How can we provide users of EMLO’s website with innovative ways of browsing the collection that support the discovery of relationships between multidimensional data involving people, space and time?“.
 
-More specifically, we focused on Hartlib’s data to explore the characteristics of his network of correspondents and to deploy mockups illustrating possible solutions. 
+More specifically, we focused on Hartlib’s data to explore the characteristics of his network of correspondents and to deploy mockups illustrating possible solutions.
 
 
 ## **Case study**
 
-The main dimensions that characterize the data are: 
+The main dimensions that characterize the data are:
 
 ##### Geography
 
@@ -71,12 +83,12 @@ For both levels, it is also possible to visualize the constituent parts of large
 
 ##### Time
 
-The temporal dimension is also highly relevant for the exploration of correspondence archives.  In this case, an additional level of uncertainty is added: not only as some dates missing or inferred, but this period witnessed the coexistence in Europe of three different calendars (Gregorian, Julian starting in January, and Julian starting in March). 
-For this reason, in order to produce a better approximation in matching the exploration of the geographical and temporal dimension, we decided to represent the degree of fuzziness related to the selected timespan. This solution would also require a refinement of the database for the unknown records with the addition of inferrable date ranges together with their probability. 
+The temporal dimension is also highly relevant for the exploration of correspondence archives.  In this case, an additional level of uncertainty is added: not only as some dates missing or inferred, but this period witnessed the coexistence in Europe of three different calendars (Gregorian, Julian starting in January, and Julian starting in March).
+For this reason, in order to produce a better approximation in matching the exploration of the geographical and temporal dimension, we decided to represent the degree of fuzziness related to the selected timespan. This solution would also require a refinement of the database for the unknown records with the addition of inferrable date ranges together with their probability.
 
 ![layout_nuovo-16.png](/Users/amelia/Desktop/EMLO/3_timeline.png)
 
-The representation of the temporal uncertainty can be also flagged in a more general overview, and different levels of likelihood can be included when drilling down to a more detailed view. 
+The representation of the temporal uncertainty can be also flagged in a more general overview, and different levels of likelihood can be included when drilling down to a more detailed view.
 
 ##### People
 
@@ -108,7 +120,7 @@ In a system including machine-readable full texts of letters, a possible further
 
 ##### Languages
 
-The different languages characterising certain collections inspired an additional exploration. In the case of Hartlib’s correspondence, several different languages were used, and a significant number of letters used more than one language (up to 3). 
+The different languages characterising certain collections inspired an additional exploration. In the case of Hartlib’s correspondence, several different languages were used, and a significant number of letters used more than one language (up to 3).
 
 In the example below, the different languages used (by selected authors, or within entire archives, selected collections/ time-spans) have been visualised with a graph: the size of the circles is proportionate to the number of letters in the archive in each language, the co-occurrence of two languages within the same letter is represented by the links or edges, and the the frequency of language co-occurrence is represented by the thickness of edges.
 
