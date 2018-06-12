@@ -3,28 +3,25 @@ title: "VIA - Virtual Itineraries of Academics"
 categories:
   - 2016 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - Travels
+  - Early Modern
+  - Republic of Letters
+  - Academic Culture
+  - Academia
+  - Universities
+  - Scholars
+  - Intellectual Geography
+  - Intellectual History
+  - History of Science
 ---
 
-Exploring early modern academic travel culture.
+*Exploring early modern academic travel culture.*
 
-### Authors
+**Project leader:** Mikkel Munthe Jensen
 
-##### Project leader
+**Humanists:** Mikkel Munthe Jensen, Joëlle Weis
 
-#### Mikkel Munthe Jensen
-
-##### Humanists
-
-#### Mikkel Munthe Jensen, Joëlle Weis
-
-##### Designers
-
-#### Gabriele Colombo, Marco Quaggiotto
+**Designers:** Gabriele Colombo, Marco Quaggiotto
 
 ![animated gif]()
 
@@ -34,25 +31,25 @@ The project which was brought to the workshop had the initial aim of exploring t
 We approached the project by asking: what would the ideal visualisation of the data, with no regards to time and resources, look like? This initiated a brainstorming process which allowed the two scholars of the group to express and discuss their needs as well as their wishes with the digital designers - a process that proved very fruitful for the development of the final output. By discussing the ideal scenario, we realised that instead of a ‘simple’ geographical visualisation of travels based on time and one attribute (scholarly discipline), a visualisation tool that helps to explore the many aspects of early modern travels, was in high demand.
 Our aim with the workshop was therefore to create a visualisation tool that would allow you to explore data on early modern academic travels through several parameters; geography (space), chronology (time) and a variety of prosopographical and travel-related attributes. All of these parameters would be interconnected and thus change according to their selection. This would grant the scholar the possibility to explore his or her data in multifarious ways that normal statistical and geographical visualisation would not allow. Such a tool would thus allow scholars to explore, examine and analyse bigger datasets which would lead to new insights into early modern travel culture and beyond.
 
-## **Aim of the project**
+## Aim of the project
 
 Explore and visualise the relationship between geography (space), chronology (time) and a variety of prosopographical attributes in the context of early modern academic travels.
 
 
-## **Case study**
+## Case study
 
 The data provided were:
 
-##### Geography (Space)
+#### Geography (Space)
 
 - Cities visited
 - Countries visited
 
-##### Chronology (Time)
+#### Chronology (Time)
 
 - Period of travel (start and end date)
 
-##### Prosopographical attributes
+#### Prosopographical attributes
 
 - Institutional affiliation
 - Scholarly division - subdivided in chairs
@@ -67,7 +64,7 @@ The data provided were:
 
 The design of the visualisation tool’s interface is based on the three main categories explained in the previous section, thus dividing the interface into three main blocks: 1) Geographical frame (Placement: main field), 2) Chronological frame (placement: bottom), and finally 3) the attribute frame (Placement: left side).
 
-##### Geographical frame
+#### Geographical frame
 
 The geographical frame shows the map view and travel destinations visited (cities). The map is zoomable and will appear as a heat (density) map when zoomed out and as a point map when zoomed in.
 Design functionalities:
@@ -77,7 +74,7 @@ Design functionalities:
 - Ideal Version: It should be able to add political, linguistic and confessional borders.
 - Ideal Version: The possibility to select other views (visualisations) than only geographical views, e.g. such as cluster visualisations.
 
-##### Chronological frame
+#### Chronological frame
 
 The chronological frame shows a time axis divided in years, where certain time periods can be chosen. Ideal Version: Along the time axis important major events could be placed in the time frame above the  ‘worms’ (e.g. The Seven Year War 1756-1763).
 
@@ -91,7 +88,7 @@ Second challenge: Uncertain start and end dates
 
 - A second challenge was uncertain or missing start and end dates. To combat this each uncertain ‘worm’ would fade in or fade out in the adjacent years, thereby indicating the uncertainty for the reader.
 
-##### Attribute frame
+#### Attribute frame
 
 The third and final frame consist of smaller filter visualisations; i.e. bars, boxes and minor maps.
 
@@ -99,15 +96,14 @@ First challenge: Simultaneous view of more filters
 
 - As there are many filters it is difficult to view them all at the same time. The best option was to have a scroll down option, where the highest prioritised data would appear at the top.
 
-##### Link to demo version (https://drive.google.com/open?id=0B3X8CNVByqGvOGxvTC1WTFNmZXM)
+Link to [demo version](https://drive.google.com/open?id=0B3X8CNVByqGvOGxvTC1WTFNmZXM)
+
+
+![Application Architecture]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
 
 
-![[**application-architecture.jpg**]]()
-
-
-
-## **Conclusions**
+## Conclusions
 
 The result of our work is a model for a specialised tool that would help researchers to explore their data on many different levels and in any combination. This will allow the researcher both to conduct faster analysis and to be able to see otherwise unclear pattern in the data, all which would not have been possible in normal standardised tools.
 
