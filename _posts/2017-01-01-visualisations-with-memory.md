@@ -14,7 +14,7 @@ tags:
   - cognitive zoom
 ---
 
-*The challenge of visualising configurations of correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of a single significant individual in the early Republic of Letters, Desiderius Erasmus.*
+*Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.*
 
 **Project Leader:** Howard Hotson
 
