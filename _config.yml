@@ -138,6 +138,7 @@ include:
   - _posts
 include: ["_pages"]
 exclude:
+  - index.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
