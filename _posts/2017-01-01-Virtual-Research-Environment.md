@@ -14,7 +14,9 @@ tags:
 Our goal was to create a virtual research environment (VRE) using the expansive data from the Republic of Letters.
 
 **Project leader:** Charles van den Heuvel
+
 **Scholars:** Charles van den Heuvel, Celine Frohn, Meliha Handzic, Stefan Trausan Matu
+
 **Design researchers:** Ángeles Briones, Michele Invernizzi
 
 
@@ -67,13 +69,13 @@ Taking the multiverse concept to a more abstract level, it become useful to thin
 
 Images of inventions of Guerrini stand close to other secret inventions for instance the patented torpedo-submarine designed by Cornelis Drebbel that was tested out on the River Thames in London between 1620-24. In a visual exploration based on gravitational forces it might be expected that will be closer to each other than images with a different content. Using this case, we have created several static mock-ups that illustrate how the VRE might work.
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/process-02.png)
+![Process 02]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/process-02.png)
 
 
 
 In this case there is a difference between the intellectual and technical knowledge networks. The networks do not fully overlap, and the non-overlapping parts have a different nature of confidentiality. Compare the case of the role of Huygens in between intellectual and technological networks.(4) The letter exchanges amongst aristocrats are reciprocal, while the aristocrats request materials from artisans, and they do not send any drawings back. A graphic representation of this situation can be found below.
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/intellectual-and-tech-knowledge-exchange.png)
+![Intellectual and knowledge exchange]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/intellectual-and-tech-knowledge-exchange.png)
 
 
 
@@ -85,13 +87,13 @@ Here we have a difference in reciprocity, an aspect of letter exchanges that sho
 
 Given the enormous amount of (contextual) data produced in various geographical locations over long periods of time, we decided to make use of a comprehensive metaphor suitable for exploration. At first we considered the metaphor of the universe of knowledge not unknown in the history of the organisation of knowledge such as in the historiography of library sciences. However, we soon realized that this metaphor would have an important disadvantage. This metaphor would imply that the Republic of Letters would be one continuous information space in which the parameters (in our case reciprocity in correspondence) with which we try to explain its specific features would be based on one common law. From earlier studies we learned that there are many differences between communities of the Republic of Letters. For that reason we decided for the metaphor of the multiverse of knowledge.
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-galaxy.png)
+![Schema galaxy](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-galaxy.png)
 
 
 
 We understand by a multiverse a hypothetical set of multiple universes that comprise all reality. Each universe had different dimensions and have a different nature i.e. differences in gravity, that we want to explore from various perspectives. The different universes are not alternative or disjunctive: they are complementing each other. This metaphor seemed very apt for the “construct” of the Republic of Letters of which one can claim that is did not exist and existed in multiple version simultaneously. Conceptualizing our model as a single universe would explain less and provide a reductive view of the relationships between elements. In order to explore and to keep track of our journey in the multiverse of the Republic of Letters we introduced a telescope, a space ship and a space ship log book.
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/process-01.png)
+![Process 01]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/process-01.png)
 
 In order to include and provide the best access to the various dimensions, our model must be flexible and interactive. Each search query may rearrange the configuration of all elements, instead of simply selecting a part of a single configuration. Additionally, it must be possible to jump to other configurations and elements while in the exploration environment.
 
@@ -99,11 +101,11 @@ In order to include and provide the best access to the various dimensions, our m
 
 The VRE is based on this matrix adapted from the knowledge management (KM) literature.
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/generic-framework-schema.png)
+![Generic framework schema]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/generic-framework-schema.png)
 
 Ethically, we are interested in the implications of the “Socialization & Sharing” square – we want to visualize the consequences of sharing, the open/closedness of data, and the quality of the data. In reference to the fourth square, “Ideation & Creation”, it should become possible for scholars to contribute to the entries in the VRE. Another possibility is using crowdsourcing. This would make visualizing or otherwise categorizing the quality of the data more pertinent.
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-explore-analysis.png)
+![Explore analysis]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-explore-analysis.png)
 
 In the development we concentrated more on the left side, organizing and analyzing the very diverse content. These are forms of explicit knowledge. Under “Capture & Organization” we consider linking all different repositories, so letters and all the other material generated in reassembling the Republic of Letters can be combined.
 
@@ -117,13 +119,11 @@ The below visualizations should be seen as additional to the visualization of th
 
 In the first pair of visualizations, the horizontal axis is the time and on the vertical one there are correspondents (marian, madalin, delia, etc). Letters are dots on the line of the sender. If there exist a conceptual link between two letters, a line is drawn between them. The colour of the line is green if there is an explicit link in the more recent letter to the referred one. A red colour indicates an implicit link: the letter does not explicitly mentions the other, but there is an implicit link, for example, when it refers to an idea, a concept of the other letter.
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-1.png)
-
-
+![Paper trausan]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-1.png)
 
 A second example displays the facility of viewing the weaving of threads of ideas. For example, somebody wants to see how an idea or a concept evolved and entered in interaction with other idea/concepts. In this visualization, lines link letters with common topics (ideas/concepts). For each topic a colour is assigned:
 
-![](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-2.png)
+![Paper trausan 2]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/paper-trausan-2.png)
 
 ## **Conclusions**
 
