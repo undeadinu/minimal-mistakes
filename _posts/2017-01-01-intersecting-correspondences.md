@@ -3,14 +3,14 @@ title: "Intersecting correspondences"
 categories:
   - 2017 COST Action
 tags:
-  - Correspondences
-  - Catalogues
+  - correspondence
+  - catalogues
   - EMLO
   - Leibniz
-  - Intersections
-  - Communalities
-  - Transmission of letters
-  - Sub-groups
+  - intersections
+  - communalities
+  - transmission of letters
+  - sub-groups
 toc: true
 sidebar:
   nav: "home"

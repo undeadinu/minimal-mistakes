@@ -3,7 +3,7 @@
 permalink: /
 title: "COST Action Projects 2016-2017"
 sidebar:
-  - nav: "home"
+  nav: "home"
 author-profile: false
 
 ---

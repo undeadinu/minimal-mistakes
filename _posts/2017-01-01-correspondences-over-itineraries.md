@@ -3,7 +3,7 @@ title: "Correspondences over itineraries"
 categories:
   - 2017 COST Action
 tags:
-  - correspondance
+  - correspondence
   - itineraries
   - Jan Amos Comenius
   - exiled scholars

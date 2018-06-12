@@ -3,7 +3,7 @@ title: "Visualisations with memory"
 categories:
   - 2017 COST Action
 tags:
-  - correspondance
+  - correspondence
   - memory
   - mobility
   - temporalities
