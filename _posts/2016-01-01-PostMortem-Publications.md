@@ -20,7 +20,7 @@ sidebar:
 
 **Scholars:** Riccardo Bellingacci
 
-<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g7/2016_G7.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g7/images1.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
