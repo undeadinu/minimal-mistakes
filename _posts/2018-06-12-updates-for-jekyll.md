@@ -25,6 +25,13 @@ Inserire sotto i meta tags una riga con il sottotitolo (seconda parte del titolo
 
 Esempio: `*Descrizione del progetto*`
 
+## Team
+Ogni riga così formattata:
+
+`**Project leader:** Charles van den Heuvel`
+
+con un doppio a capo dopo per i paragrafi
+
 ## Titoli
 Non scendere sotto H4 (è già molto piccolo, da sistemare in CSS)
 
