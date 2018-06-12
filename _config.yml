@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "COST Action Projects 2016-2017"
+title                    : "Republic of Letters"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
@@ -136,6 +136,7 @@ author:
 include:
   - .htaccess
   - _posts
+include: ["_pages"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -270,3 +271,10 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
