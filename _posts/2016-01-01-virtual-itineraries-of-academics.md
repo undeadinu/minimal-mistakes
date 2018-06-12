@@ -19,11 +19,11 @@ tags:
 
 **Project leader:** Mikkel Munthe Jensen
 
-**Humanists:** Mikkel Munthe Jensen, Joëlle Weis
+**Scholars:** Mikkel Munthe Jensen, Joëlle Weis
 
-**Designers:** Gabriele Colombo, Marco Quaggiotto
+**Design researchers:** Gabriele Colombo, Marco Quaggiotto
 
-![animated gif]()
+![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
 ## About the project
 

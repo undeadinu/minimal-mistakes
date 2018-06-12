@@ -3,37 +3,27 @@ title: "Visualizing the Distribution of Newton’s First-Edition (1687) Principi
 categories:
   - 2016 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - report missing
 ---
 
-Description not available.
+*Description not available.*
 
-### Authors
+**Project leader:** Andrej Svorenčík
 
-##### Project leader
+**Scholar:** Andrej Svorenčík
 
-#### Andrej Svorenčík
-
-##### Humanists
-
-#### Andrej Svorenčík
-
-![animated gif]()
+![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
 ## About the project
 
 Missing report
 
-## **Aim of the project**
+## Aim of the project
 
 Missing report
 
 
-## **Case study**
+## Case study
 
 Constructed a database of ownership events for 36 copies:
 
@@ -46,10 +36,10 @@ Constructed a database of ownership events for 36 copies:
 
  Missing report
 
-![[**application-architecture.jpg**]]()
+![application-architecture.jpg]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
 
 
-## **Conclusions**
+## Conclusions
 
 Missing report

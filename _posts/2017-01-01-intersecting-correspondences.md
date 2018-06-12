@@ -3,34 +3,31 @@ title: "Intersecting correspondences"
 categories:
   - 2017 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - Correspondences
+  - Catalogues
+  - EMLO
+  - Leibniz
+  - Intersections
+  - Communalities
+  - Transmission of letters
+  - Sub-groups
 ---
 
-Exploring techniques for visualising multiple intersecting correspondences simultaneously
+*Exploring techniques for visualising multiple intersecting correspondences simultaneously*
 
-##### Project Leader
+**Project Leader:** Philip Beeley
 
-#### Philip Beeley
+**Design researchers:** Tommaso Elli, Marco Quaggiotto
 
-##### Designers
+**Scholars:** Thomas Wallnig, Mat Wilcoxson
 
-#### Tommaso Elli, Marco Quaggiotto
-
-##### Humanists
-
-#### Thomas Wallnig, Mat Wilcoxson
-
-[animated.gif]
+![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
 ## About the project
 
 Most visualisations of correspondence to date attempt to map or graph letters to and from a single individual. This group has broken new ground in exploring techniques for visualising multiple intersecting correspondences simultaneously - that is to say, groups of letters to and from multiple individuals who are in contact with one another and with many common correspondents as well.
 
-## **Aim of the project**
+## Aim of the project
 
 The aim of the group was to focus on three main tasks:
 
@@ -38,7 +35,7 @@ The aim of the group was to focus on three main tasks:
 - To help users navigate intersections of such corpora; especially when seeking to explore new aspects of the data such as the role played by sub-networks or gain new insights into knowledge exchanged between third parties.
 - To develop visualizations of a correspondence corpus that allow a better understanding of different scholarly roles: author as sender, author as recipient, and author mediator of exchanges between between third parties.
 
-## **Case study**
+## Case study
 
 One test case has been a series of overlapping correspondences of individuals associated with the founding of the Royal Society of London either side of 1660 (Aubrey, Lister, Oldenburg, Wallis), while another test case consisted in the c. 150 Leibniz letters extracted from the Leibniz correspondence database as involving an otherwise “uninvolved third person”.
 
@@ -60,11 +57,11 @@ It was helpful that some group members had had previous experience not only with
 
 The user journey starts with (**SUNBURST VIEW**), while views (**TRIANGULAR, QUADRANGULAR, or PENTANGULAR** ) and (**SCATTERPLOTISH VIEW**) can be accessed through embedded links from that first screen.
 
-[application-architecture.jpg]
+![application-architecture.jpg]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
-## **Conclusions**
+## Conclusions
 
-##### Findings
+#### Findings
 
 A central finding concerned the fundamental structure of the interface/s: that in order not to overload a single visualisation, it is helpful to offer different views to address specific questions. Furthermore, that it is important already early on in the design stage to have crucial factors such as simplicity and ease of operation in view. The latter consideration was seen as being of great significance when seeking to create a fully linked-up design.    
 
@@ -72,7 +69,7 @@ Focusing on relatively small-scale problems of large corpora helps address quest
 
 Even if it is not reiterated, the format of the Design Sprint, applied to Design & Humanities, has proved once more extremely inspiring and at the same time productive.
 
-##### Conclusion and further research
+#### Conclusion and further research
 
 Knowing that the likelihood of arriving at definitive results in five days’ work is extremely small, we deliberately left some of the options open for **further refinement and development**. In general terms, we regard the “scatterplotish” view as an aesthetically pleasing and yet highly functional container that could be enhanced with additional information. This concerns
 

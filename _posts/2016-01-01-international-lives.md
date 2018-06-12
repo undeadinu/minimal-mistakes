@@ -3,38 +3,34 @@ title: "International Lives and National Biographies: Visualisation Against the 
 categories:
   - 2016 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - Biography
+  - Internationalism
+  - Text-mining
+  - Life-writing
+  - Prosopography
+  - Geography
+  - Profession
 ---
 
-Reusing and transforming data from the Oxford Dictionary of National Biography to enrich our understanding not of the British nation per se but of the rich, varied, and changing forms of British-Isles internationalism from the 11th-century to the present
+*Reusing and transforming data from the Oxford Dictionary of National Biography to enrich our understanding not of the British nation per se but of the rich, varied, and changing forms of British-Isles internationalism from the 11th-century to the present.*
 
-##### Project Leader
+**Project Leader:** Christopher Warren
 
-#### Christopher Warren
+**Design Researchers:** Michele Mauri, Daniele Ciminieri
 
-##### Design Researchers
+**Scholar:** Meliha Handzic
 
-#### Michele Mauri, Daniele Ciminieri
-
-##### Scholar
-
-#### Meliha Handzic
-
-[animated.gif]
+![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
 ## About the project
 
 National biographical dictionaries like the *Dictionary of National Biography*, conceived originally in the late nineteenth century, might seem to some as inescapably bound to the nationalist projects of their era and thus of little use for reconstructing the international republic of letters. But recent digital editions and updates, like that of the monumental *Oxford Dictionary of National Biography (2004)*, offer compelling opportunities to mine and visualise large quantities of historical data, often in ways quite at odds with nineteenth-century nationalist historiographical aims.
 
-## **Aim of the project**
+## Aim of the project
 
 What can the nearly 60,000 lives documented in the *Oxford Dictionary of National Biography (ODNB)* tell us -in aggregate and individually- about the development and character of internationalism over time?
 
-## **Case study**
+## Case study
 
 In this project, we reuse and transform data from the *Oxford Dictionary of National Biography* to enrich our understanding not of the British nation per se but of the rich, varied, and changing forms of British-Isles internationalism from the 11th-century to the present. In so doing, we contextualize the international republic of letters within a broader framework of internationalisms that includes exploration, military campaigns, evangelism, connoisseurship, and the construction of empire.
 
@@ -42,11 +38,11 @@ In this project, we reuse and transform data from the *Oxford Dictionary of Nati
 
 Our starting point was a single 652 MB file containing roughly 62 million words of the ODNB richly marked-up in SGML. Christopher Warren and Carnegie Mellon University colleagues Max G’Sell, Jessica Otis, Scott Weingart, and Matthew Milideo had earlier extracted some structured data and metadata from the ODNB using the custom-built *Python* scripts in tandem with the *Python* library *BeautifulSoup*. In addition to unique identifiers, names, life dates, and historical significance for each individual, each row in our initial spreadsheets contained a count of unique foreign place names mentioned in each biographical entry, a measure that would become important as we addressed the issue of identifying ODNB figures of particular international interest in such a large corpus. It was possible to extract such numbers thanks to a useful tag in the ODNB, <b bi=”n”>, which flagged all locations outside of the British Isles. Hypothesizing that the "density" of foreign places in an entry could help identify the ODNB’s most international figures, we tested several rough and ready numerical metrics of internationalism grounded in the number of foreign place names with respect to the total length of the article and settled on weighting coefficients based on the diversity of and accuracy of the results. Subsequent exploratory visualizations helped us understand key aspects of the data, including the proportions per century of strictly local lives (those in which no foreign locales are mentioned) to those that included more international locations.
 
-[application-architecture.jpg]
+![application-architecture.jpg]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
 
-## **Conclusions**
+## Conclusions
 
-##### Findings
+#### Findings
 
 While our work in this weeklong workshop was necessarily brief, it yielded three preliminary findings.
 
@@ -60,7 +56,7 @@ A second note concerning historiography is this: among several possible variable
 
 There are of course some a few more caveats and challenges to note. Initially, we found it difficult to successfully conceptualize large-scale visualizations of nearly 60,000 data points. It turned out that detailed, collaborative attention to particular data points and conceptual issues was necessary before we could produce communicative large-scale visualizations. Lastly, the *ODNB* data is exceptionally well marked-up, but across 60,000 entries there are of course some inconsistencies that introduce occasional errors and misimpressions. Further data cleaning, as ever, would likely produce slightly different results and reduce misleading visualizations.
 
-##### Conclusions & Further Research
+#### Conclusions & Further Research
 
 At the broadest level, our visualizations exemplify how we might study and visualize nineteenth-century biographical dictionaries against their nationalist grain. In so doing, we also address imminent challenges associated with exploring and analyzing the broadest currents of large-scale prosopographical data.
 
