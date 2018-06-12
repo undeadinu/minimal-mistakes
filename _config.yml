@@ -257,7 +257,6 @@ compress_html:
 
 remote_theme: "mmistakes/minimal-mistakes"
 
-
 # Defaults
 defaults:
   # _posts
@@ -271,7 +270,3 @@ defaults:
       comments: true
       share: true
       related: true
-<<<<<<< HEAD
-
-=======
->>>>>>> ab46659b7765536899f689e9c8f95287ac6b9d8b
