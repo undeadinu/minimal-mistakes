@@ -255,6 +255,8 @@ compress_html:
   ignore:
     envs: development
 
+remote_theme: "mmistakes/minimal-mistakes"
+
 
 # Defaults
 defaults:
@@ -269,3 +271,4 @@ defaults:
       comments: true
       share: true
       related: true
+

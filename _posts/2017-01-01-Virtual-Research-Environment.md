@@ -1,17 +1,15 @@
 ---
 title: "Virtual Research Environment"
-description: "What can the nearly 60,000 lives documented in the *Oxford Dictionary of National Biography (ODNB)* tell us -in aggregate and individually- about the development and character of internationalism over time?"
 categories:
   - 2017 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - VRE
+  - GUI
+  - Multiverse of Knowledge metaphor
+  - Interfaces for Linked Data
 ---
 
-Our goal was to create a virtual research environment (VRE) using the expansive data from the Republic of Letters.
+*Create a virtual research environment (VRE) using the expansive data from the Republic of Letters.*
 
 **Project leader:** Charles van den Heuvel
 
@@ -30,9 +28,7 @@ As our project in itself is more of an exploration of what a VRE can look like a
 
 This report describes the process of sketching out an interface to such a VRE in a team of humanities researchers and designers. It concludes with some future visions of the VRE and recommendations for the design sprint format for the humanities.
 
-
-
-## **Aim of the project** 
+## Aim of the project
 
 To conceptualize a virtual research environment (VRE) that allows researchers to explore texts, images, metadata, and other types of information pertaining to the digitally Reassembled Republic of Letters.
 
@@ -54,8 +50,6 @@ How open is the Republic of Letters? (2)
 - What are related concepts to a certain concept? (Word clouds, for example)
 
 - How universal is knowledge within the ROL? 
-
-  
 
 In the end we focused on the first question in which we used the second one as an indication of the openness/closeness of the Republic of Letters.
 
@@ -87,7 +81,7 @@ Here we have a difference in reciprocity, an aspect of letter exchanges that sho
 
 Given the enormous amount of (contextual) data produced in various geographical locations over long periods of time, we decided to make use of a comprehensive metaphor suitable for exploration. At first we considered the metaphor of the universe of knowledge not unknown in the history of the organisation of knowledge such as in the historiography of library sciences. However, we soon realized that this metaphor would have an important disadvantage. This metaphor would imply that the Republic of Letters would be one continuous information space in which the parameters (in our case reciprocity in correspondence) with which we try to explain its specific features would be based on one common law. From earlier studies we learned that there are many differences between communities of the Republic of Letters. For that reason we decided for the metaphor of the multiverse of knowledge.
 
-![Schema galaxy](({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-galaxy.png)
+![Schema galaxy]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g5/schema-galaxy.png)
 
 
 
@@ -166,11 +160,11 @@ The second design sprint in Como was once again a success. For the humanities re
 
 (4) C van den Heuvel, Scott B. Weingart, Nils Spelt, Henk Nellen, “Circles of Confidence in Correspondences. Confidentiality in seventeenth-century knowledge exchange in networks of letters and drawings”, Nuncius 31 (2016) 78-106. DOI 10.1163/18253911-03101002.
 
-(5) (Stefan Trausan-Matu, A Polyphonic Model, Analysis Method and Computer Support Tools for the Analysis of Socially-Built Discourse, Romanian Journal of Information Science and Technology 16(2-3), 2013, 144-154, https://www.researchgate.net/publication/259679123_A_Polyphonic_Model_Analysis_Method_and_Computer_Support_Tools_for_the_Analysis_of_Socially-Built_Discourse?ev=prf_pub
+(5) [Stefan Trausan-Matu, A Polyphonic Model, Analysis Method and Computer Support Tools for the Analysis of Socially-Built Discourse, Romanian Journal of Information Science and Technology 16(2-3), 2013, 144-154](https://www.researchgate.net/publication/259679123_A_Polyphonic_Model_Analysis_Method_and_Computer_Support_Tools_for_the_Analysis_of_Socially-Built_Discourse?ev=prf_pub)
 
 (6) 6 Bakhtin, M.M. (1984), Problems of Dostoevsky’s Poetics. Ed. and trans. Caryl Emerson. Minneapolis: University of Minnesota Press.
 
-(7) Trausan-Matu, S., & Dascalu, M. (2015). Visualization of Polyphonic Voices Inter-animation in CSCL Chats. Revista Romana de Interactiune Om-Calculator, 8(4), 305–322. http://rochi.utcluj.ro/rrioc/articole/RRIOC-8-4-Trausan-Matu.pdf
+(7) [Trausan-Matu, S., & Dascalu, M. (2015). Visualization of Polyphonic Voices Inter-animation in CSCL Chats. Revista Romana de Interactiune Om-Calculator, 8(4), 305–322.](http://rochi.utcluj.ro/rrioc/articole/RRIOC-8-4-Trausan-Matu.pdf)
 
 
 
