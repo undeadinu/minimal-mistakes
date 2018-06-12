@@ -12,6 +12,9 @@ tags:
   - ego networks
   - animation
   - cognitive zoom
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 *Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.*
