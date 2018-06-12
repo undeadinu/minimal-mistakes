@@ -1,4 +1,16 @@
-# Ideas for “EMLO 2.0”: Digital Critical Editions
+---
+title: "Ideas for “EMLO 2.0”: Digital Critical Editions"
+categories:
+  - 2017 COST Action
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
+
+Transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period
 
 ##### Project Leader
 
@@ -17,7 +29,7 @@
 ## About the project
 
 The group, consisting of four scholars (Aspaas, Rusinek, Skolimowska, Spadini)
-and two designers (Benedetti, Mantegari), has worked on the idea of transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period, based on text corpora that are available in the most reliable format possible, namely, in digital-born, scholarly, annotated versions. 
+and two designers (Benedetti, Mantegari), has worked on the idea of transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period, based on text corpora that are available in the most reliable format possible, namely, in digital-born, scholarly, annotated versions.
 
 The outcome of the “sprint run” workshop is a conceptual draft (sketchbook, “mock-up”) for a user interface design to enhance the visibility and usability of such editions for the scholarly community.
 
@@ -45,7 +57,6 @@ The results of search should bring the user to the close reading window, the out
 
 ## Conclusions
 
-- It looks promising, but we have not been able to test how it would actually work. 
+- It looks promising, but we have not been able to test how it would actually work.
 - Issue raised by Christoph about different IT programs used for each edition: can become difficult to show it on screen easily!
 - Even though close reading can be tricky, the distant reading (i.e. new browsing and searching facility) appears possible to implement with a comparatively smaller amount of resources.
-
