@@ -3,28 +3,23 @@ title: "Ideas for “EMLO 2.0”: Digital Critical Editions"
 categories:
   - 2017 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - EMLO
+  - intuitive visualization of results
+  - distant-close reading facility
+  - digital scholarly editions
+  - usability
+  - visibility
+  - cross-searchability
 ---
 
-Transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period
+*Transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period*
 
-##### Project Leader
+**Project Leader:** Elena Spadini
 
-#### Elena Spadini
+**Design Researchers:** Andrea Benedetti, Glauco Mantegari
 
-##### Designers
+**Scholars:** Anna Skolimowska, Elena Spadini, Per Pippin Aspaas, Sinai Rusinek
 
-#### Andrea Benedetti, Glauco Mantegari
-
-##### Humanists
-
-#### Anna Skolimowska, Per Pippin Aspaas, Sinai Rusinek
-
-[animated.gif]
 
 ## About the project
 
@@ -50,10 +45,6 @@ The group has worked on a user interface that allows browsing through the numero
 The group therefore recommends that EMLO includes yet another category of corpus; namely, letter collections that are known to exist (either in an archive somewhere, or in a hard copy), but which have not yet been inserted into EMLO so far. In this way, the end user will be made aware of their existence, although they will not be possible to search through in the way that the other corpus types are.
 
 The results of search should bring the user to the close reading window, the outline of which was developed as an extendible view. A basic view should contain the text of single document (letter), its main metadata and a navigation bar. Optionally images of the source, apparatus criticus, factual commentary, similia, translation or summary (linked to the paragraphs) and further metadata on the text (its manuscript sources, publications etc.) can appear. A user that chooses to register her- or himself can use a personalized user note-book, in which (s)he can easily copy parts of the text and make and store personal notes. The reader can also easily export his note-book as well as the results of the search.
-
-[**application-architecture.jpg**]
-
-
 
 ## Conclusions
 

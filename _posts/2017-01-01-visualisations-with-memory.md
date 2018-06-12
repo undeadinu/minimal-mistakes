@@ -3,28 +3,24 @@ title: "Visualisations with memory"
 categories:
   - 2017 COST Action
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - correspondance
+  - memory
+  - mobility
+  - temporalities
+  - timeline
+  - context
+  - ego networks
+  - animation
+  - cognitive zoom
 ---
 
-The challenge of visualising configurations of correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of a single significant individual in the early Republic of Letters, Desiderius Erasmus.
+*The challenge of visualising configurations of correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of a single significant individual in the early Republic of Letters, Desiderius Erasmus.*
 
-##### Project Leader
+**Project Leader:** Howard Hotson
 
-#### Howard Hotson
+**Design Researchers:** Serena Del Nero, Michele Mauri
 
-##### Designers
-
-#### Serena Del Nero, Michele Mauri
-
-##### Humanists
-
-#### Alex Butterworth, Howard Hotson, Christoph Kudella
-
-[animated.gif]
+**Scholars:** Alex Butterworth, Howard Hotson, Christoph Kudella
 
 ## About the project
 
@@ -34,7 +30,7 @@ Workshop Group 3 addressed the challenge of visualising configurations of corres
 
 This network is reconstructed from the known correspondence sent and received by him throughout the course of his life (1466-1536), a total of nearly three thousand letters, written in Latin. In certain respects, this data set is representative of those contained in the EMLO archive: ego networks predominate since centred on individual recipients whose correspondence was preserved; the extant correspondence is not always reciprocal; while the lack of uniformity of access to postal networks distorts the distribution of letters. The susceptibility of the data to network analysis is therefore limited and caution was exercised during the design process.
 
-## **Aim of the project**
+## Aim of the project
 
 The designated challenge for Design Sprint group 3 was to create ‘animated’ visualisations that preserved the ‘memory’ of networks: that is, how contemporary
 scholars working with a corpus of letters can retain a productive awareness of past activity within a network relative to the current temporal focus of their research.
@@ -48,13 +44,13 @@ The research addressed the design question of how visual conventions might be de
 
 Additionally, it sought to evaluate the design produced according to how effectively it supported an interrogation of Hotson’s historical hypothesis regarding the impact of the Reformation on Erasmus’s own Republic of Letters: that rather than becoming trans-confessional, it splintered.
 
-## **Case study**
+## Case study
 
 The domain expert in the group was Dr Christoph Kudella (University of Groningen), who had recently completed a PhD concerning the correspondence of Erasmus and who supplied a copy of the data gathered during that work for experimental use, while
 Professor Howard Hotson (University of Oxford) led the group, affording a contextualising knowledge of the broader historical domain, and both close knowledge
 of comparable correspondence networks and ownership of the visualisation agenda in his role as Director of Cultures of Knowledge and PI for the COST Action.
 
-##### Viewing Letters
+### Viewing Letters
 
 - One *icon* represents one letter.
 - The *order* of icons is chronological.
@@ -70,7 +66,7 @@ of comparable correspondence networks and ownership of the visualisation agenda 
   - metadata in a pop-up box and
   - location of the other correspondent (e.g. Erasmus).
 
-##### Viewing Correspondances
+### Viewing Correspondances
 
 - Rectangular *boxes* collect icons for all the letters send to / received by specific individuals within the timespan.
 
@@ -79,7 +75,7 @@ of comparable correspondence networks and ownership of the visualisation agenda 
   - Bar graph, displaying all letters sent to / received by this individual with Erasmus throughout the selected timespan (as highlighted within the entire correspondence?);
   - Location(s) of Erasmus recorded in the metadata of these letters.
 
-##### Viewing Places
+### Viewing Places
 
 - Places represented in one of two ways: as
   - *clusters of letters*: i.e. large boxes containing individual letter icons arranged chronologically. This will result in coloured bands giving a sense of the history of Erasmus’s correspondence with this place during the timespan selected.
@@ -92,7 +88,7 @@ of comparable correspondence networks and ownership of the visualisation agenda 
   - When users mouse over these merged clusters, they reveal that they are composed of several component parts.  
   - When users zoom in, merged clusters resolve into place clusters.
 
-##### Ego-network of correspondants: radial view
+### Ego-network of correspondants: radial view
 
 The Ego-Network of Correspondents: Radial View (ENCORV) is a force-directed monadic display presented as dashboard element in dynamic relation with the configurable Time and Event Slider with Histograph (TESH), a persistent panel between this view and the Cartographic and Cartogrammic Memory of Correspondence (CACMOC)
 
@@ -168,7 +164,7 @@ It was recognised at an early stage, based on the prior experience of Dr Kudella
 
 To address this challenge, a range of possible solutions were considered during the first two days, including a ‘radial’ representation of the Ego Network (fig.1). This conceit placed Erasmus at the centre, his individual correspondents as the end-point of spokes radiating from him and the spokes themselves representing, by their length, different dimensions of the spatial and temporal relationship between those correspondents and Erasmus, through their letters.
 
-![fig2](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G3 Images/fig2.jpg)
+![fig2]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/fig2.jpg)
 
 *Fig.1 Early sketch of radial visualisation of ego-network, with Erasmus placed centrally. The proposed radial diagram proposed elaborates on this sketch idea in various respects.*
 
@@ -178,7 +174,7 @@ Attention then shifted to a map-based visualisation which could represent multip
 
 At every stage, reference was made to past examples of good practice in data visualisation as well as to novel examples of experimental visualisation that might inform the design process.
 
-##### User journey: non-expert user
+### User journey: non-expert user
 
 *User profile*: a non-expert user entering through a collaboratively populated union resource such as EMLO, with minimal knowledge of the correspondence in question, and needing to move from a general orientation to more specific investigations.
 
@@ -257,9 +253,9 @@ At every stage, reference was made to past examples of good practice in data vis
       - In this mode of visualisation, each city is visualised as a square, within which letter icons would be arranged in chronological from top left to bottom right.
       - When insufficient room is available to visualise adjacent centres, their squares are merged.  Merged squares are distinguished by a thicker black border.  Mousing over a merged square provides an impression of the number of centres merged within in it.  Zooming in allows the user to see how those centres are distributed geographically.
 
-[application-architecture.jpg]
 
-## **Conclusions**
+
+## Conclusions
 
 The design process exposed a number of challenges which the group effectively addressed by adhering to a tightly defined agenda in designing the prototype, while generating and recording additional ideas for possible further development and integration to the core design.
 
@@ -292,15 +288,15 @@ The output of the group was a prototype design that addresses the core challenge
 
   Use of D3 contour maps to create lassoed contours for administrative/state groupings around letter clusters (figs. 2.1, 2.2)
 
-![fig4-1](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G3 Images/fig4-1.jpg)
+![fig4-1]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/fig4-1.jpg)
 
 *Figs. 2.1 Geometric bounding of territorial affiliation, with individual letter icons to represent both dispatch (circle) and receipt (triangle) using variant colour-scheme for temporality/memory, clustered around city location using spiral algorithm.*
 
-![fig4-2](/Users/parrot/Google Drive/COST Packing-up sprints outcomes [2018-06]/01_Documentation/02_Images/2017_G3 Images/fig4-2.jpg)
+![fig4-2]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/fig4-2.jpg)
 
 *Fig 2.2 Visual reference for use of contour maps to indicate irregular and overlapping bounding of territorially areas by e.g. administrative coherence or confessional dominance*
 
-##### Practice
+### Practice
 
 The workshop re-confirmed the value of the ‘design sprint’ methodology, following a first iteration a year earlier that had involved some of the same participants, and the benefit of close and intensive collaboration to both historical scholars and practice-base designers. The decision to pursue a narrow but rigorous focus was effective in producing a quite refined draft design, though less effective in generating an abundance of divergent possibilities for further investigation: a higher priority in an first than a second ‘sprint’ workshop.
 
