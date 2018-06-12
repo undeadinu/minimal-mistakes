@@ -24,7 +24,7 @@ sidebar:
 
 **Scholars:** Thomas Wallnig, Mat Wilcoxson
 
-<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2017-g1/2017_G1.mp4" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 

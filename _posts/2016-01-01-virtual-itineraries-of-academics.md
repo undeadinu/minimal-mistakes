@@ -26,7 +26,7 @@ sidebar:
 
 **Design researchers:** Gabriele Colombo, Marco Quaggiotto
 
-<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g3/2016_G3.mp4" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
