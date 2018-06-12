@@ -20,6 +20,7 @@ tags:
 
 **Scholars:** Anna Skolimowska, Elena Spadini, Per Pippin Aspaas, Sinai Rusinek
 
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
@@ -45,6 +46,9 @@ The group has worked on a user interface that allows browsing through the numero
 The group therefore recommends that EMLO includes yet another category of corpus; namely, letter collections that are known to exist (either in an archive somewhere, or in a hard copy), but which have not yet been inserted into EMLO so far. In this way, the end user will be made aware of their existence, although they will not be possible to search through in the way that the other corpus types are.
 
 The results of search should bring the user to the close reading window, the outline of which was developed as an extendible view. A basic view should contain the text of single document (letter), its main metadata and a navigation bar. Optionally images of the source, apparatus criticus, factual commentary, similia, translation or summary (linked to the paragraphs) and further metadata on the text (its manuscript sources, publications etc.) can appear. A user that chooses to register her- or himself can use a personalized user note-book, in which (s)he can easily copy parts of the text and make and store personal notes. The reader can also easily export his note-book as well as the results of the search.
+
+#### Project Diagram
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g4/2017_G4_arch.png)
 
 ## Conclusions
 

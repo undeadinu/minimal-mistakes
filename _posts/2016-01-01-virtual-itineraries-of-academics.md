@@ -23,7 +23,7 @@ tags:
 
 **Design researchers:** Gabriele Colombo, Marco Quaggiotto
 
-![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
@@ -98,10 +98,8 @@ First challenge: Simultaneous view of more filters
 
 Link to [demo version](https://drive.google.com/open?id=0B3X8CNVByqGvOGxvTC1WTFNmZXM)
 
-
-![Application Architecture]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
-
-
+#### Project Diagram
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g3/2016_G3_arch.png)
 
 ## Conclusions
 

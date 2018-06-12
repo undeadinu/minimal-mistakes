@@ -18,7 +18,7 @@ tags:
 
 **Design researchers:** Carlo De Gaetano, Azzurra Pini
 
-![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 [EMLO](<http://emlo.bodleian.ox.ac.uk/>), “created by the Cultures of Knowledge Project [...] is a combined finding aid and editorial interface for basic descriptions of early modern correspondence”. During the latter part of the workshop, and building on the results obtained by the project so far, we aimed to design visual interfaces for browsing the repository. We have used data from Samuel Hartlib's correspondence as a testbed for our experiment: 4833 letters (sent/received) that, for the most part, have a date associated with them, as well as the place from which the letter was sent and/or the place to which the letter was addressed. In addition other metadata (such as uncertain or inferred dates/places, geographical coordinates, and editorial notes) are available.
@@ -121,9 +121,8 @@ As the resulting graphs are not expected to be particularly complex (few letters
 
 A further interesting exploration would include the proportion of each language (in terms of number of words) within multi-language letters, to give a better approximation of their relevance within the corpus.
 
-![**application-architecture.jpg**]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
-
-
+#### Project Diagram
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2016-g5/2016_G5_arch.png)
 
 ## Conclusions
 

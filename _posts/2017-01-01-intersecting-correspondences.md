@@ -21,7 +21,7 @@ tags:
 
 **Scholars:** Thomas Wallnig, Mat Wilcoxson
 
-![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
 
 ## About the project
 
@@ -57,7 +57,8 @@ It was helpful that some group members had had previous experience not only with
 
 The user journey starts with (**SUNBURST VIEW**), while views (**TRIANGULAR, QUADRANGULAR, or PENTANGULAR** ) and (**SCATTERPLOTISH VIEW**) can be accessed through embedded links from that first screen.
 
-![application-architecture.jpg]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
+#### Project Diagram
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g1/2017_G1_arch.png)
 
 ## Conclusions
 

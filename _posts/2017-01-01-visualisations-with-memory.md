@@ -25,6 +25,8 @@ toc_icon: "cog"
 
 **Scholars:** Alex Butterworth, Howard Hotson, Christoph Kudella
 
+<video controls src="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/2016_G1_low.mp4" poster="{{ site.url }}{{ site.baseurl }}/assets/images/2016-g1/image7.png" width="636" autoPlay loop> Sorry, your browser doesn't support embedded videos! </video>
+
 ## About the project
 
 Static visualisations normally display all the movements or correspondence of a lifetime as if they had taken place simultaneously. Dynamic visualisations, cycling through one instant at a time, typically do not retain an impression of past movements or transactions. Hence the need to develop visualisations with ‘memory’: that is, visualization which retain some fading indication of previous movements or transactions while highlighting current and recent ones.
@@ -256,7 +258,8 @@ At every stage, reference was made to past examples of good practice in data vis
       - In this mode of visualisation, each city is visualised as a square, within which letter icons would be arranged in chronological from top left to bottom right.
       - When insufficient room is available to visualise adjacent centres, their squares are merged.  Merged squares are distinguished by a thicker black border.  Mousing over a merged square provides an impression of the number of centres merged within in it.  Zooming in allows the user to see how those centres are distributed geographically.
 
-
+#### Project Diagram
+![application architecture]({{ site.url }}{{ site.baseurl }}/assets/images/2017-g3/2017_G3_arch.png)
 
 ## Conclusions
 

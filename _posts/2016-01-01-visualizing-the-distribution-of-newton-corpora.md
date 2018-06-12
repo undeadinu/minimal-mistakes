@@ -12,8 +12,6 @@ tags:
 
 **Scholar:** Andrej Svorenčík
 
-![animated gif]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
-
 ## About the project
 
 Missing report
@@ -21,7 +19,6 @@ Missing report
 ## Aim of the project
 
 Missing report
-
 
 ## Case study
 
@@ -35,10 +32,6 @@ Constructed a database of ownership events for 36 copies:
 ## Design process
 
  Missing report
-
-![application-architecture.jpg]({{ site.url }}{{ site.baseurl }}/assets/images/cartella-gruppo/nome-immagini-no-spazi.png)
-
-
 
 ## Conclusions
 
