@@ -10,7 +10,6 @@ tags:
   - intellectual hubs
   - Thirty Years War
 toc: true
-classes: wide
 sidebar:
   nav: "home"
 ---
