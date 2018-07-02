@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-02T17:47:46+02:00</updated><id>/</id><title type="html">Republic of Letters</title><subtitle>An amazing website.</subtitle><author><name>Index</name></author><entry><title type="html">Visualisations with memory</title><link href="/2017%20cost%20action/visualisations-with-memory/" rel="alternate" type="text/html" title="Visualisations with memory" /><published>2017-01-01T00:00:00+01:00</published><updated>2017-01-01T00:00:00+01:00</updated><id>/2017%20cost%20action/visualisations-with-memory</id><content type="html" xml:base="/2017%20cost%20action/visualisations-with-memory/">&lt;p&gt;&lt;em&gt;Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project Leader:&lt;/strong&gt; Howard Hotson&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design Researchers:&lt;/strong&gt; Serena Del Nero, Michele Mauri&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Alex Butterworth, Howard Hotson, Christoph Kudella&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2017-g3/2017_G3.mp4&quot; poster=&quot;/assets/images/2017-g3/fig4-1.png&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;Static visualisations normally display all the movements or correspondence of a lifetime as if they had taken place simultaneously. Dynamic visualisations, cycling through one instant at a time, typically do not retain an impression of past movements or transactions. Hence the need to develop visualisations with ‘memory’: that is, visualization which retain some fading indication of previous movements or transactions while highlighting current and recent ones.&lt;/p&gt;
+
+&lt;p&gt;Workshop Group 3 addressed the challenge of visualising configurations of correspondence networks that retained such ‘memories’ of past states through a case study of the ego-network of a single significant individual in the early Republic of Letters, Desiderius Erasmus.&lt;/p&gt;
+
+&lt;p&gt;This network is reconstructed from the known correspondence sent and received by him throughout the course of his life (1466-1536), a total of nearly three thousand letters, written in Latin. In certain respects, this data set is representative of those contained in the EMLO archive: ego networks predominate since centred on individual recipients whose correspondence was preserved; the extant correspondence is not always reciprocal; while the lack of uniformity of access to postal networks distorts the distribution of letters. The susceptibility of the data to network analysis is therefore limited and caution was exercised during the design process.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;The designated challenge for Design Sprint group 3 was to create ‘animated’ visualisations that preserved the ‘memory’ of networks: that is, how contemporary
+scholars working with a corpus of letters can retain a productive awareness of past activity within a network relative to the current temporal focus of their research.&lt;/p&gt;
+
+&lt;p&gt;During a process of co-designing visual interfaces to its designate task, the Group paid incidental attention to how the conventions it developed for individual ego networks might be extended for application to multiple intersecting correspondences and itineraries.&lt;/p&gt;
+
+&lt;p&gt;The research agenda was set by a combination of (a) Kudella’s description of the data with which he had worked during his PhD and the limitations of existing visualisation tools in representing the temporal dimensions of already complex data, (b) Hotson’s
+summary hypothesis regarding the history of Erasmus’s network as a dispersed but coherent group centred around an influential individual during his earlier life, which split into (two) distinct confessional groups during the Lutheran reformation, between which Erasmus increasingly found himself stranded.&lt;/p&gt;
+
+&lt;p&gt;The research addressed the design question of how visual conventions might be devised to represent two (or more) network states, simultaneously and comparatively, as required by Kudella’s research: ie. what is happening ‘now’ and what happened previously.&lt;/p&gt;
+
+&lt;p&gt;Additionally, it sought to evaluate the design produced according to how effectively it supported an interrogation of Hotson’s historical hypothesis regarding the impact of the Reformation on Erasmus’s own Republic of Letters: that rather than becoming trans-confessional, it splintered.&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;The domain expert in the group was Dr Christoph Kudella (University of Groningen), who had recently completed a PhD concerning the correspondence of Erasmus and who supplied a copy of the data gathered during that work for experimental use, while
+Professor Howard Hotson (University of Oxford) led the group, affording a contextualising knowledge of the broader historical domain, and both close knowledge
+of comparable correspondence networks and ownership of the visualisation agenda in his role as Director of Cultures of Knowledge and PI for the COST Action.&lt;/p&gt;
+
+&lt;h3 id=&quot;viewing-letters&quot;&gt;Viewing Letters&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One &lt;em&gt;icon&lt;/em&gt; represents one letter.&lt;/li&gt;
+  &lt;li&gt;The &lt;em&gt;order&lt;/em&gt; of icons is chronological.&lt;/li&gt;
+  &lt;li&gt;The &lt;em&gt;shape&lt;/em&gt; of icons distinguishes letters sent (e.g. circle) and letters received (e.g. a triangle) in a given place.&lt;/li&gt;
+  &lt;li&gt;The colour of an icon indicates how recently it was sent (we cannot indicate date of receipt because we do not have the data: eventually, this might be calculated).
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Discrete shades&lt;/em&gt; are better than continuous colour gradients, because they allow comparison between places.&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Three shades&lt;/em&gt; allow the display of several different periods while leaving each one visually distinct.  For example:
+        &lt;ul&gt;
+          &lt;li&gt;black = current instant (which might also represented by a pulse)&lt;/li&gt;
+          &lt;li&gt;red = 10% of the entire timespan viewed&lt;/li&gt;
+          &lt;li&gt;orange = 11-40% of timespan&lt;/li&gt;
+          &lt;li&gt;yellow = 41-100% of timespan&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Selecting a specific letter reveals
+    &lt;ul&gt;
+      &lt;li&gt;metadata in a pop-up box and&lt;/li&gt;
+      &lt;li&gt;location of the other correspondent (e.g. Erasmus).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;viewing-correspondances&quot;&gt;Viewing Correspondances&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rectangular &lt;em&gt;boxes&lt;/em&gt; collect icons for all the letters send to / received by specific individuals within the timespan.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Selecting an individual person-box reveals:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Other locations of the individual during the timespan selected;&lt;/li&gt;
+      &lt;li&gt;Bar graph, displaying all letters sent to / received by this individual with Erasmus throughout the selected timespan (as highlighted within the entire correspondence?);&lt;/li&gt;
+      &lt;li&gt;Location(s) of Erasmus recorded in the metadata of these letters.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;viewing-places&quot;&gt;Viewing Places&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Places represented in one of two ways: as
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;clusters of letters&lt;/em&gt;: i.e. large boxes containing individual letter icons arranged chronologically. This will result in coloured bands giving a sense of the history of Erasmus’s correspondence with this place during the timespan selected.
+        &lt;ul&gt;
+          &lt;li&gt;Selecting a location reveals &lt;em&gt;bar graph&lt;/em&gt; showing all letters either &lt;strong&gt;sent vs received or exchanged with individual correspondents in that location&lt;/strong&gt;;&lt;/li&gt;
+          &lt;li&gt;If Erasmus resided in that location during the timespan selected, letters sent or received by him there are also graphed.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Clusters of people&lt;/em&gt;: i.e. larger boxes which cluster the smaller person-boxes (containing letter icons) together as tree diagrams.
+        &lt;ul&gt;
+          &lt;li&gt;Bar graphs (as above) and also locations of correspondents (including Erasmus) indicated by metadata, during the timeframe.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Problem of clustering&lt;/em&gt;. When the density of data in a particular area is high, place icons (whether clusters of letters or of people) merge to form a single, larger cluster.
+    &lt;ul&gt;
+      &lt;li&gt;These merged clusters must be distinguished visually from single place icons (e.g. by a darker external border).&lt;/li&gt;
+      &lt;li&gt;When users mouse over these merged clusters, they reveal that they are composed of several component parts.&lt;/li&gt;
+      &lt;li&gt;When users zoom in, merged clusters resolve into place clusters.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ego-network-of-correspondants-radial-view&quot;&gt;Ego-network of correspondants: radial view&lt;/h3&gt;
+
+&lt;p&gt;The Ego-Network of Correspondents: Radial View (ENCORV) is a force-directed monadic display presented as dashboard element in dynamic relation with the configurable Time and Event Slider with Histograph (TESH), a persistent panel between this view and the Cartographic and Cartogrammic Memory of Correspondence (CACMOC)&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;ENCORV&lt;/strong&gt; represents three dimensions of data:&lt;/p&gt;
+
+&lt;p&gt;On the radial axis:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Temporal (or spatial) ‘proximity’ of correspondents to Ego by spoke length (centrality &amp;gt;)
+    &lt;ul&gt;
+      &lt;li&gt;Correspondence [&lt;em&gt;TESH : Toggle to correspondence by individual histogram&lt;/em&gt;]&lt;/li&gt;
+      &lt;li&gt;Frequency of correspondence: &amp;gt; designated threshold for designated time period&lt;/li&gt;
+      &lt;li&gt;Regularity of correspondence: &amp;gt; designated threshold for designated time period&lt;/li&gt;
+      &lt;li&gt;Significant difference in &lt;em&gt;frequency/regularity&lt;/em&gt; relative to previous period: exceptionality&lt;/li&gt;
+      &lt;li&gt;Co-location [&lt;em&gt;TESH : Toggle to period(s) of co-location by individual histogram marker&lt;/em&gt;]&lt;/li&gt;
+      &lt;li&gt;Extent of time co-located with Ego by city&lt;/li&gt;
+      &lt;li&gt;Frequency co-located with Ego by city&lt;/li&gt;
+      &lt;li&gt;Physical Distance from Ego location [&lt;em&gt;TESH: Toggle to correspondence by individual histogram&lt;/em&gt;]&lt;/li&gt;
+      &lt;li&gt;Logarithmically&lt;/li&gt;
+      &lt;li&gt;Non-logarithmically&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the circular axis:&lt;/p&gt;
+
+&lt;p&gt;Clockwise hierarchical subdivisions (D) ordering by selection (O), priority ordering (and possible other configuration (C)) of:&lt;/p&gt;
+
+&lt;p&gt;Chronology (O)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(Most) recent correspondence, within designated time frame&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Activity Level (O)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Total correspondence, within designated time frame&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Spatial Categories (hierarchy) (D, O)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Top-level administrative (D)
+    &lt;ul&gt;
+      &lt;li&gt;Nation state (D)&lt;/li&gt;
+      &lt;li&gt;City (D)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shortest distance to [border] (O)&lt;/li&gt;
+  &lt;li&gt;Territorial contiguity of states (O)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Religious Status&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Of location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Professional Status/Institutional Affiliation&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Of correspondent (primary)&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;(note: where multiple, secondary professions, possibility to display potential presence in other professional categories on selection of individual)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Icon for individual correspondent:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Position on radial spoke: semantics variable by context&lt;/li&gt;
+  &lt;li&gt;Segmented colour gradient: correspondence with Ego during designated period&lt;/li&gt;
+  &lt;li&gt;Anomolous status of individual (e.g. discrepancy between religion of individual/location)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NOTE: Requirement, for future consideration: &lt;em&gt;To track &lt;strong&gt;significant mobility&lt;/strong&gt; within each configured display over time: eg. Movement of individual(s) &lt;strong&gt;between&lt;/strong&gt; cities, confessions, or professions. How to visualise effectively?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The TESH displays, by default, a histogram view of the overall ‘memory’ of ALL correspondence within the selected period. Within this view it may additionally represent Vertical bar:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Date of single (or multiple) selected letter(s)&lt;/li&gt;
+  &lt;li&gt;Dates of all letters from/to selected correspondent(s)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Split into multiple layered histograms:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All letters sent by Ego&lt;/li&gt;
+  &lt;li&gt;All letters received by Ego&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;The design process followed the outline structure of daily priorities advocated for Design Sprints, with the interdisciplinary team exploring multiple possible solutions during the divergent phase before focusing more narrowly on a solution that retained geo-indexical reference for both correspondents and correspondence but with the potential to accommodate other, integrated forms of data presentation.&lt;/p&gt;
+
+&lt;p&gt;It was recognised at an early stage, based on the prior experience of Dr Kudella in preparing visualisations for his PhD dissertation, that a more general challenge preceded the specific challenge of recording and presenting ‘memory’ in the network: the relative illegibility of traditional, geographically spatialised network visualisation, which degenerate into a ‘hairball’ of criss-crossing lines, even with quite limited data sets.&lt;/p&gt;
+
+&lt;p&gt;To address this challenge, a range of possible solutions were considered during the first two days, including a ‘radial’ representation of the Ego Network (fig.1). This conceit placed Erasmus at the centre, his individual correspondents as the end-point of spokes radiating from him and the spokes themselves representing, by their length, different dimensions of the spatial and temporal relationship between those correspondents and Erasmus, through their letters.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g3/fig2.jpg&quot; alt=&quot;fig2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig.1 Early sketch of radial visualisation of ego-network, with Erasmus placed centrally. The proposed radial diagram proposed elaborates on this sketch idea in various respects.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It was agreed that the radial representation held significant promise for enriching our visualised understanding of memory in Erasmus network but that without considerable refinement it was liable to misreading: the mobility of both Erasmus (as Ego) and many of his correspondents would led to a ‘reading’ of high dynamism in the relative e.g. geographical distance between A and B(s), at the risk of distorting a more productive account of their spatial relationship as a whole.&lt;/p&gt;
+
+&lt;p&gt;Attention then shifted to a map-based visualisation which could represent multiple levels of resolution in the individuation/aggregation of data points - for individual places, people, instances - with the notion of ‘cognitive zoom’ invoked to enable animated transitions between levels and across a cartographic to cartogrammic spectrum (from the prioritisation of a conventional map projection to that of the conceptual space of correspondence dispatch and reception).&lt;/p&gt;
+
+&lt;p&gt;At every stage, reference was made to past examples of good practice in data visualisation as well as to novel examples of experimental visualisation that might inform the design process.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-journey-non-expert-user&quot;&gt;User journey: non-expert user&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;User profile&lt;/em&gt;: a non-expert user entering through a collaboratively populated union resource such as EMLO, with minimal knowledge of the correspondence in question, and needing to move from a general orientation to more specific investigations.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Entry point:&lt;/strong&gt; list or visualisation of all catalogues on the system.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;First step: select correspondence&lt;/strong&gt; (in this case: Erasmus of Rotterdam) &lt;strong&gt;and visualise in conventional mode.&lt;/strong&gt;
+&lt;strong&gt;Result&lt;/strong&gt;: far too confusing to be readily intelligible.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;The &lt;strong&gt;&lt;em&gt;default view&lt;/em&gt;&lt;/strong&gt; should provide material with which to gain an overall impression, including:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;A &lt;em&gt;timeline&lt;/em&gt;, showing the distribution of letters to and from the correspondent from the first to the last letter in the catalogue.  The default view should split bars into letters sent (below) and letters received (above).  It should be possible to separate and split these, and to zoom to full screen (as on EMLO: &lt;a href=&quot;tinyurl.com/6do7cyw&quot;&gt;e.g.&lt;/a&gt;)&lt;/li&gt;
+          &lt;li&gt;A &lt;em&gt;map&lt;/em&gt;, displaying the complete correspondence in a single image &lt;em&gt;in conventional fashion&lt;/em&gt; (e.g. like Palladio: number of letters indicated by size of circles, overlapping where necessary, with directionality indicated by curved edges).&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Some &lt;em&gt;basic information and statistics&lt;/em&gt;: very brief identification of main correspondent, number of letters, main topics / keywords.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Basic functionality:&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;&lt;em&gt;Timeline:&lt;/em&gt; The user can define any portion of the timeline for further study in one or both of two ways:
+            &lt;ul&gt;
+              &lt;li&gt;By moving pointers along the timeline, to define a rough period;&lt;/li&gt;
+              &lt;li&gt;By manually inputting precise start and end dates into boxes provided;&lt;/li&gt;
+              &lt;li&gt;By selecting major events from the life of the main correspondent from a list derived from the prosopographical metadata.  These events might include major
+                &lt;ul&gt;
+                  &lt;li&gt;changes of place (e.g. Erasmus moves to Basel);&lt;/li&gt;
+                  &lt;li&gt;career-changing events (e.g. Erasmus publishes the Adagia);&lt;/li&gt;
+                  &lt;li&gt;events in the wider world (e.g. Luther’s 95 Theses / Diet of Worms)&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;em&gt;Map:&lt;/em&gt;
+            &lt;ul&gt;
+              &lt;li&gt;Zoom functionality is needed to explore areas heavily populated with data (e.g. the Low Countries in the case of Erasmus).&lt;/li&gt;
+              &lt;li&gt;Iconography can be altered to explore different dimensions of the data.  In what follows, a user journey is outlined using the ‘visualisation with memory’ functionality to investigate the summit of Erasmus’s career with increasing levels of detail.&lt;/li&gt;
+              &lt;li&gt;Users can turn on the display of boundaries to determine which cities call within which jurisdictions.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Second step: user selects briefer period to study&lt;/strong&gt; (e.g. 1508-1518):&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt; still very difficult to interpret, even for the expert user.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Third step:&lt;/strong&gt; user switches from default mode to ‘memory’ mode for places.  This has three immediate effects:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;Erasmus’s timeline for 1508-1518 is &lt;strong&gt;divided into three chronological slices&lt;/strong&gt;, according to the pre-set proportions noted above.  The user can then adjust these to the major divisions of Erasmus’s life.  In this case, they are set to 1508-12, 1513-17 and 1518.&lt;/li&gt;
+          &lt;li&gt;The map then visualises these data in terms of places to which Erasmus sent letters and from which he received them. The letters are arranged in chronological order
+            &lt;ul&gt;
+              &lt;li&gt;either as a spiral (with new letters added at the centre) resulting in a roughly circular arrangement;&lt;/li&gt;
+              &lt;li&gt;or as a rectangle (with new letters added at the top left corner).&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The map also distinguishes &lt;strong&gt;between letters sent and received.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt; four cities of roughly equal size (London, Antwerp, Leuven and Basel) – represented by dots of almost identical size in a conventional visualisation – are now clearly distinguished, and can be compared across two new dimensions.&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;&lt;em&gt;Chronology.&lt;/em&gt; Erasmus corresponded intensively
+            &lt;ul&gt;
+              &lt;li&gt;with London throughout the entire eleven-year period (1508-1518);&lt;/li&gt;
+              &lt;li&gt;with Antwerp primarily in the middle period (1513-17);&lt;/li&gt;
+              &lt;li&gt;with Louvain most intensively within the very recent past (1518).&lt;/li&gt;
+              &lt;li&gt;The correspondence with Cambridge is also densely clustered around the period of Erasmus’s residence there (prior to 1513); while the correspondence with Rochester is relatively current (due to the foundation of the English ‘collegium trilingue’, Corpus Christi College, by Erasmus’s friend, the Bishop of Rochester, Richard Fox, in 1517).&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;em&gt;Directionality.&lt;/em&gt;
+            &lt;ul&gt;
+              &lt;li&gt;In 1518 letters sent by Erasmus to London dominate overwhelmingly; during the previous period, in which he was frequently resident in England, letters sent to Erasmus from London outnumber those send by Erasmus to London.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;Additional functionality.&lt;/strong&gt; &lt;em&gt;Clicking&lt;/em&gt; on an individual letter
+            &lt;ul&gt;
+              &lt;li&gt;brings up the record for that letter&lt;/li&gt;
+              &lt;li&gt;highlights the time of sending on the timeline, and&lt;/li&gt;
+              &lt;li&gt;indicates on the map the location of Erasmus at the time of sending.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Fourth step:&lt;/strong&gt; switch to ‘memory’ mode for people.  This has three immediate effects:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;Functionality:
+            &lt;ul&gt;
+              &lt;li&gt;In this mode, the individual letter icons are clustered according to the people with whom they were exchanged.&lt;/li&gt;
+              &lt;li&gt;In the boxes designating individual people, the letters &lt;strong&gt;are arranged chronologically&lt;/strong&gt;, with the most recent letters are in the top left and the oldest in bottom right.&lt;/li&gt;
+              &lt;li&gt;These boxes are then &lt;strong&gt;clustered together as a ‘tree diagram’&lt;/strong&gt; representing a city.&lt;/li&gt;
+              &lt;li&gt;&lt;em&gt;Mousing&lt;/em&gt; over a person-box reveals a histogram showing the &lt;strong&gt;chronology of their correspondence&lt;/strong&gt; with Erasmus throughout his lifetime, but with the selected period coloured in the same way as the icons on the map&lt;/li&gt;
+              &lt;li&gt;&lt;em&gt;Clicking&lt;/em&gt; on a person-box also highlights other places from which they exchanged letters with Erasmus during the period being studied and the locations of Erasmus when the individual letters were sent.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt; two cities of roughly equal size (London and Leuven) – represented by dots of almost identical size in a conventional visualisation – are now clearly distinguished by another dimension: number of correspondents&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;The 78 London letters are exchanged with 20 people (average: 3.9 letters per correspondent).  Two thirds (47) are exchanged with only 3 people; and only ten people are represented by a single letter.&lt;/li&gt;
+          &lt;li&gt;The 63 Leuven letters are exchanged with 43 people (average: 1.5 letters per correspondent).  None exchanged more than five letters, and 32 are represented by single letters.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Fifth step:&lt;/strong&gt; aggregating data on adjacent cities.&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Most maps of correspondence have dense clusters of correspondents in the main areas of activity of the chief correspondent.  In a conventional visualisation, this results in overlapping circles.  In a mode which visualises individual letters, a different solution is required.&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;Solution:&lt;/strong&gt; One solution is suggested by the gl http://glammap.net/glamdev/maps/1.
+            &lt;ul&gt;
+              &lt;li&gt;In this mode of visualisation, each city is visualised as a square, within which letter icons would be arranged in chronological from top left to bottom right.&lt;/li&gt;
+              &lt;li&gt;When insufficient room is available to visualise adjacent centres, their squares are merged.  Merged squares are distinguished by a thicker black border.  Mousing over a merged square provides an impression of the number of centres merged within in it.  Zooming in allows the user to see how those centres are distributed geographically.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g3/2017_G3_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The design process exposed a number of challenges which the group effectively addressed by adhering to a tightly defined agenda in designing the prototype, while generating and recording additional ideas for possible further development and integration to the core design.&lt;/p&gt;
+
+&lt;p&gt;The prototype showed considerable promise in addressing the central challenges of the group’s designated task: to represent multiple temporal states of a correspondent’s network in a manner that was legible to a scholar and supported their process of exploration and enquiry.&lt;/p&gt;
+
+&lt;p&gt;One example of the benefits of animation in managing complex multi-dimensional data was offered by the ‘cognitive zoom’ that allowed different compositions of level of detail and semantics to be displayed, relatively, within a single, inflected display. This provided an effective means to combine the legibility of a cartographic display and the advantages of familiarity that it brings - notably the east of applying existing geographical knowledge to its interpretation - with the denser informational potential of a cartographic representation.&lt;/p&gt;
+
+&lt;p&gt;A further example of the potential benefit of animation was indicated by the partial development of a timeline panel that was reciprocally responsive to changes in the cartographic display, while affording multiple representational functions; these included the setting of time frames for analysis, and the use of this frame as a ‘playback head’ for temporal animation of the cartographic display. This timeline panel additionally provided a useful anchor that could remain consistent between views and between tools (e.g. should the radial view be integrated).&lt;/p&gt;
+
+&lt;p&gt;It seems likely that an automated transition between states of cognitive zoom, contextually triggered according to the line of exploration pursued by the user, could be implemented. However there was no opportunity, within the scope of the workshop, to implement or evaluate a dynamic data-driven prototype&lt;/p&gt;
+
+&lt;p&gt;In this, the findings of this Group, grounded in a broad exploration of a tightly defined agenda, reinforces those of Group 1 concerning the value and promise of an approach to visualising the Republic of Letters that links a suite of data-faceting tools, with fluidity of movement between different modes of representation.&lt;/p&gt;
+
+&lt;p&gt;The output of the group was a prototype design that addresses the core challenge identified. It shows sufficient promise to suggest the benefit of further development and testing, as well as an additional phase of design to expand its functionality, perhaps to include additional facilities and to refine the timeline display, and to consider its application to other data sets. It may also provide a solid foundation for the visualisation of data concerning multiple, interrelated or comparative ego-networks, although this too will require a further phase of intensive design.
+ Areas for future consideration include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mobile Ego&lt;/p&gt;
+
+    &lt;p&gt;How to optimise the legibility of any visualisation of Erasmus relative to the cartogram of correspondence.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Multiple Egos / Expanded Networks&lt;/p&gt;
+
+    &lt;p&gt;How to extend the design to allow the meaningful exploration of two or more overlapping ego networks, in parallel and comparatively: e.g. Erasmus and Dantiskus.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Contextual events&lt;/p&gt;
+
+    &lt;p&gt;How to represent contextual events in the timeline that may be uploaded as pre- determined data sets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Contour Maps: Political Boundaries&lt;/p&gt;
+
+    &lt;p&gt;Use of D3 contour maps to create lassoed contours for administrative/state groupings around letter clusters (figs. 2.1, 2.2)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g3/fig4-1.jpg&quot; alt=&quot;fig4-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Figs. 2.1 Geometric bounding of territorial affiliation, with individual letter icons to represent both dispatch (circle) and receipt (triangle) using variant colour-scheme for temporality/memory, clustered around city location using spiral algorithm.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g3/fig4-2.jpg&quot; alt=&quot;fig4-2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig 2.2 Visual reference for use of contour maps to indicate irregular and overlapping bounding of territorially areas by e.g. administrative coherence or confessional dominance&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;practice&quot;&gt;Practice&lt;/h3&gt;
+
+&lt;p&gt;The workshop re-confirmed the value of the ‘design sprint’ methodology, following a first iteration a year earlier that had involved some of the same participants, and the benefit of close and intensive collaboration to both historical scholars and practice-base designers. The decision to pursue a narrow but rigorous focus was effective in producing a quite refined draft design, though less effective in generating an abundance of divergent possibilities for further investigation: a higher priority in an first than a second ‘sprint’ workshop.&lt;/p&gt;
+
+&lt;p&gt;A possible approach to reshaping second-stage ‘sprints’ would be to schedule the first two exploratory/divergent days as something closer to a ‘sandbox’ in which fluid teams generate and filter approaches around themes that have emerged from the first sprint, with individuals gravitating to those with which the feel the greatest affinity and to which they could contribute most fully, during a Day 2 ‘convergent’ period, prior to a final three day ‘sprint’ to implement the designs.&lt;/p&gt;</content><author><name>Index</name></author><category term="correspondence" /><category term="memory" /><category term="mobility" /><category term="temporalities" /><category term="timeline" /><category term="context" /><category term="ego networks" /><category term="animation" /><category term="cognitive zoom" /><summary type="html">Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.</summary></entry><entry><title type="html">Intersecting correspondences</title><link href="/2017%20cost%20action/intersecting-correspondences/" rel="alternate" type="text/html" title="Intersecting correspondences" /><published>2017-01-01T00:00:00+01:00</published><updated>2017-01-01T00:00:00+01:00</updated><id>/2017%20cost%20action/intersecting-correspondences</id><content type="html" xml:base="/2017%20cost%20action/intersecting-correspondences/">&lt;p&gt;&lt;em&gt;Exploring techniques for visualising multiple intersecting correspondences simultaneously&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project Leader:&lt;/strong&gt; Philip Beeley&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design researchers:&lt;/strong&gt; Tommaso Elli, Marco Quaggiotto&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Thomas Wallnig, Mat Wilcoxson&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2017-g1/2017_G1.mp4&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;Most visualisations of correspondence to date attempt to map or graph letters to and from a single individual. This group has broken new ground in exploring techniques for visualising multiple intersecting correspondences simultaneously - that is to say, groups of letters to and from multiple individuals who are in contact with one another and with many common correspondents as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;The aim of the group was to focus on three main tasks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To devise tools for visualizing large correspondence corpora in their relations to each other, using the metadata of 4-5 correspondences contained in EMLO, and to do this in a readily comprehensible way.&lt;/li&gt;
+  &lt;li&gt;To help users navigate intersections of such corpora; especially when seeking to explore new aspects of the data such as the role played by sub-networks or gain new insights into knowledge exchanged between third parties.&lt;/li&gt;
+  &lt;li&gt;To develop visualizations of a correspondence corpus that allow a better understanding of different scholarly roles: author as sender, author as recipient, and author mediator of exchanges between between third parties.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;One test case has been a series of overlapping correspondences of individuals associated with the founding of the Royal Society of London either side of 1660 (Aubrey, Lister, Oldenburg, Wallis), while another test case consisted in the c. 150 Leibniz letters extracted from the Leibniz correspondence database as involving an otherwise “uninvolved third person”.&lt;/p&gt;
+
+&lt;p&gt;The group soon found common ground, in that the scholars sketched out the specific nature of the problems they wanted to focus on (“Aim of the project”), and the designers made suggestions as to how to use visualisation tools to address these problems. It was important that both sides of the group were aware of the precise nature of the tasks, and their relative weight in the overall structure of the design sprint. An agreement was soon reached that the complexity of the problems required three different levels of approach (see “Design Process” and “Findings”).
+It was helpful that some group members had had previous experience not only with the Design Sprint format, but also with its specific application in the context of COST Action IS1310. In addition, it was helpful that both among the designers/developers and the scholars a similar general approach and mindset prevailed.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design Process&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;SUNBURST VIEW&lt;/strong&gt;. It was felt that a general introductory graphic would be useful, allowing users to navigate from this to intersecting correspondences. The &lt;em&gt;sunburst partition&lt;/em&gt; model would feature the names of  catalogues (EMLO) or the names of fellows (Royal Society). This model can be enhanced with additional information (dates, memberships, country of origin, further hierarchies, and so on). The interior space can be used to advertize featured catalogues. The following presentation is based exclusively on the proposed EMLO application, but can be applied with minor changes to the study of institutional archives. - By selecting 3, 4, or 5 names from the circle one would determine the subjects of the “triangular”, “quadrangular”, or “pentagular” visualization; by selecting 2, the names would be subjects of the so-called “scatterplotish” view.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIANGULAR, QUADRANGULAR, or PENTANGULAR  VIEW.&lt;/strong&gt; This format is based on 3, 4 or 5 names from the sunburst view and depicts - without the dimension of time - both the entire correspondence networks and the communalities between catalogues, i.e. the persons present in more than one catalogue, distributed across the space according to the number of exchanged letters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SCATTERPLOTISH VIEW&lt;/strong&gt;. This view has a temporal component: it shows intersecting lives of individuals&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;across their &lt;strong&gt;direct correspondenc&lt;/strong&gt;e between A and B (thereby providing a visual reflection of the depth and intensity of the exchanges between them);&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;debate&lt;/strong&gt; - this view can be enhanced by the addition of correspondence from their respective networks sent and received by A and B at the same moment in time;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Intersections of the networks&lt;/strong&gt; of these two correspondents, now particularized (in contrast to the triangular visualization and its cognates). The user is informed of the persons who exchanged letters with each of the two correspondents separately and of the dates at which these exchanges took place. Such information will provide users with an initial indication of the existence of subnetworks to be explored further.&lt;/li&gt;
+  &lt;li&gt;Focusing on one single scholar, on can look at &lt;strong&gt;letter pathways&lt;/strong&gt;, choosing for one specific individual the role as (1) sender (including double authorship of a letter and ghostwriting); (2) as an intermediary; and (3) as recipient of indirect correspondence. – We discarded versions that would allow for a chronological view (see “Conclusions”) of letters of indirect correspondence, and also versions that tried to deal with non-intentional correspondence (in theory, one could tackle that by using different colours in the flow diagram; however, this tends to become more of an individual transmission history). Semi-intentional passing-on of letters (e.g. Leibniz, John Locke, Lady Masham and Samuel Clarke) could be handled, for instance, by weaker colours).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The user journey starts with (&lt;strong&gt;SUNBURST VIEW&lt;/strong&gt;), while views (&lt;strong&gt;TRIANGULAR, QUADRANGULAR, or PENTANGULAR&lt;/strong&gt; ) and (&lt;strong&gt;SCATTERPLOTISH VIEW&lt;/strong&gt;) can be accessed through embedded links from that first screen.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g1/2017_G1_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;h3 id=&quot;findings&quot;&gt;Findings&lt;/h3&gt;
+
+&lt;p&gt;A central finding concerned the fundamental structure of the interface/s: that in order not to overload a single visualisation, it is helpful to offer different views to address specific questions. Furthermore, that it is important already early on in the design stage to have crucial factors such as simplicity and ease of operation in view. The latter consideration was seen as being of great significance when seeking to create a fully linked-up design.&lt;/p&gt;
+
+&lt;p&gt;Focusing on relatively small-scale problems of large corpora helps address questions (debates, letter pathways, subnetworks) that will really help scholars approach and interrogate their data on the right scale.&lt;/p&gt;
+
+&lt;p&gt;Even if it is not reiterated, the format of the Design Sprint, applied to Design &amp;amp; Humanities, has proved once more extremely inspiring and at the same time productive.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion-and-further-research&quot;&gt;Conclusion and further research&lt;/h3&gt;
+
+&lt;p&gt;Knowing that the likelihood of arriving at definitive results in five days’ work is extremely small, we deliberately left some of the options open for &lt;strong&gt;further refinement and development&lt;/strong&gt;. In general terms, we regard the “scatterplotish” view as an aesthetically pleasing and yet highly functional container that could be enhanced with additional information. This concerns&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scatterplotish (1) / direct correspondence: one could add, by way of colours, information on language or topics (cf. Como I / EMLO group) and/or scale the bars according to word count of the letters;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scatterplotish (1) / direct relation: one could add data from different sources (articles and learned journals, reviews, etc.) to illustrate dimensions of the relation of two scholars beyond correspondence&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scatterplotish (4) / letter pathways: one could also arrange the same data in a chronological way, allowing, for example, for a view that highlights all letters (out of the total) in which the designated scholar is in a specific role (i.e. when in his life did Leibniz tend to use intermediaries?).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Regarding the &lt;strong&gt;overall format of Design Sprints&lt;/strong&gt;, one can observe that there is a difference between a first event of this kind, and one (or potentially more) similar follow-up events later on. It is very useful to have at least some experienced partners on the design and the scholarly side. However this leads to a number of observations that could be useful when thinking, for example, about a “series” of design sprints:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;the mottos for successive days could be applied in a different way - one “converges” earlier, and potentially also comes to results earlier.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;a clear choice could be made early on regarding the difference between “prototype” and “sketchbook”.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;a take-away product could be a one/two-page specification usable for follow-up applications.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Index</name></author><category term="correspondence" /><category term="catalogues" /><category term="EMLO" /><category term="Leibniz" /><category term="intersections" /><category term="communalities" /><category term="transmission of letters" /><category term="sub-groups" /><summary type="html">Exploring techniques for visualising multiple intersecting correspondences simultaneously</summary></entry><entry><title type="html">Ideas for “EMLO 2.0”: Digital Critical Editions</title><link href="/2017%20cost%20action/digital-critical-editions/" rel="alternate" type="text/html" title="Ideas for “EMLO 2.0”: Digital Critical Editions" /><published>2017-01-01T00:00:00+01:00</published><updated>2017-01-01T00:00:00+01:00</updated><id>/2017%20cost%20action/digital-critical-editions</id><content type="html" xml:base="/2017%20cost%20action/digital-critical-editions/">&lt;p&gt;&lt;em&gt;Transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project Leader:&lt;/strong&gt; Elena Spadini&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design Researchers:&lt;/strong&gt; Andrea Benedetti, Glauco Mantegari&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Anna Skolimowska, Elena Spadini, Per Pippin Aspaas, Sinai Rusinek&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2017-g4/2017_G4.mp4&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;The group, consisting of four scholars (Aspaas, Rusinek, Skolimowska, Spadini)
+and two designers (Benedetti, Mantegari), has worked on the idea of transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period, based on text corpora that are available in the most reliable format possible, namely, in digital-born, scholarly, annotated versions.&lt;/p&gt;
+
+&lt;p&gt;The outcome of the “sprint run” workshop is a conceptual draft (sketchbook, “mock-up”) for a user interface design to enhance the visibility and usability of such editions for the scholarly community.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;Study of the early-modern Republic of Letters requires extensive use of correspondence as sources. Reliable editions are fundamental to such research, but are hard to find and to explore. A user interface that would facilitate the use of scholarly, digital editions in particular, is therefore highly needed.&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;The group was assigned with the task of working on visualizations with relevance to digital, scholarly editions. The EMLO database includes, at the time of writing, the metadata for some 125,000 representations of early modern letters. Each letter is catalogued according to the basic metadata (corpus, sender, receiver, place, date, language, reference to archive/hardcopy book in which the letter is found, etc.). Some letters are actually also included in EMLO in the form of encoded, fulltext, scholarly digital editions. However, there is at present no means for the end user to get an overview of which letters are available in such format and which are not.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;Arguably, scholarly editions are the most solid, reliable foundations for scholarly work on any epoch. They are often invisible in library catalogues and are not likely to be promoted by search engines such as Google Books, either. It would therefore be a good service to the scholarly community if such editions of letters could be made easily visible, in a visualization which allows both &lt;em&gt;distant reading&lt;/em&gt; and fulltext search across multiple reliable text editions at the same time, and &lt;em&gt;close reading&lt;/em&gt; in the form of consultation of original texts. Moreover, it is vital for the end user to be provided with the means to move back and forth between the various degree of distant and close reading, without losing track of his or her position in the landscape.&lt;/p&gt;
+
+&lt;p&gt;The group has worked on a user interface that allows browsing through the numerous letter collections (&lt;em&gt;corpora&lt;/em&gt;) that are included in EMLO so far. At a glance, the end user should be able to get an overview of the various corpora and what they actually contain: metadata only, metadata and scannings of original manuscript letters, metadata and scanning of hardcopy publication of letters, metadata and scanning of original plus transliteration of original letters, metadata and scannings plus &lt;em&gt;scholarly, digital born, TEI annotated&lt;/em&gt; edition of original letters, etc. The various corpus types will be presented graphically with different colours and shapes that should be as intuitive and easy-to-learn as possible. Moreover, the nature of digital edition projects makes the availability of letters in various formats a constantly changing reality, and in order to cater for the needs of a broad scholarly audience it is important to give as much information also on in progress, or partial availability. This will not only better inform, but even facilitate better collaborative work in the community, as the lacunae and needs of the community at large can be assessed by the initiators of both digitization and scholarly editing projects.&lt;/p&gt;
+
+&lt;p&gt;The group therefore recommends that EMLO includes yet another category of corpus; namely, letter collections that are known to exist (either in an archive somewhere, or in a hard copy), but which have not yet been inserted into EMLO so far. In this way, the end user will be made aware of their existence, although they will not be possible to search through in the way that the other corpus types are.&lt;/p&gt;
+
+&lt;p&gt;The results of search should bring the user to the close reading window, the outline of which was developed as an extendible view. A basic view should contain the text of single document (letter), its main metadata and a navigation bar. Optionally images of the source, apparatus criticus, factual commentary, similia, translation or summary (linked to the paragraphs) and further metadata on the text (its manuscript sources, publications etc.) can appear. A user that chooses to register her- or himself can use a personalized user note-book, in which (s)he can easily copy parts of the text and make and store personal notes. The reader can also easily export his note-book as well as the results of the search.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g4/2017_G4_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It looks promising, but we have not been able to test how it would actually work.&lt;/li&gt;
+  &lt;li&gt;Issue raised by Christoph about different IT programs used for each edition: can become difficult to show it on screen easily!&lt;/li&gt;
+  &lt;li&gt;Even though close reading can be tricky, the distant reading (i.e. new browsing and searching facility) appears possible to implement with a comparatively smaller amount of resources.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Index</name></author><category term="EMLO" /><category term="intuitive visualization of results" /><category term="distant-close reading facility" /><category term="digital scholarly editions" /><category term="usability" /><category term="visibility" /><category term="cross-searchability" /><summary type="html">Transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period</summary></entry><entry><title type="html">Correspondences over itineraries</title><link href="/2017%20cost%20action/correspondences-over-itineraries/" rel="alternate" type="text/html" title="Correspondences over itineraries" /><published>2017-01-01T00:00:00+01:00</published><updated>2017-01-01T00:00:00+01:00</updated><id>/2017%20cost%20action/correspondences-over-itineraries</id><content type="html" xml:base="/2017%20cost%20action/correspondences-over-itineraries/">&lt;p&gt;&lt;em&gt;Strategies for superimposing the correspondence of a given individual on top of the physical itinerary of that individual.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project Leader:&lt;/strong&gt; Vladimir Urbanek&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design Researchers:&lt;/strong&gt; Beatrice Gobbo, Alex Piacentini&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Roberto Evangelista, Magnus Ulrich Ferber, Vladimir Urbanek&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2017-g2/2017_G2.mp4&quot; poster=&quot;/assets/images/2017-g2/image6.png&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;Visualisations merely displaying the places to and from which letters were sent cannot make sense of the correspondences of itinerant individuals.&lt;/p&gt;
+
+&lt;p&gt;In response to this challenge, this group has explored strategies for superimposing the correspondence of a given individual on top of the physical itinerary of that individual. The career of the Czech educational reformer and pansophist Jan Amos Comenius (1592–1670) provides an ideal test case: during a long lifetime, he moved frequently and very widely throughout south-eastern, central, northern and north-western Europe, staying for longer periods especially in the Bohemian Lands, German territories of the Holy Roman Empire, Greater Poland, England, Royal Prussia, Hungary and the Netherlands.&lt;/p&gt;
+
+&lt;p&gt;His correspondence covers approximately the same geographical territory and includes not only important western centres of scholarship such as Amsterdam, London and Paris, but also cities and towns on the margins of the Republic of Letters but with lively intellectual traditions, often affected by the Thirty Years War and the First Northern War, such as Leszno, Gdańsk, Elbing and Brzeg. The group has aimed at finding a digital tool for visualisation of the geographical scope of Comenius’s correspondence and his location history and at developing a polished solution of the task to represent visually both correspondence and itinerary data sets.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;The principal aim of this project was to address the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the best solution which would enable to combine metadata largely derived from Comenius’s catalogue in the EMLO with data on his location history in order to visualise changes in Comenius’s correspondence contacts / network in relationship to his movements during his whole life?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Are these changes (in geographical scope and prosopographical composition) closely related to person’s physical movements or rather independent on them?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To what extent can we use an individual pattern as a model for representing movements and changing patterns of scholarly correspondence networks in a more general way, for example in the periods of wars, displacements and exile, such as the Thirty Years War?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Would it be possible to find a solution which may be reusable for other itinerant scholars and their correspondence networks, both in periods of relative peace (Erasmus or Leibniz) and in the periods of wars (John Dury)?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;The members of the group acquainted themselves with Jan Amos Comenius (1592-1670) as a very suitable test case for studying strategies for superimposing the correspondence of a given individual on top of the physical itinerary of that individual. Metadata of Comenius’s correspondence which include ca 560 letters sent and received were derived from the Comenius catalogue within the Early Modern Letters Online (EMLO) but some important corrections were made in this dataset in order to specify for example incomplete, ambiguous and unclear dating of the letters.&lt;/p&gt;
+
+&lt;p&gt;These corrections were largely based on the current work in progress of the Department of Comenius Studies and Early Modern Intellectual History at the Institute of Philosophy, Czech Academy of Sciences, preparing the first volume of the critical edition of Comenius’s correspondence. Data for Comenius’s physical movements were provided by the same Comenius team from Prague.&lt;/p&gt;
+
+&lt;p&gt;In addition to Comenius’s biography and its relationship to the general questions of communication within the European Republic of Letters in the periods of wars and displacement, the nature and format of the datasets were discussed by the members of the group. Some of the research questions, their spatial and temporal aspects and a principal aim of the project were discussed (see above) and a target group of potential users of the visualisation tool was specified.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;The crucial methodological problem lay in finding the way how to use structured metadata and data in the MS Excel tables in order to create a functional visualisation tool able to address research questions. Before the beginning of the group’s work, the Comenius team (Iva Lelková and Vladimír Urbánek) at the Institute of Philosophy, Czech Academy of Sciences produced several visualisations of Comenius’s correspondence using Palladio.&lt;/p&gt;
+
+&lt;p&gt;It was important that the scholars and designers involved in the group agreed that Palladio is not sufficient for solving research questions, therefore there was a need to find a more flexible tool which would enable more detailed and analytical perspective. The scholars focused on solving problems related to incomplete or uncertain data within the dataset in order to use them in the best possible way for visualisation and for addressing research problems.&lt;/p&gt;
+
+&lt;p&gt;The designers suggested various visualisation models suitable for the tasks. The group members discussed these models together and made decision about a solution. Despite the fact that the group members had no previous experience with the Design Sprint format, the cooperation proved to be very fruitful.&lt;/p&gt;
+
+&lt;p&gt;The group’s work was divided into five days and five steps devoted to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sketching and proposing various models of solution&lt;/li&gt;
+  &lt;li&gt;Work with two metadata sets and refining the chosen model&lt;/li&gt;
+  &lt;li&gt;Implementing the data and creating the prototype&lt;/li&gt;
+  &lt;li&gt;Work on a refined prototype and architecture of the tool’s interface&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;sketching-and-proposing-various-models-of-solution&quot;&gt;Sketching and proposing various models of solution&lt;/h3&gt;
+
+&lt;p&gt;In the second step the members of the group devoted considerable time to brainstorming and sketching competing (and in some cases complementary) models of visualisation. These models were basically three:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Model using the principle of “time split” or &lt;em&gt;time split model&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;​Matrix-map model or a &lt;em&gt;analytical model&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the next days one more model appeared based on the idea of &lt;strong&gt;concentric circles&lt;/strong&gt; representing time, space and prosopography related to Comenius’s correspondence and his itinerary.&lt;/p&gt;
+
+&lt;p&gt;There was not enough time, however, to develop this model further and it was decided to leave it as a potential new visualisation to experiment with in the future. Advantages and disadvantages of the respective models were carefully thought through. The narrative model based on six chapters / six maps of Comenius’s life seemed to be very appropriate for educational purposes but limited in its viability for other case studies.&lt;/p&gt;
+
+&lt;p&gt;The time split model proved to be promising for experimenting with a timeline (e.g. focusing on changes in correspondence in relationship with specific historical or biographical events) but less so in its suitability to show a overall picture. Finally, the matrix-map model appeared to be useful for research purposes and flexible enough to be reused in other case studies.&lt;/p&gt;
+
+&lt;h3 id=&quot;work-with-two-metadata-sets-and-refining-the-chosen-model&quot;&gt;Work with two metadata sets and refining the chosen model&lt;/h3&gt;
+
+&lt;p&gt;In the next step the group decided to choose the matrix-map model and develop it further. Since the dataset of Comenius’s location history appeared to lack the structural consistency needed for the visualisation it was necessary to simplify/standardize the format of the data and to add information regarding “long” stays and “short” journeys which would be represented in the graph and map by thick and thin lines.&lt;/p&gt;
+
+&lt;p&gt;It was also necessary to solve as many of uncertain or incomplete information about dates and places as possible in order to have a reasonable visual result. During the clearing of the datasets and refining of the chosen model it turned out that it would be difficult to deal with more than 100 geographical names on the vertical axe of the matrix and this remained to be a considerable challenge until the end of the project. The group also faced problems related especially to uncertain dates of some letters and unclear chronology of some of Comenius’s journeys.&lt;/p&gt;
+
+&lt;p&gt;This was a big challenge, and in some cases the visual approach, and the previous setting of metadata, helped us to formulate plausible hypothesis, e.g. about the chronological order of visited cities. In this phase of the project the first schematic versions of the prototype were created (Figs. 1-3) which, however, did not use real data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image1.png&quot; alt=&quot;Fig 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 1: The figure 1 represents one of the first sketches of the matrix-map visualisation. The matrix with two axes enables to follow both temporal and geographical aspects of Comenius’s location history and his correspondence in a form of a “snake”. The cartographical representation on the right shows the paths of his journey and stays and those of his sent and received letters. Matrix and map are intended to be interactive, so a user may choose just a part of Comenius’s location history or a time period and see an appropriate cartographical representation on the map.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image3.png&quot; alt=&quot;Fig 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 2: This figure shows the matrix-map interaction by choosing a particular period of Comenius life. The black line in the matrix represents the time spent by Comenius in each city and the travel distances on the map. The coloured points represent the amount of received and written letters.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image2.png&quot; alt=&quot;Fig 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 3:  When selecting a city on the matrix, the map highlights that city, plus particular cities and towns which Comenius corresponded with (from and to).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;implementing-the-data-and-creating-the-prototype&quot;&gt;Implementing the data and creating the prototype&lt;/h3&gt;
+
+&lt;p&gt;The fourth step consisted in the implementation of the data of Comenius’s location history to the framework &lt;em&gt;React&lt;/em&gt;. The members of the group explored the possibilities to zoom on specific time periods or individual cities in the matrix. These functions of the tool were incorporated to the tool’s interface architecture (Figs. 4-6).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image5.png&quot; alt=&quot;Fig 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 4: This figure represents the tool’s interface architecture.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image4.png&quot; alt=&quot;Fig 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 5: Zoom on a single city shows both letters sent from and received in this city (this visualisation does not use real data).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image7.png&quot; alt=&quot;Fig 6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 6: Zoom on one year shows journeys made in this particular time frame (this visualisation does not use real data).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;work-on-a-refined-prototype-and-architecture-of-the-tools-interface&quot;&gt;Work on a refined prototype and architecture of the tool’s interface&lt;/h3&gt;
+
+&lt;p&gt;In the last step a refined prototype was developed which incorporated both data for the itinerary and for the correspondence (Fig. 7). The itinerary is represented in &lt;strong&gt;a matrix with two axes&lt;/strong&gt; with the horizontal line for &lt;strong&gt;time&lt;/strong&gt;, and the vertical one for &lt;strong&gt;places&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Within this diagram the stays and the movements of Comenius are shown as a “snake”. This visualisation is interconnected with a map where the “real” geographical locations are represented. In the same matrix &lt;strong&gt;all letters are located as points (red points for sent letters, blue for received ones) with their times and places&lt;/strong&gt;, which are also fixed in the map. Possibilities to choose a period of time or a specific city are established for a user who can also use one of the seven possibilities (A, B, C, D, E, F, G) to zoom on a shorter period of time and an appropriate cartographic representation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image6.png&quot; alt=&quot;Fig 7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 7: This figure represents a refined matrix-map prototype.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/2017_G2_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;h3 id=&quot;findings&quot;&gt;Findings&lt;/h3&gt;
+
+&lt;p&gt;One of the most promising features of the refined prototype is that it enables to represent in a considerable detail &lt;strong&gt;how one person’s physical movements are related to changing patterns of his/her correspondent contacts&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;So for example in Comenius’s case, there is an active phase in the development of his correspondence contacts with Hartlib and some of his key correspondents, such as Joachim Hübner and Johann Moriaen, which not only includes intensive discussions of Comenius’s pansophic project but also prepares his journey to London in 1641. His itinerary after leaving England reflects to considerable extent previously established correspondence contacts with figures like Moriaen or Hotton in Amsterdam but also an interest in his work of figures with whom he never corresponded (like Descartes) sparked by intermediary figures with whom he did correspond but whom he never met (like Mersenne). At the same time, however, his itinerary in the 1640s reflects development of new correspondence contacts with Sweden, the Netherlands and Baltic area (e.g. Gdańsk/Danzig).&lt;/p&gt;
+
+&lt;p&gt;Our prototype can also help formulate &lt;strong&gt;questions regarding frequency of correspondence contacts in certain period in relationship to a region or city Comenius was and its “accessibility”/connectedness&lt;/strong&gt;. Of course, we have to keep in mind that we are working only with extant letters and that this is only a part of an actual correspondence exchange. It is striking, therefore, that the correspondence contacts with Hartlib and figures central to his network were certainly more frequent in the 1630s and early 1640s, even if we know only a small portion of them and even if the correspondence connection between Leszno and London was not that easy as from Gdańsk or Elbing. After moving to Elbing in 1642, the correspondence with Hartlib was less frequent (which may be convincingly documented not only by the number of extant letters but also by complains in the letters of John Dury) even if the postal connection between Elbing and London was obviously better.&lt;/p&gt;
+
+&lt;p&gt;Despite the fact that the overall visualisation of Comenius’s correspondence and his movements in a single matrix-map tool may seem overloaded, zooming on shorter periods (Fig. 8) of time and/or on individual cities and the further elaboration of the tool architecture may help interrogate data on smaller scale.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g2/image8.png&quot; alt=&quot;Fig 8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 8: The visualization with a zoom on a certain time frame.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion-and-further-research&quot;&gt;Conclusion and further research&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The matrix-map tool is a useful aid which may help produce new research questions and verify some hypotheses but it certainly needs further refinement and development.&lt;/p&gt;
+
+    &lt;p&gt;We should develop the function of drilling-down from the matrix-map to another view that shows more details of the letters and correspondents related to certain cities and shorter period of time in relationship with the cartographic representation of Comenius’s movements and letter exchange in the given period.&lt;/p&gt;
+
+    &lt;p&gt;Navigation could loosely follow this principle: Matrix (when?) &amp;gt; Map (where?) &amp;gt; New view (who?)&lt;/p&gt;
+
+    &lt;p&gt;This function may for example be used to investigate in detail intensive correspondence between Amsterdam and London in the first years after Comenius’s arrival to Amsterdam in 1656 in comparison with his declining epistolographic contacts which survived from the previous periods / stays / journeys in Poland and Hungary.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The matrix view could be improved adopting some sort of grouping by country to show a more overall picture in the beginning, and only expose all the detail once user navigates in time/space.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We should further develop the timeline on the matrix-map model which would enable us to include important dates / events in European and local history which would help users (especially students) understand relationship between these events (such as the defeat of Bohemian Revolt in 1620, an expulsion of Protestants from the Bohemian Lands in 1628, the beginning of the English Revolution in 1641-42, the Peace of Westphalia in 1648, the Northern War between Poland and Sweden) and Comenius’s itinerary / development of his correspondence contacts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The matrix-map tool should be tested on other datasets of the itinerant scholars in the period of the Thirty Years War whose correspondence and location history intersected with that of Comenius, such as John Dury.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The suitability of a circle model (concentric circles) should be further tested.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Funding for further refinement and development will be sought within the digitalization programmes of the Czech Academy of Sciences.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The design-sprint format proved to be very fruitful and inspirational. Perhaps some of us had feeling that one more day would help us refine our tool in a more sophisticated way.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Index</name></author><category term="correspondence" /><category term="itineraries" /><category term="Jan Amos Comenius" /><category term="exiled scholars" /><category term="intellectual hubs" /><category term="Thirty Years War" /><summary type="html">Strategies for superimposing the correspondence of a given individual on top of the physical itinerary of that individual.</summary></entry><entry><title type="html">Virtual Research Environment</title><link href="/2017%20cost%20action/Virtual-Research-Environment/" rel="alternate" type="text/html" title="Virtual Research Environment" /><published>2017-01-01T00:00:00+01:00</published><updated>2017-01-01T00:00:00+01:00</updated><id>/2017%20cost%20action/Virtual-Research-Environment</id><content type="html" xml:base="/2017%20cost%20action/Virtual-Research-Environment/">&lt;p&gt;&lt;em&gt;Create a virtual research environment (VRE) using the expansive data from the Republic of Letters.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project leader:&lt;/strong&gt; Charles van den Heuvel&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Charles van den Heuvel, Celine Frohn, Meliha Handzic, Stefan Trausan Matu&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design researchers:&lt;/strong&gt; Ángeles Briones, Michele Invernizzi&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2017-g5/2017_G5.mp4&quot; poster=&quot;/assets/images/2017-g5/process-02.png&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;Our goal was to create a virtual research environment (VRE) using the expansive data from the Republic of Letters. In this environment a researcher should be able to find and analyze the very diverse sources that make up the reassembled Republic of Letters, including primary texts, images, visualizations, and the connections between those. Our main issue was connecting all these different sources in a meaningful, non-reductive, and accessible manner. We wanted to go beyond the mainly text-based interfaces of current search tools, and create a cohesive interface based on visual exploration. We are trying to answer topical, spatial, network-related, and temporal questions. The anticipated output was a sketchbook, but in the future the interface should be implemented in such a way that all these dimensions can be explored and analysed in more detail.&lt;/p&gt;
+
+&lt;p&gt;As our project in itself is more of an exploration of what a VRE can look like and how it could work, this project report is not subdivided into methodology and findings, but rather provides a description of our process of designing conceptually in a collaborative way. There a several models describing the research practices in the analysis and visualization of data that can be taken as part of departure.(1) For the reason that the other four work groups were creating interfaces to real data, we decided in our group to concentrate on “exploration” rather than implementation. An important requirement for the development of our explorative interface was that it would allow for getting access to both unstructured and structured data. This distinction was necessary because in the four other workgroups the emphasis was on the development of structured (meta-)data which limits to great extent the analysis of full text of the Republic of Letters. Recurrent themes in Republic of Letters such as trust, confidentiality just cannot be found with simple keyword queries and require additional methods of text analyses and natural language processing techniques.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/steps-on-the-research-journey.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This report describes the process of sketching out an interface to such a VRE in a team of humanities researchers and designers. It concludes with some future visions of the VRE and recommendations for the design sprint format for the humanities.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;To conceptualize a virtual research environment (VRE) that allows researchers to explore texts, images, metadata, and other types of information pertaining to the digitally Reassembled Republic of Letters.&lt;/p&gt;
+
+&lt;h3 id=&quot;research-question&quot;&gt;Research Question&lt;/h3&gt;
+
+&lt;p&gt;In order to conceptualize a VRE that would be suitable for a wide research community to analyse the digitally Reassembled Republic of Letters (i.e. letters and contextual information) from various perspectives, we developed a group of very generic research questions:
+How open is the Republic of Letters? (2)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;How open is the Republic of Letters?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How reciprocal was the correspondence between two people?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the geographical reach of exiles?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is a person’s network of ideas in relation to other people?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What was the concept’s development over time/space?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are related concepts to a certain concept? (Word clouds, for example)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How universal is knowledge within the ROL?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the end we focused on the first question in which we used the second one as an indication of the openness/closeness of the Republic of Letters.&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;h3 id=&quot;secrecy-confidentiality-and-espionage-in-letter-correspondences&quot;&gt;Secrecy, confidentiality, and espionage in letter correspondences&lt;/h3&gt;
+
+&lt;p&gt;Taking the multiverse concept to a more abstract level, it become useful to think in terms of panes. After a planet in an universe was reached, one may need to have access in the same time to data from several universes, superposed in a pane. One person can be part of several networks at the same time. The Italian engineer Guerrini who was sent by Cosimo III dei Medici to Germany, the Netherlands and England figures differently in the context of espionage and in a religious context. (3) It can be said that Guerrini exists in different universes simultaneously, that have different gravitational forces, in the sent the exchanges between the people around him are different (for instant more or less reciprocal) in the different contexts.&lt;/p&gt;
+
+&lt;p&gt;Images of inventions of Guerrini stand close to other secret inventions for instance the patented torpedo-submarine designed by Cornelis Drebbel that was tested out on the River Thames in London between 1620-24. In a visual exploration based on gravitational forces it might be expected that will be closer to each other than images with a different content. Using this case, we have created several static mock-ups that illustrate how the VRE might work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/process-02.png&quot; alt=&quot;Process 02&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case there is a difference between the intellectual and technical knowledge networks. The networks do not fully overlap, and the non-overlapping parts have a different nature of confidentiality. Compare the case of the role of Huygens in between intellectual and technological networks.(4) The letter exchanges amongst aristocrats are reciprocal, while the aristocrats request materials from artisans, and they do not send any drawings back. A graphic representation of this situation can be found below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/intellectual-and-tech-knowledge-exchange.png&quot; alt=&quot;Intellectual and knowledge exchange&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we have a difference in reciprocity, an aspect of letter exchanges that should be able to be studied within the VRE. It therefore is important to visualize the movement of letters between correspondents, rather than simply place letters between correspondents (one way is the usage of the polyphonic model, see below).&lt;/p&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;h3 id=&quot;metaphor&quot;&gt;Metaphor&lt;/h3&gt;
+
+&lt;p&gt;Given the enormous amount of (contextual) data produced in various geographical locations over long periods of time, we decided to make use of a comprehensive metaphor suitable for exploration. At first we considered the metaphor of the universe of knowledge not unknown in the history of the organisation of knowledge such as in the historiography of library sciences. However, we soon realized that this metaphor would have an important disadvantage. This metaphor would imply that the Republic of Letters would be one continuous information space in which the parameters (in our case reciprocity in correspondence) with which we try to explain its specific features would be based on one common law. From earlier studies we learned that there are many differences between communities of the Republic of Letters. For that reason we decided for the metaphor of the multiverse of knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/schema-galaxy.png&quot; alt=&quot;Schema galaxy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We understand by a multiverse a hypothetical set of multiple universes that comprise all reality. Each universe had different dimensions and have a different nature i.e. differences in gravity, that we want to explore from various perspectives. The different universes are not alternative or disjunctive: they are complementing each other. This metaphor seemed very apt for the “construct” of the Republic of Letters of which one can claim that is did not exist and existed in multiple version simultaneously. Conceptualizing our model as a single universe would explain less and provide a reductive view of the relationships between elements. In order to explore and to keep track of our journey in the multiverse of the Republic of Letters we introduced a telescope, a space ship and a space ship log book.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/process-01.png&quot; alt=&quot;Process 01&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to include and provide the best access to the various dimensions, our model must be flexible and interactive. Each search query may rearrange the configuration of all elements, instead of simply selecting a part of a single configuration. Additionally, it must be possible to jump to other configurations and elements while in the exploration environment.&lt;/p&gt;
+
+&lt;h3 id=&quot;understanding-the-knowledge-management-of-the-vre&quot;&gt;Understanding the knowledge management of the VRE&lt;/h3&gt;
+
+&lt;p&gt;The VRE is based on this matrix adapted from the knowledge management (KM) literature.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/generic-framework-schema.png&quot; alt=&quot;Generic framework schema&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ethically, we are interested in the implications of the “Socialization &amp;amp; Sharing” square – we want to visualize the consequences of sharing, the open/closedness of data, and the quality of the data. In reference to the fourth square, “Ideation &amp;amp; Creation”, it should become possible for scholars to contribute to the entries in the VRE. Another possibility is using crowdsourcing. This would make visualizing or otherwise categorizing the quality of the data more pertinent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/schema-explore-analysis.png&quot; alt=&quot;Explore analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the development we concentrated more on the left side, organizing and analyzing the very diverse content. These are forms of explicit knowledge. Under “Capture &amp;amp; Organization” we consider linking all different repositories, so letters and all the other material generated in reassembling the Republic of Letters can be combined.&lt;/p&gt;
+
+&lt;p&gt;The journey of the researcher through our program typically involves these three stages: interaction with the search interface, explore data (structured, unstructured, or metadata), and apply a concomitant analysis. The image illustrates where the tools developed by other groups of the 2017 Como Design Sprint can be incorporated within the VRE. It is important that at any point in this journey, the researcher can easily jump back to the search interface or previous explorations. To enable this, a log of previously visited elements and searches will be kept - the spaceship’s logbook if you will.&lt;/p&gt;
+
+&lt;h3 id=&quot;polyphony&quot;&gt;Polyphony&lt;/h3&gt;
+
+&lt;p&gt;Another metaphor that we explored was the one of polyphony that in the Readbench project was used in the context of topic modeling. The visualization of the movement of letters between correspondents can be enhanced using text-mining tools. The exchange of ideas/concepts and the joint construction of knowledge may be visualised and analysed starting from the polyphonic model.(5) There are two ways in which this model may be used: first, each correspondent is a “voice” that interacts with the voices of the others correspondents. Second, a “voice”, in a generalized way may be an idea, a concept that enters in interaction with other ideas/concepts. In the polyphonic weaving, starting from a metaphor inspired from music, each voice has an important feature of individuality. It enters in inter-animations with other voices through dissonances and consonances (divergences and convergences), driving towards a coherent whole (6). Several visualizations for the polyphonic model may be used, as in the examples below (7).&lt;/p&gt;
+
+&lt;p&gt;The below visualizations should be seen as additional to the visualization of the links between sender and receiver (which is already done in the project &lt;em&gt;Intersecting correspondences&lt;/em&gt;). The two visualizations below come in pairs, one of not so much collaboration (marian, madalin, delia, cristian) and the second with much more interaction (bogdan, Raluca, mares, florin).&lt;/p&gt;
+
+&lt;p&gt;In the first pair of visualizations, the horizontal axis is the time and on the vertical one there are correspondents (marian, madalin, delia, etc). Letters are dots on the line of the sender. If there exist a conceptual link between two letters, a line is drawn between them. The colour of the line is green if there is an explicit link in the more recent letter to the referred one. A red colour indicates an implicit link: the letter does not explicitly mentions the other, but there is an implicit link, for example, when it refers to an idea, a concept of the other letter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/paper-trausan-1.png&quot; alt=&quot;Paper trausan&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A second example displays the facility of viewing the weaving of threads of ideas. For example, somebody wants to see how an idea or a concept evolved and entered in interaction with other idea/concepts. In this visualization, lines link letters with common topics (ideas/concepts). For each topic a colour is assigned:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/paper-trausan-2.png&quot; alt=&quot;Paper trausan 2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2017-g5/2017_G5_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;h3 id=&quot;concerns-to-be-addressed&quot;&gt;Concerns to be addressed&lt;/h3&gt;
+
+&lt;h4 id=&quot;ethics&quot;&gt;Ethics&lt;/h4&gt;
+
+&lt;p&gt;Some people/institutes/universities might want to share their data in a limited manner. Additionally, it needs to be acknowledged where content originates from. From a scholarly perspective, it would be useful to have some sort of indication of the quality and trustworthiness of the data. Additionally, all parts of the VRE need to be citable and recreatable - taking into account the fact that every time data is added to the ROL, the configuration of the VRE changes accordingly.&lt;/p&gt;
+
+&lt;h4 id=&quot;uncertainty&quot;&gt;Uncertainty&lt;/h4&gt;
+
+&lt;p&gt;A common issue with historical scholarship is that it is not always easy or possible to provide metadata on letters. It bears thought to decide how to make users via the interface aware of faulty, undetermined, or incomplete metadata and data within the VRE.&lt;/p&gt;
+
+&lt;h3 id=&quot;future-work&quot;&gt;Future work&lt;/h3&gt;
+
+&lt;p&gt;Key figures in the historiography of library and information sciences, such as Vannavar Bush or Joseph C.R. Licklider already more than half a century ago declared that indexing would be far too limited for the disclosure of the deluge of information and that search by association rather than keyword queries better reflect the cognitive processes needed for getting access to the desired knowledge. EMLO, as most databases of the projects that together make the COST-action, is based on structured metadata and will therefore provide only limited access to the textual contents of the future Reassembled Republic of Letters. Combinations with the ePistolarium and Readbench based on text analyses and NLP techniques are necessary to get access to much larger contents of the correspondences and their contextual information in unstructured data. The Linked Open Data paradigm that is explored in EMLO and in other projects such as the ePistolarium is a logical step in a further integration of structured historical data of the Republic of Letters. However, this paradigm has at least two serious flaws. The first one that we already mentioned is that the greater part of the contents of the Republic of Letters cannot be disclosed by structured metadata.&lt;/p&gt;
+
+&lt;p&gt;The second flaw is that &lt;em&gt;Linked Open Data&lt;/em&gt; has notoriously bad user interfaces, i.e. most humanities scholars are not familiar with the complex &lt;em&gt;SPARQL&lt;/em&gt; languages to query these data. For that reason we need both methods for the disclosure of large quantities of (un)structured textual data and the development of intuitive user interfaces. During the workshop we showed an experiment of an explorative interface based on deep learning, i.e. on the use of arteficial intelligence to reveal “hidden” information in large data sets. In this inspirational experiment deep learning technology was used to group all the paintings of the Rijksmuseum automatically. The result is an interface that allows exploring the paintings more or less on the basis of “genre’s” based on stylistic features.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Explore by association&lt;/p&gt;
+
+  &lt;p&gt;Our ineptitude in getting at the record is largely caused by the artificiality of systems of indexing. […] The human mind does not work that way. It operates by association. With one item in its grasp, it snaps instantly to the next that is suggested by the association of thoughts.&lt;/p&gt;
+
+  &lt;p&gt;Vannevar Bush –  As we may Think – The Atlantic. July 1945&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It seems unlikely that the expected enormous amount of unstructured data of the future Reassembled Republic of Letters can be handled and structured by humans alone. Support by deep learning, similar to the experiment here above is in that sense promising, albeit that it also has the risk of creating a black box of information. However, when one clicks on one of the selected paintings a link is presented. This link can be connected to the structured metadata of the Semantic Web of linked open data, allowing this way to verify the representations of the deep learning orders of knowledge. This experiment demonstrates that the exploring and ordering of the future digitally Reassembled Republic of Letters is not just ‘science fiction” -a term used by one of the less imaginative participants to dismiss our sketch for a future interface-, but a potential solution in which unstructured data can be combined with structured data and in which computers and crowdsourcing can be combined to handle big data in the humanities and beyond.&lt;/p&gt;
+
+&lt;h3 id=&quot;experiences-and-recommendations&quot;&gt;Experiences and Recommendations&lt;/h3&gt;
+
+&lt;p&gt;The second design sprint in Como was once again a success. For the humanities researchers in our workgroup, it was a joy to work together with imaginative designers. Design sprints are developed to come in a step-by-step approach to a concrete result. Four of the five workgroups followed that briefing with convincing results. Our group deliberately choose to stick to our imaginative multiverse metaphor and to sketch a less concrete interface for exploring a future VRE around the Republic of Letters. Generally speaking, the humanities do not have a culture of experimenting, as in the natural sciences. Although the natural sciences can learn much from the humanities, humanities researchers could benefit from this natural-scientific culture to build on experiments of others. Imagination and risk-taking are necessary to take (digital) humanities research further. For that reason we recommend that humanities researchers, computer scientists and designers participating in design sprints do not focus on concrete targets, but leave sufficient space for imagination and experiment. Humanities scholars are hardly ever in the situation to make use of the imagination of designers. It is important to exploit that to full extent. Therefore the “concrete products” after these design sprint week should be sketches and outlines rather than designs and plans; open ideas rather than “solutions” that can be implemented but might miss the wide scope that the humanities need.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;(1) See for instance, John Unsworth, Scholarly Primitives: What Methods do Humanities Researchers have in Common, and How Might our Tools Reflect this?, London 2000; Smiljana Antonijevic, Among Digital Humanists, An Etnographic Study in Knowledge Production, New York 2015 and Ben Fry, ‘The Seven Stages of Visualizing Data’ in Visualizing Data, Boston 2007.&lt;/p&gt;
+
+&lt;p&gt;(2) See, C van den Heuvel, Scott B. Weingart, Nils Spelt, Henk Nellen, “Circles of Confidence in Correspondences. Confidentiality in seventeenth-century knowledge exchange in networks of letters and drawings”, Nuncius 31 (2016) 78-106. DOI 10.1163/18253911-03101002 and C. van den Heuvel, ‘Mapping Knowledge Exchange in Early Modern Europe: Intellectual and Technological Geographies and Network Representations’, Internationa Journal of Humanities and Arts Computing 9.1 (2015): 95–114 DOI: 10.3366/ijhac.2015.0140.&lt;/p&gt;
+
+&lt;p&gt;(3) This case is based on: ‘Deep networks as associative interfaces to historical research’ Charles van den Heuvel, Ingeborg van Vugt, Pim van Bree en Geert Kessels. Future of Historical Networks Research (submitted, 2017, accepted in press).&lt;/p&gt;
+
+&lt;p&gt;(4) C van den Heuvel, Scott B. Weingart, Nils Spelt, Henk Nellen, “Circles of Confidence in Correspondences. Confidentiality in seventeenth-century knowledge exchange in networks of letters and drawings”, Nuncius 31 (2016) 78-106. DOI 10.1163/18253911-03101002.&lt;/p&gt;
+
+&lt;p&gt;(5) &lt;a href=&quot;https://www.researchgate.net/publication/259679123_A_Polyphonic_Model_Analysis_Method_and_Computer_Support_Tools_for_the_Analysis_of_Socially-Built_Discourse?ev=prf_pub&quot;&gt;Stefan Trausan-Matu, A Polyphonic Model, Analysis Method and Computer Support Tools for the Analysis of Socially-Built Discourse, Romanian Journal of Information Science and Technology 16(2-3), 2013, 144-154&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(6) 6 Bakhtin, M.M. (1984), Problems of Dostoevsky’s Poetics. Ed. and trans. Caryl Emerson. Minneapolis: University of Minnesota Press.&lt;/p&gt;
+
+&lt;p&gt;(7) &lt;a href=&quot;http://rochi.utcluj.ro/rrioc/articole/RRIOC-8-4-Trausan-Matu.pdf&quot;&gt;Trausan-Matu, S., &amp;amp; Dascalu, M. (2015). Visualization of Polyphonic Voices Inter-animation in CSCL Chats. Revista Romana de Interactiune Om-Calculator, 8(4), 305–322.&lt;/a&gt;&lt;/p&gt;</content><author><name>Index</name></author><category term="VRE" /><category term="GUI" /><category term="Multiverse of Knowledge metaphor" /><category term="Interfaces for Linked Data" /><summary type="html">Create a virtual research environment (VRE) using the expansive data from the Republic of Letters.</summary></entry><entry><title type="html">Visualizing the Distribution of Newton’s First-Edition (1687) Principia Copies</title><link href="/2016%20cost%20action/visualizing-the-distribution-of-newton-corpora/" rel="alternate" type="text/html" title="Visualizing the Distribution of Newton’s First-Edition (1687) Principia Copies" /><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><id>/2016%20cost%20action/visualizing-the-distribution-of-newton-corpora</id><content type="html" xml:base="/2016%20cost%20action/visualizing-the-distribution-of-newton-corpora/">&lt;p&gt;&lt;em&gt;Description not available.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project leader:&lt;/strong&gt; Andrej Svorenčík&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholar:&lt;/strong&gt; Andrej Svorenčík&lt;/p&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;Missing report&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;Missing report&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;Constructed a database of ownership events for 36 copies:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;104 ownership events&lt;/li&gt;
+  &lt;li&gt;Name, acquisition start, end, location, etc.&lt;/li&gt;
+  &lt;li&gt;Acquisition start known for 75 events, inferred for 30 and unknown for 15&lt;/li&gt;
+  &lt;li&gt;Ownership end known for 81 events, inferred for 8 and unknown for 15&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;Missing report&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Missing report&lt;/p&gt;</content><author><name>Index</name></author><category term="report missing" /><summary type="html">Description not available.</summary></entry><entry><title type="html">Visualizing EMLO</title><link href="/2016%20cost%20action/visualizing-EMLO/" rel="alternate" type="text/html" title="Visualizing EMLO" /><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><id>/2016%20cost%20action/visualizing-EMLO</id><content type="html" xml:base="/2016%20cost%20action/visualizing-EMLO/">&lt;p&gt;&lt;em&gt;Designing visual interfaces for browsing the EMLO repository.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project leader:&lt;/strong&gt; Howard Hotson&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Howard Hotson, Glauco Mantegari&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design researchers:&lt;/strong&gt; Carlo De Gaetano, Azzurra Pini&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2016-g5/2016_G5.mp4&quot; poster=&quot;/assets/images/2016-g5/4_people01.png&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://emlo.bodleian.ox.ac.uk/&quot;&gt;EMLO&lt;/a&gt;, “created by the Cultures of Knowledge Project […] is a combined finding aid and editorial interface for basic descriptions of early modern correspondence”. During the latter part of the workshop, and building on the results obtained by the project so far, we aimed to design visual interfaces for browsing the repository. We have used data from Samuel Hartlib’s correspondence as a testbed for our experiment: 4833 letters (sent/received) that, for the most part, have a date associated with them, as well as the place from which the letter was sent and/or the place to which the letter was addressed. In addition other metadata (such as uncertain or inferred dates/places, geographical coordinates, and editorial notes) are available.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;The main research question we defined was: “How can we provide users of EMLO’s website with innovative ways of browsing the collection that support the discovery of relationships between multidimensional data involving people, space and time?“.&lt;/p&gt;
+
+&lt;p&gt;More specifically, we focused on Hartlib’s data to explore the characteristics of his network of correspondents and to deploy mockups illustrating possible solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;The main dimensions that characterize the data are:&lt;/p&gt;
+
+&lt;h3 id=&quot;geography&quot;&gt;Geography&lt;/h3&gt;
+
+&lt;p&gt;The geographical dimension has a crucial role since it often consists of notations about both modern and historical places. For example “Heidelberg, Baden-Württemberg, (Electoral Rhenisch Imperial Circle) Germany, (Holy Roman Empire)” represents two different views of geography:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Modern: e.g. Heidelberg &amp;gt; Baden-Württemberg &amp;gt; Germany&lt;/li&gt;
+  &lt;li&gt;Historical: e.g. Electoral Rhenisch Imperial Circle &amp;gt; Holy Roman Empire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using mostly regular expressions, we split these notations into modern/historical classes, and we created hierarchies that could be leveraged during browsing.&lt;/p&gt;
+
+&lt;h3 id=&quot;time&quot;&gt;Time&lt;/h3&gt;
+
+&lt;p&gt;We also explored the temporal dimension in order to identify the fuzziness that usually characterizes historical chronologies, and the possibility of dealing with notations expressed using different calendars (e.g Julian and Gregorian).&lt;/p&gt;
+
+&lt;h3 id=&quot;people-and-languages&quot;&gt;People and Languages&lt;/h3&gt;
+
+&lt;p&gt;We didn’t perform specific data analyses on people and languages for two main reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;People, as identified by personal names and birth/death dates, represent a complex problem that needs specific work, e.g. through reconciliation with external sources (such as the Virtual International Authority File, VIAF) providing standard identifiers that allow connecting to library catalogues.&lt;/li&gt;
+  &lt;li&gt;Language data in Hartlib’s correspondence were simple and only limited to six instances&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;A few visual solutions were explored as a preliminary proof of concept aligning with the main dimensions emerging from the discussion.&lt;/p&gt;
+
+&lt;h3 id=&quot;geography-1&quot;&gt;Geography&lt;/h3&gt;
+
+&lt;p&gt;The representation of the Geographical view has highlighted a number of criticalities related to the temporal and subjective variability of political borders.
+On the one hand the geolocation as reported in the dataset is often conflicting, registering the contemporary reference and the historical one at different levels of geographical granularity (i.e. nation, region, city). On the other hand both contemporary and historical reference are relevant for the exploration of correspondence.  Moreover, even when the geographical unit in question remains unchanged (e.g. in reference to Poland, Hungary, or France), the boundaries shift over time in complex ways which have yet to be captured by any sophisticated and open-source digital system, making a precise representation of political boundaries at every stage of the past impossible at the present time.
+For this reason the approach that has been adopted for visualising the geographical level is a bubble chart cartogram, placed according to the approximate position of countries, where each geographical unit has been dimensioned with respect to the number of letters sent or received.  This solution solves several problems simultaneously: (1) it obviates the need for precise political boundaries in any given period; (2) it avoids overlapping circles for densely populated areas; (3) it allows ready comparison when different data sets are visualized; (4) it allows geographical outliers (such as Turkey and Antigua in the example below) to be included without changing the scale of representation for the core data; (5) it allows regional categories (e.g. ‘central Europe’) to be visualized alongside national categories; and (6) it highlights anomalies in the data needing cleansing (e.g. Zeeland and Gelderland are separate from Netherlands, and Ireland from the Republic of Ireland).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/1_geo_cont.jpg&quot; alt=&quot;1_geo_cont&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The visualisation of geography as also tackled from two points of view. Contemporary political entities can be used to provide a first overview of the amount of letters sent or addressed to a certain country.  Alternatively, the user can switch an historical visualisation, which allows to explore the distribution of material from political entities which have vanished from the modern map (such as the Holy Roman Empire or Transylvania). The user also has the capacity to compare these two levels by keeping the one in the background (as a shadow) while viewing the other.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/2_geo hist.jpg&quot; alt=&quot;2_geo hist&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For both levels, it is also possible to visualize the constituent parts of larger geographical entities (such as the circles of the Holy Roman Empire, within the example above).  Moreover, at both levels it is also possible to switch from a semi-cartographic representation to a network-like one, in order to represent the different levels of granularity at the geographical level (for example, highlighting the letters exchanged between a city and a country). The visualisation has been therefore approached by representing top level geographical units as metanodes, which can be expanded by the user to reveal the sub-nodes within them.&lt;/p&gt;
+
+&lt;h3 id=&quot;time-1&quot;&gt;Time&lt;/h3&gt;
+
+&lt;p&gt;The temporal dimension is also highly relevant for the exploration of correspondence archives.  In this case, an additional level of uncertainty is added: not only as some dates missing or inferred, but this period witnessed the coexistence in Europe of three different calendars (Gregorian, Julian starting in January, and Julian starting in March).
+For this reason, in order to produce a better approximation in matching the exploration of the geographical and temporal dimension, we decided to represent the degree of fuzziness related to the selected timespan. This solution would also require a refinement of the database for the unknown records with the addition of inferrable date ranges together with their probability.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/3_timeline.png&quot; alt=&quot;layout_nuovo-16.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The representation of the temporal uncertainty can be also flagged in a more general overview, and different levels of likelihood can be included when drilling down to a more detailed view.&lt;/p&gt;
+
+&lt;h3 id=&quot;people&quot;&gt;People&lt;/h3&gt;
+
+&lt;p&gt;A more detailed view by people has also been designed in order to explore visually the correspondence of single authors.&lt;/p&gt;
+
+&lt;p&gt;The basic concept is to display the major correspondence in a resource such as EMLO as individual horizontal bars in a Gantt-like chart. The length of the bar represents the life of each main correspondent (when birth and death-dates are known: otherwise fuzzy-logic visualization conventions can be employed, perhaps supported by automatically generated inferences).&lt;/p&gt;
+
+&lt;p&gt;Within the bar representing each main correspondence, a vertical line represents each letter sent.  Alternatively, if the users chooses, letters both sent and received could be viewed together, perhaps represented by different colours. Since this would produce only an approximate impression of the distribution of known correspondence throughout an individual’s lifetime, clicking on a bar might produce a histogram more accurately displaying letters sent and received.&lt;/p&gt;
+
+&lt;p&gt;By selecting specific authors through the filtering menu it would be possible to visualize only the people involved in one particular correspondence.  A more sophisticated interface could provide the user, automatically, with all the main correspondents in the system with an given correspondent, with the letters exchanged with him/her visually highlighted.&lt;/p&gt;
+
+&lt;p&gt;An additional refinement, illustrated below, involves colour-coding the letters by main topic of discussion.  Since one letter can contain different topics, these would need to be prioritised and those letters would appear as selecting and filtering all categories involved.  Obviously, this depends on the availability (a) of a standard system of categorizing topics (e.g. by academic disciplines), (b) of an epistolary data model enhanced to accommodate these topics, and (c) large numbers of epistolary records categorized in this manner.  This metadata would also allow users to isolate and analyse correspondence on individual topics (e.g. Arabic or astronomy).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/4_people01.png&quot; alt=&quot;7_people.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An additional refinement would allow users to highlight conversations between the correspondents represented.  The example below, for instance, shows how a conversation thread between two individuals might be highlighted as the user hovers over a particular letter within it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/5_people02.png&quot; alt=&quot;layout_nuovo-18.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Single correspondences and single collections could be explored through free search “verbose” filtering, which would allow the user to select not just individual authors, but potentially also places and collections with autocompletion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/5_people03.png&quot; alt=&quot;layout_nuovo-17.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Clicking on any correspondent within the previous view might also produce a second view (below), designed to highlight (a) the number (and potentially the topics) of letters exchanged with a given correspondent (in this case Hartlib), and also (b) the the reciprocity of exchange. The latter is visualised by means of a double, vertical bar-chart: in this case, the lack of symmetry indicates that the Hartlib’s catalogue on EMLO contains far more letters to than from Hartlib. In all of these visualizations, the classification into topics could also be switched for the one into languages. The visualisation also allows to display the distribution of recipients into someone correspondence, pointing out the preferred correspondents.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/6_people04.png&quot; alt=&quot;13_people.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In a system including machine-readable full texts of letters, a possible further expansion would consider also the length of letters (as calculated by number of words).  Automated topic modelling might eventually populate the topical data field automatically and calculate the number of words devoted to each topic.&lt;/p&gt;
+
+&lt;h3 id=&quot;languages&quot;&gt;Languages&lt;/h3&gt;
+
+&lt;p&gt;The different languages characterising certain collections inspired an additional exploration. In the case of Hartlib’s correspondence, several different languages were used, and a significant number of letters used more than one language (up to 3).&lt;/p&gt;
+
+&lt;p&gt;In the example below, the different languages used (by selected authors, or within entire archives, selected collections/ time-spans) have been visualised with a graph: the size of the circles is proportionate to the number of letters in the archive in each language, the co-occurrence of two languages within the same letter is represented by the links or edges, and the the frequency of language co-occurrence is represented by the thickness of edges.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/7_language01.png&quot; alt=&quot;5_lang.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As the resulting graphs are not expected to be particularly complex (few letters are written in more than two or three languages), the changes in the linguistic panorama over time could be easily explorable and comparable.&lt;/p&gt;
+
+&lt;p&gt;A further interesting exploration would include the proportion of each language (in terms of number of words) within multi-language letters, to give a better approximation of their relevance within the corpus.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g5/2016_G5_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The workshop offered an excellent occasion for understanding the exploring the potential contribution of data interaction design to the exploration of existing data, the development of fresh research questions, the potential for refining and populating data models, and points of departure for the development of visual browsing in a web-based system.&lt;/p&gt;
+
+&lt;p&gt;Although only an initial exploration, the mockups already give a good representation of the underlying data of Hartlib’s correspondence and illustrate how the main browsing functionalities could be structured. However, additional analysis of the same dataset, beyond the time constraints of the workshop, is required to develop the proposal more fully. In particular:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The assumptions about different geographical notations and granularities need to be verified with an expert check of groups and the hierarchies outlined so far.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The temporal dimension, and specifically the possibility of automatically inferring approximate time-spans in all cases where time information is missing, needs additional work as well. It will also be interesting to refine the way fuzzy temporal intervals are modelled and displayed in the interface at both the overview and drill-down levels.&lt;/li&gt;
+  &lt;li&gt;Data on people can be enriched using reconciliation of personal names with authority files that are connected to the LOD cloud, such as VIAF.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This work should go in parallel with the improvement of the visual mock-ups, informing design decisions that best represent the underlying complexity of the data. A desirable next step would be to translate the mock-ups into partial proof-of-concept interactive apps that can be quickly made accessible by scholars for evaluation and feedback.&lt;/p&gt;
+
+&lt;p&gt;In doing so we would aim to develop the building blocks of a comprehensive beta application that in the future could be extended not only to all the other records on EMLO but also to other kinds of data beyond correspondence. In our view, this will progressively allow scholars to rely on a system that doesn’t simply facilitate the discovery of relevant information, but represents a fundamental component of their research toolbox.&lt;/p&gt;
+
+&lt;p&gt;The design solutions presented been also suggest the value of developing additional dimensions of the EMLO data model, for instance for capturing broad topics. If implemented effectively, this could further support the creation of a community-based platform for research around early modern correspondence. Within this context, visualisation would function as a reasoning tool and a motivation for scholars to enhance the richness and quality of data, thus contributing not only to a specific collection but to humanities research more generally.&lt;/p&gt;</content><author><name>Index</name></author><category term="Early-modern Letters Online" /><category term="Multidimensional Data" /><category term="Exploratory Analysis" /><category term="Interactive Visualizations" /><category term="DH Innovation" /><summary type="html">Designing visual interfaces for browsing the EMLO repository.</summary></entry><entry><title type="html">VIA - Virtual Itineraries of Academics</title><link href="/2016%20cost%20action/virtual-itineraries-of-academics/" rel="alternate" type="text/html" title="VIA - Virtual Itineraries of Academics" /><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><id>/2016%20cost%20action/virtual-itineraries-of-academics</id><content type="html" xml:base="/2016%20cost%20action/virtual-itineraries-of-academics/">&lt;p&gt;&lt;em&gt;Exploring early modern academic travel culture.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project leader:&lt;/strong&gt; Mikkel Munthe Jensen&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Mikkel Munthe Jensen, Joëlle Weis&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design researchers:&lt;/strong&gt; Gabriele Colombo, Marco Quaggiotto&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2016-g3/2016_G3.mp4&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;The project which was brought to the workshop had the initial aim of exploring the geo-academic reach of 18th-century Nordic scholars and to what extent this learned space changed during the century according to scholarly disciplines; i.e. combining geography and chronology with certain attributes. The project’s research question and the data was provided by and based on Mikkel Munthe Jensen’s research on academic travels of Nordic university professors in the Early Modern period.
+We approached the project by asking: what would the ideal visualisation of the data, with no regards to time and resources, look like? This initiated a brainstorming process which allowed the two scholars of the group to express and discuss their needs as well as their wishes with the digital designers - a process that proved very fruitful for the development of the final output. By discussing the ideal scenario, we realised that instead of a ‘simple’ geographical visualisation of travels based on time and one attribute (scholarly discipline), a visualisation tool that helps to explore the many aspects of early modern travels, was in high demand.
+Our aim with the workshop was therefore to create a visualisation tool that would allow you to explore data on early modern academic travels through several parameters; geography (space), chronology (time) and a variety of prosopographical and travel-related attributes. All of these parameters would be interconnected and thus change according to their selection. This would grant the scholar the possibility to explore his or her data in multifarious ways that normal statistical and geographical visualisation would not allow. Such a tool would thus allow scholars to explore, examine and analyse bigger datasets which would lead to new insights into early modern travel culture and beyond.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;Explore and visualise the relationship between geography (space), chronology (time) and a variety of prosopographical attributes in the context of early modern academic travels.&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;The data provided were:&lt;/p&gt;
+
+&lt;h3 id=&quot;geography-space&quot;&gt;Geography (Space)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cities visited&lt;/li&gt;
+  &lt;li&gt;Countries visited&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chronology-time&quot;&gt;Chronology (Time)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Period of travel (start and end date)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prosopographical-attributes&quot;&gt;Prosopographical attributes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Institutional affiliation&lt;/li&gt;
+  &lt;li&gt;Scholarly division - subdivided in chairs&lt;/li&gt;
+  &lt;li&gt;Funding - subdivided in specific funding schemes (e.g. specific scholarship)&lt;/li&gt;
+  &lt;li&gt;Age at travelstart&lt;/li&gt;
+  &lt;li&gt;Before/After appointment&lt;/li&gt;
+  &lt;li&gt;Before/After doctoral degree&lt;/li&gt;
+  &lt;li&gt;Confession (IV)&lt;/li&gt;
+  &lt;li&gt;Language (IV)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;The design of the visualisation tool’s interface is based on the three main categories explained in the previous section, thus dividing the interface into three main blocks: 1) Geographical frame (Placement: main field), 2) Chronological frame (placement: bottom), and finally 3) the attribute frame (Placement: left side).&lt;/p&gt;
+
+&lt;h3 id=&quot;geographical-frame&quot;&gt;Geographical frame&lt;/h3&gt;
+
+&lt;p&gt;The geographical frame shows the map view and travel destinations visited (cities). The map is zoomable and will appear as a heat (density) map when zoomed out and as a point map when zoomed in.
+Design functionalities:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ideal Version: When a city is selected, it will open a small window listing the academic travellers, local learned institution and other local scholars&lt;/li&gt;
+  &lt;li&gt;Ideal Version: Selected travels, where only data on the country exist, would be shown in a separate box (e.g. France + the number of travels)&lt;/li&gt;
+  &lt;li&gt;Ideal Version: It should be able to add political, linguistic and confessional borders.&lt;/li&gt;
+  &lt;li&gt;Ideal Version: The possibility to select other views (visualisations) than only geographical views, e.g. such as cluster visualisations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chronological-frame&quot;&gt;Chronological frame&lt;/h3&gt;
+
+&lt;p&gt;The chronological frame shows a time axis divided in years, where certain time periods can be chosen. Ideal Version: Along the time axis important major events could be placed in the time frame above the  ‘worms’ (e.g. The Seven Year War 1756-1763).&lt;/p&gt;
+
+&lt;p&gt;First challenge: Time spans&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A major challenge in the project was that the data only provides time span and not specific dates for each individual visit. For instance, we only have data that a academic traveller travelled in a certain period (e.g. 1713-1717) and visited a certain number of cities (e.g. Leiden, Utrecht, Halle, Jena etc.) but not when.&lt;/li&gt;
+  &lt;li&gt;To be able to use a chronological frame based on time spans, a new form of visualisation was created, in which each travel was represented by stacked lines resembling ‘worms’.&lt;/li&gt;
+  &lt;li&gt;In addition, this has the benefit of working as a graph by showing the development of travels.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Second challenge: Uncertain start and end dates&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A second challenge was uncertain or missing start and end dates. To combat this each uncertain ‘worm’ would fade in or fade out in the adjacent years, thereby indicating the uncertainty for the reader.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;attribute-frame&quot;&gt;Attribute frame&lt;/h3&gt;
+
+&lt;p&gt;The third and final frame consist of smaller filter visualisations; i.e. bars, boxes and minor maps.&lt;/p&gt;
+
+&lt;p&gt;First challenge: Simultaneous view of more filters&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;As there are many filters it is difficult to view them all at the same time. The best option was to have a scroll down option, where the highest prioritised data would appear at the top.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link to &lt;a href=&quot;https://drive.google.com/open?id=0B3X8CNVByqGvOGxvTC1WTFNmZXM&quot;&gt;demo version&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g3/2016_G3_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The result of our work is a model for a specialised tool that would help researchers to explore their data on many different levels and in any combination. This will allow the researcher both to conduct faster analysis and to be able to see otherwise unclear pattern in the data, all which would not have been possible in normal standardised tools.&lt;/p&gt;
+
+&lt;p&gt;The big advantage of this tool is the easy legibility as it uses well-known and intuitive functions. Especially the combination of many filters, which for themselves represent small innovations, allows the user to explore the data in new ways. This is a big additional benefit to existing tools for the researcher that works on a very specific kind of data. As an example for this, we might especially cite the timeline, which can capture time spans and their overlaps at first sight, thus also working as a graph showing the total development of travels through time. Moreover, the timeline will take into account the most important events in European history for the given time, which will facilitate a recognition of correlations with the travelers behaviour. Another innovative feature is the possibility to get further information on the cities that people traveled to. When clicking on a city, a window would pop up that includes information on institutions and local scholars.&lt;/p&gt;
+
+&lt;p&gt;Summing up, this tool meets the needs of the involved scholars in an extraordinary way as it contains so many features that would allow to gain another perspective on the given data.&lt;/p&gt;
+
+&lt;p&gt;The goal of the workshop was to bring together humanists and designers to see them working on a common task. Accordingly, the work that was done in five days is certainly the result of a fruitful collaboration between designers and scholars. Especially the first two days were extremely insightful and beneficial for both sides. On the one hand, the scholars were given time and were encouraged to really learn how to express their wishes and needs. On the other hand, it was an exercise for the designers to listen and understand. All in all, it was the mutual understanding that was in the focus of the week spent together and what made it a very eye opening experience.&lt;/p&gt;
+
+&lt;p&gt;Our final result can serve as input for further development of visual exploration tools of prosopographical data - not only travels, but all kinds of group related data. This way of data exploration has to be considered as a basic first step towards getting an overview on research data. Specific correlations can easily be identified which allows the researcher to do further investigations in this direction. In the long term, this would consequently result in more specific visualisation solutions, which could of course also be used to communicate findings to a broader public.&lt;/p&gt;
+
+&lt;p&gt;Further research would definitely focus on an underlying database and user friendliness. The final goal would be to create a tool that could be easily used by researchers without obstacles, primarily by lowering the inhibition threshold. What is more, the timeline view would have to be further developed in order to fit the requirements of showing parallel travels and uncertainties at the same time. Another idea that could be further pursued was showing total travel distances and approximate travel costs (cf. Orbis).&lt;/p&gt;
+
+&lt;p&gt;In regard to the general objectives of the COST Action &lt;code class=&quot;highlighter-rouge&quot;&gt;Reassembling the Republic of Letters&lt;/code&gt;, we can assert that this project would collaborate to both the technical and the historiographical agenda. The realisation of this project would allow data navigation, analysis and visualisation of big amounts of prosopographical data not only concerning travels but even also other important events and stages in life. When further developed, this tool would be especially appropriate for much of the metadata that can be collected both from epistolary as well as prosopographical sources. It would be a big step for researchers to be able to infer how different people could have met at different places by being there at the same time, just by using the tool. In the end, this would mean that we could be able to visualise relationships between people and also institutions. This would be highly interesting for the historiographical agenda, as the newly found information would help us gain new perspectives, generate new research questions, as well as answer already existing questions concerning the Republic of Letters.&lt;/p&gt;</content><author><name>Index</name></author><category term="Travels" /><category term="Early Modern" /><category term="Republic of Letters" /><category term="Academic Culture" /><category term="Academia" /><category term="Universities" /><category term="Scholars" /><category term="Intellectual Geography" /><category term="Intellectual History" /><category term="History of Science" /><summary type="html">Exploring early modern academic travel culture.</summary></entry><entry><title type="html">Seeing Echoes</title><link href="/2016%20cost%20action/seeing-echoes/" rel="alternate" type="text/html" title="Seeing Echoes" /><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><id>/2016%20cost%20action/seeing-echoes</id><content type="html" xml:base="/2016%20cost%20action/seeing-echoes/">&lt;p&gt;&lt;em&gt;Visualizing Text Reuse in Correspondence&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project Leader:&lt;/strong&gt; Sinai Rusinek&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design Researchers:&lt;/strong&gt; Tommaso Elli, Giovanni Moretti&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Ludovica Marinucci, Sinai Rusinek&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2016-g1/2016_G1_low.mp4&quot; poster=&quot;/assets/images/2016-g1/image7.png&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;Research of ‘Republics of Letters’ entails the study of various kinds of connections and relations between nodes of a network. The most commonly studied relationship in the analysis and visualization of correspondence is that between the correspondents, and network visualizations of correspondents are among the well known sights in our field.&lt;/p&gt;
+
+&lt;p&gt;Network analysis tools, however, can be applied to various kinds of data, which could be conceived as nodes and edges. The study of the texts themselves, where textual units are conceived as nodes, and various relations between them function as the edges of the network, can provide solutions and present important insights about any corpus, epistolary or not. Epistolary corpora, however, provide interesting challenges which were the gist of the team’s work in Como.&lt;/p&gt;
+
+&lt;p&gt;Unlike plagiarism, which normally refers to the use of more or less exact phrases or text sections, the humanist phenomenon of text re-use includes a broad range of methods, from citations and direct quotes to paraphrases and hidden references. It therefore also presents a bigger computational challenge. In recent years various text reuse algorithms and tools have been applied to various textual genres - from ancient literature to the Encyclopedie, to modern fiction and nonfiction and to newspaper collections, but not, to our knowledge, to correspondence collections. In a STSM this last winter, Sinai Rusinek explored the application of text reuse detection on the corpus using the Tracer tool, developed by Marco Büchler, with the intention to provide feedback that would help adapt the tool (which is still being developed and will be available as open source) to correspondence corpora, and to eventually enable, in addition to enriching the reading of the correspondence texts by hyperlinking to the quoted/referenced source, also to analyze and visualize the flow of ideas, tropes, motives, quotes and commonplaces in the corpus.&lt;/p&gt;
+
+&lt;p&gt;Keywords and collocations in corpora have been studied intensively for decades; yet, their study in correspondence corpora raises interesting challenges, which would be elaborated below in the next section. In her PhD research on the late writings of the Dutch scientist Christiaan Huygens, Ludovica Marinucci was using the text analysis package AntConc to find, list and compare the occurrences of the most important keywords (nouns and related adjectives) and their collocations and co-occurrences, related to the themes of potentia dei, divine and human intelligence, probabilistic epistemology, natural theology and the plurality of worlds in the correspondence of Huygens with contemporaries such as Lamothe le Voyer, Spinoza, Leibniz, Newton, Oldenburg and Hobbes, a correspondence which is part of the KNAW corpus.&lt;/p&gt;
+
+&lt;p&gt;The corpus was segmented to paragraphs, on the assumption that their comparison to each other, rather than of letters which are too long, or sentences which are too short, would yield the best results. This assumption will have to be checked in the future. If discovered otherwise, the following visualizations and analysis methodology will be no different.
+Together with the corpus, we had two additional data sets:
+A list of text reuse candidates (pairs of paragraphs) with a number of common features and a number that represents the degree of their similarity. These will be the edges in the clustered network.
+A subset of the nodes which included the various forms of the lexeme ‘Potentia’.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;The findings of Sinai’s STSM raised a challenge: the results were simply too many, most of which are the ubiquitous formulae of opening and closing letters. For someone who is rather interested in quotes, aphorisms and similar kinds of text reuse, looking for relevant findings would be like finding a needle in a haystack. But even scholars interested in the biographical and social insights that a study of the “hay” itself (the formulae) can provide, have too many results to process. To solve this issue, Sinai used network analysis to organize the data and identify ‘clusters’: groups of similar text units that were found to be similar to each other. A Gephi visualization can not only map such clusters, but also color the nodes according to the author or recipient, in a way that would teach us about the use of formulae by certain individuals, or in addressing certain individuals. The two images below are snippet of the same part of the large network, where the nodes represent paragraphs (which appear in the labels), clustered according to their similarity, and colored by author (left) or recipient (right).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/2016-g1/image11.png&quot; alt=&quot;image1&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/2016-g1/image2.png&quot; alt=&quot;image2&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Here, however, the first problem arises: while the Gephi visualization may provide insights, it does not enable further analysis of each cluster. The first coding mission was therefore to isolate the clusters and prepare them for visualization of a different kind.&lt;/p&gt;
+
+&lt;p&gt;The second, and more significant problem we faced,  is that while in a normal corpus, results of a search may be easily mapped on the parts of the corpus, for example, in a histogram or concordance plot, these two dimensional tools will not suffice to make sense of the data in the context of the complex, networked structure of a correspondence corpus. This seminal problem is common to various scenarios of studies in addition to that of text reuse detection results. How, for example, can one understand and evaluate the group of letters in a correspondence which discuss ‘’potentia”, use the term “potentia dei”, or both “potentia” and “ratio”?  The second challenge was therefore taking a subset of the corpus which represents a certain textual phenomenon, and superimpose it on a correspondence network.&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;The corpus our team was working with is the corpus of CKCC (Circulation of Knowledge and Learned Practices in the 17th-century Dutch Republic), a corpus which consists of various correspondences of scholars who were active in the Netherlands in the 17th-century. It was downloaded from DANS in XML form and was converted to plain text files using python scripts. The phenomena studied in it were Text re-use, Collocations and Keywords.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;In order to proceed to the visualization challenges, Giovanni Moretti, the team’s developer, converted the data to Json format (first figure below), and developed a java parser (second figure below) to compute clusters. The results was therefore nodes aggregated in clusters according to a given threshold of similarity. The clustering pattern would obviously change according to the threshold, and it would be interesting to explore, at a later stage, their interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-clusterer&quot;&gt;The clusterer&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/image8.png&quot; alt=&quot;image8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Parallel to Giovanni’s coding work, Tommaso Elli worked with Adobe Illustrator to create the design. What could perhaps count as “the most interesting obstacle” we encountered was that even after clustering, the results were too many to conveniently analyse. We therefore had to move up a level, and present meta-clusters - clusters of clusters, as in the illustration below. The further challenge was to then convey to the viewer that the nodes in the visualization are in fact clusters, and this was done by representing them as polygons. A legend (here on the left) would then explicate this representation. In addition, the meta-clusters will be coloured according to their commonality (technically, their centrality in the meta-network of clusters).&lt;/p&gt;
+
+&lt;p&gt;For example, a cluster such as “Vale…cum uxore”, has many variants (such as, ”Vale, frater optimus, cum uxore” or “salve, frater cum uxore et liberis”, and is therefore likely to be represented as hexagone. It is also related to several similar clusters, e.g. “Vale…  vir illustrissimus” or “Deus te, frater optimus… sospitet”, and it is therefore coloured green, for its commonality. The viewer can also set the threshold of similarity (represented as “cluster gravity”, since the threshold determines clustering).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/image6.png&quot; alt=&quot;image6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Clicking each cluster in the network will open and reveal its inner structure. The inner circle of the nodes will be coloured by the author. In the detail on the left we see that all text units (nodes) were written by the same author. The circle stroke will be coloured by the recipients. Here, one of the text units was sent to a different recipients (and therefore surrounded with blue) than others.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/imageJ.png&quot; alt=&quot;imageJ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a cluster reveals its inner structure, its analysis will also appear below. Here, an external tool, the TraViz, created by Stefan Jaenicke from Leipzig University, was used to visualize a collation of the text units in the cluster. The TraViz visualization is interactive and can be explored by highlighting a selected unit. In addition to the collation, a network view of the cluster will show who used the text units, addressing whom. The correlation between the two illustrations, as well as with the nodes in the cluster network above,  will be conveyed by the correlation of the colors, and clicking each nodes in the author/recipient network (below right) will highlight the respective lines in the collation (below left).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/imageJ3.png&quot; alt=&quot;imageJ3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below the collation, a different view will be provided to enable additional analysis of the cluster of texts. The scholar could chose to sort the text units according to time, author or recipient, and highlight the version less, or most used, and also center on a chosen word in the cluster. The colours in the margins will represent the author and recipient of each text unit, again in accordance with the colours in the other visualizations of the same cluster.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/imageJ2.png&quot; alt=&quot;imageJ2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Having detected, surveyed and analysed the text reuse clusters, what is needed further is to contextualize them by locating them in the larger socially networked whole, that is the correspondence corpus. The contextualization box illustrated below ( differently than the prototype, in that it does not show the edges) will appear under the author/recipient visualization box on the right. The background correspondence network is similar to the networked visualization provided in the Epistolarium, but the cluster studied will be highlighted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/imageJ4.png&quot; alt=&quot;imageJ4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The same can be done with each textual phenomenon in the letters. Here below the correspondences which include one of the forms of the concept Potentia (captured by the regular expression) are highlighted against the background of the correspondence corpus. The same can be done with topics, collocation and co-occurrence pairs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/image7.png&quot; alt=&quot;image7&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/2016_G1_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The image shows the workflow and the order of boxes in the prototype created in Como. As soon as a cluster-node is clicked in the cluster network, the analysis and contextualization windows will appear below it (before it is clicked, the place could be used for an explanation). Not all features have been implemented in the prototype.&lt;/p&gt;
+
+&lt;p&gt;One important main feature that, for lack of time, was not implemented in the demo is a scroll bar under the correspondence network that would make it possible to select the letters (represented as edges) written in a certain period of time, while rendering opaque the rest of the edges.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/image10.png&quot; alt=&quot;image10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Three additional features were mentioned:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A contextualization of each text reuse in its co-text, meaning, highlighting the unit on a full view of the letter, with its metadata.&lt;/li&gt;
+  &lt;li&gt;Parallel view for comparison of two or three letters, where the text reuse compared is highlighted.&lt;/li&gt;
+  &lt;li&gt;And finally, a visualization of the phenomenon studied mapped onto a visualization of the corpus NOT as network, but rather as a faceted grid.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These three views are implemented already by Stefan Jaenicke in his Text Reuse reader, the dot plot and grid view, as well as the gridview below. These could be adopted to the workflow of our project. The latter, however, should be further developed to provide more flexibility, and enable the scholar to manipulate the grid according to the various facets available in the metadata.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g1/image9.png&quot; alt=&quot;image9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If, as we explained before, the first challenge of our work was to enable an analysis of a certain pattern (text reuse) in a text by clustering and processing of each cluster, and the second challenge was taking a subset of the corpus which represents a certain textual phenomenon (text reuse or uses of keywords), and superimpose it on a visualization of the corpus, then it is obvious that the tools described here will be useful for many other research scenarios. The integration of alignment and grid views into our workflow will make it usable for the study of any textual phenomena which appears in large numbers in a corpus.&lt;/p&gt;
+
+&lt;p&gt;Finally, to go back to correspondence study: as in many aspects of epistolary texts, it would be wrong to forget that the letters existed in a broader intellectual context, alongside books. Including in this visualization a representation of a non epistolary corpus and its relations to the letters will be an additional visualization challenge, but worth the effort. Imagine, for example, a ring surrounding the entire cluster network, where sections of the ring represent the old and new testament, Ancient Greek and Roman literatures, the writings of Erasmus and the opera of Grotius, Huygens and Barlaeus, the main authors in the correspondence corpus. Edges representing similarity will stretch from the nodes inside to the section outside. This final feature will enhance our understanding of the letters not as an artificially isolated world in itself, but in their historical intellectual reality.&lt;/p&gt;
+
+&lt;p&gt;To conclude, we are eager to bring the prototype forward and continue in its development, and hope to find resources that will help us in doing so. We will attempt to present it not only in the Cost event at Warsaw but in additional DH venues, events as well as publications.&lt;/p&gt;</content><author><name>Index</name></author><category term="Correspondence network" /><category term="Graphs" /><category term="Text reuse" /><category term="formulae in letters" /><summary type="html">Visualizing Text Reuse in Correspondence</summary></entry><entry><title type="html">PHILUS</title><link href="/2016%20cost%20action/philus/" rel="alternate" type="text/html" title="PHILUS" /><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><id>/2016%20cost%20action/philus</id><content type="html" xml:base="/2016%20cost%20action/philus/">&lt;p&gt;&lt;em&gt;Looking at the various networks of erudite correspondence exchanged between individuals in the different centers of learning of the Iberian Peninsula and the rest of Europe.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project leader:&lt;/strong&gt; Guy Lazure&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scholars:&lt;/strong&gt; Alex Butterworth, Guy Lazure, Cal Murgu, Margherita Parigini&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design researchers:&lt;/strong&gt; Ángeles Briones, Michele Invernizzi&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; src=&quot;/assets/images/2016-g4/2016_G4.mp4&quot; width=&quot;636&quot; autoPlay=&quot;&quot; loop=&quot;&quot;&gt; Sorry, your browser doesn't support embedded videos! &lt;/video&gt;
+
+&lt;h2 id=&quot;about-the-project&quot;&gt;About the project&lt;/h2&gt;
+
+&lt;p&gt;In modern scholarship, Renaissance Spain has been traditionally presented as marginal to the great cultural movement of the period called Humanism. One way to change this unjustified reputation and give a more accurate sense of the vibrant intellectual activity going on in the Spanish monarchy during the 16th and 17th century, is to look at the various networks of erudite correspondence exchanged between individuals in the different centers of learning of the Iberian Peninsula (cities, universities, the court) and the rest of Europe.&lt;/p&gt;
+
+&lt;p&gt;Letter writing has always been considered a defining attribute of Renaissance scholars, and mapping out this &lt;code class=&quot;highlighter-rouge&quot;&gt;Spanish Republic of Letters&lt;/code&gt; has helped lay solid documentary foundations to this critical historiographical reassessment. The personal library collections of these scholars offers another entry point to understanding the intellectual life of Spanish humanism. The current project sets out to visualise multiple facets of the data available for these collections. Particular emphasis is given to the prohibition or disapproval of particular books at different points during the period.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-of-the-project&quot;&gt;Aim of the project&lt;/h2&gt;
+
+&lt;p&gt;As a collaborative research project between humanities domain specialists and experts in interpretation and visualisation, the research question was refined during the initial discussion. The Spanish Republic team had brought a range of possible questions related to the selected data, as well as additional correspondence data. The original aim was to create a spatio-temporal representation that synthesised the two data sets to allow accessibility to a range of researchers. Whilst it was recognised that this had broad value, having explored a range of approaches the decision was made to develop an innovative tool primarily for research purposes. The Spanish Republic of Letters libraries data provides a powerful test case for the study the book collecting profile of humanists from specific territories.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;How “open” is the Spanish Republic of Letters to Non-Catholic (Protestants, non-sanctioned) scholars/ titles?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How “open” is the Spanish Republic of Letters to Non-Catholic (Protestants, non-sanctioned) scholars/ titles, as viewed through humanist library collections?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the relationship between the acquisition of books by Spanish humanists, the official sanctioning of specific texts by the periodical &lt;em&gt;Index&lt;/em&gt; of censored works, classification of subject matter, and the place of publication?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What do visualizations of Spanish humanists’ libraries reveal about the relation between book acquisition, collection habits, and the Index of prohibited books? What do visualizations of entire library collections and individual copies reveal about the life of books as material objects and repositories of knowledge?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;case-study&quot;&gt;Case study&lt;/h2&gt;
+
+&lt;p&gt;The aggregated data available for the purposes of the design sprint represents a selection of library collections gather from varied published and digital catalogues. The bibliographic details contain categories including owner, author, date of publication, place of publication, date of acquisition, place of acquisition and subject. It includes approximately 1500 items comprising the libraries of eleven humanists.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-process&quot;&gt;Design process&lt;/h2&gt;
+
+&lt;p&gt;The first phase of the design process was exploratory. The interdisciplinary composition of the team brought a mix of unique challenges: we had to identify the value in the diverse skills of each member, translate disciplinary specialities into palatable vernaculars that we could exchange.&lt;/p&gt;
+
+&lt;p&gt;During the second phase, we entertained two visualization possibilities. The first concerned the representation of humanist knowledge networks, while the other focused on representing the relationship between humanist library collection, the Renaissance book trade, and the &lt;em&gt;Index of Prohibited Books&lt;/em&gt;. After deliberation and strong advice from supervisors the group decided on the second option.&lt;/p&gt;
+
+&lt;p&gt;The designers sketched a variety of possible approaches to visualize this data, exploring how different facets of the data might be linked and exposed. These concerned individual books and collectors, places of publication and their confessional affiliation, classification of subjects, dates and their presence or otherwise on indexes of prohibited books and authors. In parallel to the design process, the data was refined and additionally tagged, based on online bibliographical resources.&lt;/p&gt;
+
+&lt;p&gt;The process was iterative, leading towards an approach that represented the varied relationships between the data in a single panel, &lt;strong&gt;animated between different views but with a persistent focus on individual books&lt;/strong&gt;. At the core of this was a complex timeline of multiple book ‘biographies’ (BookLine) that users can use to follow the lives of texts.&lt;/p&gt;
+
+&lt;h4 id=&quot;project-diagram&quot;&gt;Project Diagram&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016-g4/2016_G4_arch.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The Bibliof-&lt;em&gt;ph&lt;/em&gt;ilus visualization represents the lives of the libraries of Spanish humanists (when books were published, where they are published and when they were acquired). Currently, no such tool exists that allows for research into the material lives of these objects. Bibliof-&lt;em&gt;ph&lt;/em&gt;ilus attempts to fill this historiographical gap.&lt;/p&gt;
+
+&lt;p&gt;The most interesting obstacle that we encountered centered on one fundamental question: How does one design a dynamic visualization comprised of static instants that supports a clear and fluid process of complex humanistic inquiry? A simple solution for this problem does not exist; however, we agree that to solve it designers must be welcomed into the conceptual fold from the very beginning of the process.&lt;/p&gt;
+
+&lt;p&gt;The visualisation offers a multi-faceted perspective on the biographies of books in the library collections of Spanish humanists. The perspectives represent  the presence books in specific collections, within subject classifications, and in relation to their place of publication, filtered by time period, with a persistent indication of their approved or prohibited status according to the Inquisitional Index. An additional view represents the lifeline of books individually and in collections, indicating these factors in greater temporal detail.&lt;/p&gt;
+
+&lt;p&gt;The filtering and clustering is persistent across views according to the principle that individual books can be followed through different representations. Animated transitions (yet to be implemented), in which book icons move within the panel view into different semantic configurations, emphasise this feature of the tool. This allows the viewer to trace, for example, the biography of a prohibited work from its place of publication, through its inclusion in a particular library, and in relation to other books in the collection at the same time.&lt;/p&gt;
+
+&lt;p&gt;From the review at the end of the second phase, it became apparent that the project had potentially wider application within the study of the &lt;em&gt;Respublica literaria&lt;/em&gt;, and even beyond it. We situate this design-led research activity in a field that encompasses the &lt;code class=&quot;highlighter-rouge&quot;&gt;History of the Book&lt;/code&gt; as well as the &lt;code class=&quot;highlighter-rouge&quot;&gt;scholarship of Early Modern Humanism&lt;/code&gt; and the original, specific context of the &lt;code class=&quot;highlighter-rouge&quot;&gt;Spanish Republic of Letters&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;We strongly believe that the visualisation tool we have begun to develop during the workshop has the potential to make a significant and lasting contribution to scholars working on and with early modern libraries, by helping them make clear visual sense of a large corpus of information that is still all too often presented or analysed in a purely linear and descriptive fashion. What Bibliof-&lt;em&gt;ph&lt;/em&gt;ilus proposes is a dynamic and interactive way to understand the early European book market through the collecting habits of those who in large part created it: scholars, erudites and bibliophiles. The possibilities to expand and enrich this tool are numerous and multi-layered. Trying to express the genealogy and itinerary of both entire collections and individual books on a visual level is a critical aspect that is worth exploring. Likewise, finding ways to connect the history of these libraries with the letters their owners wrote (in which they often referred to their books) deserves careful consideration. Lastly, incorporating digitized versions of annotated copies can also help scholars shed light on the intellectual practices of early modern collectors and members of the Republic of Letters in their attempt to produce, preserve and transmit knowledge.&lt;/p&gt;
+
+&lt;p&gt;This process has generated a number of questions that need to be addressed. Specifically, how could we redesign the visualization to accommodate a much greater diversity of metadata concerning the biographies of books, individually and as part of collections? For example, the acceptability of individual books according to particular criteria (listing on different indices, mentions in humanist letters, or inquisitorial trial records). Moreover, we must develop a “visual language,” or representational method, that can represent the varying status of books by additional criteria to account for questions such as how books came to be in a particular place at a particular time (initial acquisition, redistribution after the owner’s death, disappearance of books due to theft or accident)?&lt;/p&gt;</content><author><name>Index</name></author><category term="Republic of Letters" /><category term="Spain" /><category term="Books" /><category term="Libraries" /><category term="correspondence" /><category term="Prohibited" /><category term="Inquisition" /><category term="Index" /><category term="Visualisation" /><category term="Classification" /><category term="Confessional" /><category term="Publisher" /><category term="Humanist" /><category term="Iberia" /><category term="Transnational" /><category term="Index Librorum Prohibitorum" /><category term="Hernando Colón" /><category term="Benito Arias Montano" /><category term="Juan de Mal Lara" /><category term="Pedro Vélez de Guevara" /><category term="Ambrosio de Morales" /><summary type="html">Looking at the various networks of erudite correspondence exchanged between individuals in the different centers of learning of the Iberian Peninsula and the rest of Europe.</summary></entry></feed>

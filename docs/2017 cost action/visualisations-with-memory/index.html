@@ -1,0 +1,928 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.11.2 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Visualisations with memory - Republic of Letters</title>
+<meta name="description" content="Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Republic of Letters">
+<meta property="og:title" content="Visualisations with memory">
+<meta property="og:url" content="/2017%20cost%20action/visualisations-with-memory/">
+
+
+  <meta property="og:description" content="Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2017-01-01T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/2017%20cost%20action/visualisations-with-memory/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "http://github.com/pages/densitydesign/minimal-mistakes",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Republic of Letters Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Republic of Letters</a>
+        <ul class="visible-links">
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/all-costs/"><span class="nav__sub-title">All COST Actions</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/keywords/"><span class="nav__sub-title">Research Keywords</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Visualisations with memory">
+    <meta itemprop="description" content="Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.">
+    <meta itemprop="datePublished" content="January 01, 2017">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Visualisations with memory
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  17 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#about-the-project">About the project</a></li>
+  <li><a href="#aim-of-the-project">Aim of the project</a></li>
+  <li><a href="#case-study">Case study</a>
+    <ul>
+      <li><a href="#viewing-letters">Viewing Letters</a></li>
+      <li><a href="#viewing-correspondances">Viewing Correspondances</a></li>
+      <li><a href="#viewing-places">Viewing Places</a></li>
+      <li><a href="#ego-network-of-correspondants-radial-view">Ego-network of correspondants: radial view</a></li>
+    </ul>
+  </li>
+  <li><a href="#design-process">Design process</a>
+    <ul>
+      <li><a href="#user-journey-non-expert-user">User journey: non-expert user</a></li>
+      <li><a href="#project-diagram">Project Diagram</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusions">Conclusions</a>
+    <ul>
+      <li><a href="#practice">Practice</a></li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+        <p><em>Visualising correspondence networks that retained ‘memories’ of past states through a case study of the ego-network of Desiderius Erasmus.</em></p>
+
+<p><strong>Project Leader:</strong> Howard Hotson</p>
+
+<p><strong>Design Researchers:</strong> Serena Del Nero, Michele Mauri</p>
+
+<p><strong>Scholars:</strong> Alex Butterworth, Howard Hotson, Christoph Kudella</p>
+
+<video controls="" src="/assets/images/2017-g3/2017_G3.mp4" poster="/assets/images/2017-g3/fig4-1.png" width="636" autoPlay="" loop=""> Sorry, your browser doesn't support embedded videos! </video>
+
+<h2 id="about-the-project">About the project</h2>
+
+<p>Static visualisations normally display all the movements or correspondence of a lifetime as if they had taken place simultaneously. Dynamic visualisations, cycling through one instant at a time, typically do not retain an impression of past movements or transactions. Hence the need to develop visualisations with ‘memory’: that is, visualization which retain some fading indication of previous movements or transactions while highlighting current and recent ones.</p>
+
+<p>Workshop Group 3 addressed the challenge of visualising configurations of correspondence networks that retained such ‘memories’ of past states through a case study of the ego-network of a single significant individual in the early Republic of Letters, Desiderius Erasmus.</p>
+
+<p>This network is reconstructed from the known correspondence sent and received by him throughout the course of his life (1466-1536), a total of nearly three thousand letters, written in Latin. In certain respects, this data set is representative of those contained in the EMLO archive: ego networks predominate since centred on individual recipients whose correspondence was preserved; the extant correspondence is not always reciprocal; while the lack of uniformity of access to postal networks distorts the distribution of letters. The susceptibility of the data to network analysis is therefore limited and caution was exercised during the design process.</p>
+
+<h2 id="aim-of-the-project">Aim of the project</h2>
+
+<p>The designated challenge for Design Sprint group 3 was to create ‘animated’ visualisations that preserved the ‘memory’ of networks: that is, how contemporary
+scholars working with a corpus of letters can retain a productive awareness of past activity within a network relative to the current temporal focus of their research.</p>
+
+<p>During a process of co-designing visual interfaces to its designate task, the Group paid incidental attention to how the conventions it developed for individual ego networks might be extended for application to multiple intersecting correspondences and itineraries.</p>
+
+<p>The research agenda was set by a combination of (a) Kudella’s description of the data with which he had worked during his PhD and the limitations of existing visualisation tools in representing the temporal dimensions of already complex data, (b) Hotson’s
+summary hypothesis regarding the history of Erasmus’s network as a dispersed but coherent group centred around an influential individual during his earlier life, which split into (two) distinct confessional groups during the Lutheran reformation, between which Erasmus increasingly found himself stranded.</p>
+
+<p>The research addressed the design question of how visual conventions might be devised to represent two (or more) network states, simultaneously and comparatively, as required by Kudella’s research: ie. what is happening ‘now’ and what happened previously.</p>
+
+<p>Additionally, it sought to evaluate the design produced according to how effectively it supported an interrogation of Hotson’s historical hypothesis regarding the impact of the Reformation on Erasmus’s own Republic of Letters: that rather than becoming trans-confessional, it splintered.</p>
+
+<h2 id="case-study">Case study</h2>
+
+<p>The domain expert in the group was Dr Christoph Kudella (University of Groningen), who had recently completed a PhD concerning the correspondence of Erasmus and who supplied a copy of the data gathered during that work for experimental use, while
+Professor Howard Hotson (University of Oxford) led the group, affording a contextualising knowledge of the broader historical domain, and both close knowledge
+of comparable correspondence networks and ownership of the visualisation agenda in his role as Director of Cultures of Knowledge and PI for the COST Action.</p>
+
+<h3 id="viewing-letters">Viewing Letters</h3>
+
+<ul>
+  <li>One <em>icon</em> represents one letter.</li>
+  <li>The <em>order</em> of icons is chronological.</li>
+  <li>The <em>shape</em> of icons distinguishes letters sent (e.g. circle) and letters received (e.g. a triangle) in a given place.</li>
+  <li>The colour of an icon indicates how recently it was sent (we cannot indicate date of receipt because we do not have the data: eventually, this might be calculated).
+    <ul>
+      <li><em>Discrete shades</em> are better than continuous colour gradients, because they allow comparison between places.</li>
+      <li><em>Three shades</em> allow the display of several different periods while leaving each one visually distinct.  For example:
+        <ul>
+          <li>black = current instant (which might also represented by a pulse)</li>
+          <li>red = 10% of the entire timespan viewed</li>
+          <li>orange = 11-40% of timespan</li>
+          <li>yellow = 41-100% of timespan</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Selecting a specific letter reveals
+    <ul>
+      <li>metadata in a pop-up box and</li>
+      <li>location of the other correspondent (e.g. Erasmus).</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="viewing-correspondances">Viewing Correspondances</h3>
+
+<ul>
+  <li>
+    <p>Rectangular <em>boxes</em> collect icons for all the letters send to / received by specific individuals within the timespan.</p>
+  </li>
+  <li>
+    <p>Selecting an individual person-box reveals:</p>
+    <ul>
+      <li>Other locations of the individual during the timespan selected;</li>
+      <li>Bar graph, displaying all letters sent to / received by this individual with Erasmus throughout the selected timespan (as highlighted within the entire correspondence?);</li>
+      <li>Location(s) of Erasmus recorded in the metadata of these letters.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="viewing-places">Viewing Places</h3>
+
+<ul>
+  <li>Places represented in one of two ways: as
+    <ul>
+      <li><em>clusters of letters</em>: i.e. large boxes containing individual letter icons arranged chronologically. This will result in coloured bands giving a sense of the history of Erasmus’s correspondence with this place during the timespan selected.
+        <ul>
+          <li>Selecting a location reveals <em>bar graph</em> showing all letters either <strong>sent vs received or exchanged with individual correspondents in that location</strong>;</li>
+          <li>If Erasmus resided in that location during the timespan selected, letters sent or received by him there are also graphed.</li>
+        </ul>
+      </li>
+      <li><em>Clusters of people</em>: i.e. larger boxes which cluster the smaller person-boxes (containing letter icons) together as tree diagrams.
+        <ul>
+          <li>Bar graphs (as above) and also locations of correspondents (including Erasmus) indicated by metadata, during the timeframe.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><em>Problem of clustering</em>. When the density of data in a particular area is high, place icons (whether clusters of letters or of people) merge to form a single, larger cluster.
+    <ul>
+      <li>These merged clusters must be distinguished visually from single place icons (e.g. by a darker external border).</li>
+      <li>When users mouse over these merged clusters, they reveal that they are composed of several component parts.</li>
+      <li>When users zoom in, merged clusters resolve into place clusters.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="ego-network-of-correspondants-radial-view">Ego-network of correspondants: radial view</h3>
+
+<p>The Ego-Network of Correspondents: Radial View (ENCORV) is a force-directed monadic display presented as dashboard element in dynamic relation with the configurable Time and Event Slider with Histograph (TESH), a persistent panel between this view and the Cartographic and Cartogrammic Memory of Correspondence (CACMOC)</p>
+
+<p>The <strong>ENCORV</strong> represents three dimensions of data:</p>
+
+<p>On the radial axis:</p>
+
+<ul>
+  <li>Temporal (or spatial) ‘proximity’ of correspondents to Ego by spoke length (centrality &gt;)
+    <ul>
+      <li>Correspondence [<em>TESH : Toggle to correspondence by individual histogram</em>]</li>
+      <li>Frequency of correspondence: &gt; designated threshold for designated time period</li>
+      <li>Regularity of correspondence: &gt; designated threshold for designated time period</li>
+      <li>Significant difference in <em>frequency/regularity</em> relative to previous period: exceptionality</li>
+      <li>Co-location [<em>TESH : Toggle to period(s) of co-location by individual histogram marker</em>]</li>
+      <li>Extent of time co-located with Ego by city</li>
+      <li>Frequency co-located with Ego by city</li>
+      <li>Physical Distance from Ego location [<em>TESH: Toggle to correspondence by individual histogram</em>]</li>
+      <li>Logarithmically</li>
+      <li>Non-logarithmically</li>
+    </ul>
+  </li>
+</ul>
+
+<p>On the circular axis:</p>
+
+<p>Clockwise hierarchical subdivisions (D) ordering by selection (O), priority ordering (and possible other configuration (C)) of:</p>
+
+<p>Chronology (O)</p>
+
+<ul>
+  <li>(Most) recent correspondence, within designated time frame</li>
+</ul>
+
+<p>Activity Level (O)</p>
+
+<ul>
+  <li>Total correspondence, within designated time frame</li>
+</ul>
+
+<p>Spatial Categories (hierarchy) (D, O)</p>
+
+<ul>
+  <li>Top-level administrative (D)
+    <ul>
+      <li>Nation state (D)</li>
+      <li>City (D)</li>
+    </ul>
+  </li>
+  <li>Shortest distance to [border] (O)</li>
+  <li>Territorial contiguity of states (O)</li>
+</ul>
+
+<p>Religious Status</p>
+
+<ul>
+  <li>Of location</li>
+</ul>
+
+<p>Professional Status/Institutional Affiliation</p>
+
+<ul>
+  <li>
+    <p>Of correspondent (primary)</p>
+
+    <p><em>(note: where multiple, secondary professions, possibility to display potential presence in other professional categories on selection of individual)</em></p>
+  </li>
+</ul>
+
+<p>Icon for individual correspondent:</p>
+
+<ul>
+  <li>Position on radial spoke: semantics variable by context</li>
+  <li>Segmented colour gradient: correspondence with Ego during designated period</li>
+  <li>Anomolous status of individual (e.g. discrepancy between religion of individual/location)</li>
+</ul>
+
+<p>NOTE: Requirement, for future consideration: <em>To track <strong>significant mobility</strong> within each configured display over time: eg. Movement of individual(s) <strong>between</strong> cities, confessions, or professions. How to visualise effectively?</em></p>
+
+<p>The TESH displays, by default, a histogram view of the overall ‘memory’ of ALL correspondence within the selected period. Within this view it may additionally represent Vertical bar:</p>
+
+<ul>
+  <li>Date of single (or multiple) selected letter(s)</li>
+  <li>Dates of all letters from/to selected correspondent(s)</li>
+</ul>
+
+<p>Split into multiple layered histograms:</p>
+
+<ul>
+  <li>All letters sent by Ego</li>
+  <li>All letters received by Ego</li>
+</ul>
+
+<h2 id="design-process">Design process</h2>
+
+<p>The design process followed the outline structure of daily priorities advocated for Design Sprints, with the interdisciplinary team exploring multiple possible solutions during the divergent phase before focusing more narrowly on a solution that retained geo-indexical reference for both correspondents and correspondence but with the potential to accommodate other, integrated forms of data presentation.</p>
+
+<p>It was recognised at an early stage, based on the prior experience of Dr Kudella in preparing visualisations for his PhD dissertation, that a more general challenge preceded the specific challenge of recording and presenting ‘memory’ in the network: the relative illegibility of traditional, geographically spatialised network visualisation, which degenerate into a ‘hairball’ of criss-crossing lines, even with quite limited data sets.</p>
+
+<p>To address this challenge, a range of possible solutions were considered during the first two days, including a ‘radial’ representation of the Ego Network (fig.1). This conceit placed Erasmus at the centre, his individual correspondents as the end-point of spokes radiating from him and the spokes themselves representing, by their length, different dimensions of the spatial and temporal relationship between those correspondents and Erasmus, through their letters.</p>
+
+<p><img src="/assets/images/2017-g3/fig2.jpg" alt="fig2" /></p>
+
+<p><em>Fig.1 Early sketch of radial visualisation of ego-network, with Erasmus placed centrally. The proposed radial diagram proposed elaborates on this sketch idea in various respects.</em></p>
+
+<p>It was agreed that the radial representation held significant promise for enriching our visualised understanding of memory in Erasmus network but that without considerable refinement it was liable to misreading: the mobility of both Erasmus (as Ego) and many of his correspondents would led to a ‘reading’ of high dynamism in the relative e.g. geographical distance between A and B(s), at the risk of distorting a more productive account of their spatial relationship as a whole.</p>
+
+<p>Attention then shifted to a map-based visualisation which could represent multiple levels of resolution in the individuation/aggregation of data points - for individual places, people, instances - with the notion of ‘cognitive zoom’ invoked to enable animated transitions between levels and across a cartographic to cartogrammic spectrum (from the prioritisation of a conventional map projection to that of the conceptual space of correspondence dispatch and reception).</p>
+
+<p>At every stage, reference was made to past examples of good practice in data visualisation as well as to novel examples of experimental visualisation that might inform the design process.</p>
+
+<h3 id="user-journey-non-expert-user">User journey: non-expert user</h3>
+
+<p><em>User profile</em>: a non-expert user entering through a collaboratively populated union resource such as EMLO, with minimal knowledge of the correspondence in question, and needing to move from a general orientation to more specific investigations.</p>
+
+<ul>
+  <li>
+    <p><strong>Entry point:</strong> list or visualisation of all catalogues on the system.</p>
+  </li>
+  <li>
+    <p><strong>First step: select correspondence</strong> (in this case: Erasmus of Rotterdam) <strong>and visualise in conventional mode.</strong>
+<strong>Result</strong>: far too confusing to be readily intelligible.</p>
+
+    <ul>
+      <li>
+        <p>The <strong><em>default view</em></strong> should provide material with which to gain an overall impression, including:</p>
+
+        <ul>
+          <li>A <em>timeline</em>, showing the distribution of letters to and from the correspondent from the first to the last letter in the catalogue.  The default view should split bars into letters sent (below) and letters received (above).  It should be possible to separate and split these, and to zoom to full screen (as on EMLO: <a href="tinyurl.com/6do7cyw">e.g.</a>)</li>
+          <li>A <em>map</em>, displaying the complete correspondence in a single image <em>in conventional fashion</em> (e.g. like Palladio: number of letters indicated by size of circles, overlapping where necessary, with directionality indicated by curved edges).</li>
+        </ul>
+      </li>
+      <li>
+        <p>Some <em>basic information and statistics</em>: very brief identification of main correspondent, number of letters, main topics / keywords.</p>
+      </li>
+      <li>
+        <p><strong>Basic functionality:</strong></p>
+
+        <ul>
+          <li><em>Timeline:</em> The user can define any portion of the timeline for further study in one or both of two ways:
+            <ul>
+              <li>By moving pointers along the timeline, to define a rough period;</li>
+              <li>By manually inputting precise start and end dates into boxes provided;</li>
+              <li>By selecting major events from the life of the main correspondent from a list derived from the prosopographical metadata.  These events might include major
+                <ul>
+                  <li>changes of place (e.g. Erasmus moves to Basel);</li>
+                  <li>career-changing events (e.g. Erasmus publishes the Adagia);</li>
+                  <li>events in the wider world (e.g. Luther’s 95 Theses / Diet of Worms)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><em>Map:</em>
+            <ul>
+              <li>Zoom functionality is needed to explore areas heavily populated with data (e.g. the Low Countries in the case of Erasmus).</li>
+              <li>Iconography can be altered to explore different dimensions of the data.  In what follows, a user journey is outlined using the ‘visualisation with memory’ functionality to investigate the summit of Erasmus’s career with increasing levels of detail.</li>
+              <li>Users can turn on the display of boundaries to determine which cities call within which jurisdictions.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Second step: user selects briefer period to study</strong> (e.g. 1508-1518):</p>
+
+        <p><strong>Result:</strong> still very difficult to interpret, even for the expert user.</p>
+      </li>
+      <li>
+        <p><strong>Third step:</strong> user switches from default mode to ‘memory’ mode for places.  This has three immediate effects:</p>
+
+        <ul>
+          <li>Erasmus’s timeline for 1508-1518 is <strong>divided into three chronological slices</strong>, according to the pre-set proportions noted above.  The user can then adjust these to the major divisions of Erasmus’s life.  In this case, they are set to 1508-12, 1513-17 and 1518.</li>
+          <li>The map then visualises these data in terms of places to which Erasmus sent letters and from which he received them. The letters are arranged in chronological order
+            <ul>
+              <li>either as a spiral (with new letters added at the centre) resulting in a roughly circular arrangement;</li>
+              <li>or as a rectangle (with new letters added at the top left corner).</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>The map also distinguishes <strong>between letters sent and received.</strong></p>
+
+        <p><strong>Result:</strong> four cities of roughly equal size (London, Antwerp, Leuven and Basel) – represented by dots of almost identical size in a conventional visualisation – are now clearly distinguished, and can be compared across two new dimensions.</p>
+
+        <ul>
+          <li><em>Chronology.</em> Erasmus corresponded intensively
+            <ul>
+              <li>with London throughout the entire eleven-year period (1508-1518);</li>
+              <li>with Antwerp primarily in the middle period (1513-17);</li>
+              <li>with Louvain most intensively within the very recent past (1518).</li>
+              <li>The correspondence with Cambridge is also densely clustered around the period of Erasmus’s residence there (prior to 1513); while the correspondence with Rochester is relatively current (due to the foundation of the English ‘collegium trilingue’, Corpus Christi College, by Erasmus’s friend, the Bishop of Rochester, Richard Fox, in 1517).</li>
+            </ul>
+          </li>
+          <li><em>Directionality.</em>
+            <ul>
+              <li>In 1518 letters sent by Erasmus to London dominate overwhelmingly; during the previous period, in which he was frequently resident in England, letters sent to Erasmus from London outnumber those send by Erasmus to London.</li>
+            </ul>
+          </li>
+          <li><strong>Additional functionality.</strong> <em>Clicking</em> on an individual letter
+            <ul>
+              <li>brings up the record for that letter</li>
+              <li>highlights the time of sending on the timeline, and</li>
+              <li>indicates on the map the location of Erasmus at the time of sending.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Fourth step:</strong> switch to ‘memory’ mode for people.  This has three immediate effects:</p>
+
+        <ul>
+          <li>Functionality:
+            <ul>
+              <li>In this mode, the individual letter icons are clustered according to the people with whom they were exchanged.</li>
+              <li>In the boxes designating individual people, the letters <strong>are arranged chronologically</strong>, with the most recent letters are in the top left and the oldest in bottom right.</li>
+              <li>These boxes are then <strong>clustered together as a ‘tree diagram’</strong> representing a city.</li>
+              <li><em>Mousing</em> over a person-box reveals a histogram showing the <strong>chronology of their correspondence</strong> with Erasmus throughout his lifetime, but with the selected period coloured in the same way as the icons on the map</li>
+              <li><em>Clicking</em> on a person-box also highlights other places from which they exchanged letters with Erasmus during the period being studied and the locations of Erasmus when the individual letters were sent.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <p><strong>Result:</strong> two cities of roughly equal size (London and Leuven) – represented by dots of almost identical size in a conventional visualisation – are now clearly distinguished by another dimension: number of correspondents</p>
+
+        <ul>
+          <li>The 78 London letters are exchanged with 20 people (average: 3.9 letters per correspondent).  Two thirds (47) are exchanged with only 3 people; and only ten people are represented by a single letter.</li>
+          <li>The 63 Leuven letters are exchanged with 43 people (average: 1.5 letters per correspondent).  None exchanged more than five letters, and 32 are represented by single letters.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Fifth step:</strong> aggregating data on adjacent cities.</p>
+
+        <ul>
+          <li><strong>Problem:</strong> Most maps of correspondence have dense clusters of correspondents in the main areas of activity of the chief correspondent.  In a conventional visualisation, this results in overlapping circles.  In a mode which visualises individual letters, a different solution is required.</li>
+          <li><strong>Solution:</strong> One solution is suggested by the gl http://glammap.net/glamdev/maps/1.
+            <ul>
+              <li>In this mode of visualisation, each city is visualised as a square, within which letter icons would be arranged in chronological from top left to bottom right.</li>
+              <li>When insufficient room is available to visualise adjacent centres, their squares are merged.  Merged squares are distinguished by a thicker black border.  Mousing over a merged square provides an impression of the number of centres merged within in it.  Zooming in allows the user to see how those centres are distributed geographically.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="project-diagram">Project Diagram</h3>
+<p><img src="/assets/images/2017-g3/2017_G3_arch.png" alt="application architecture" /></p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>The design process exposed a number of challenges which the group effectively addressed by adhering to a tightly defined agenda in designing the prototype, while generating and recording additional ideas for possible further development and integration to the core design.</p>
+
+<p>The prototype showed considerable promise in addressing the central challenges of the group’s designated task: to represent multiple temporal states of a correspondent’s network in a manner that was legible to a scholar and supported their process of exploration and enquiry.</p>
+
+<p>One example of the benefits of animation in managing complex multi-dimensional data was offered by the ‘cognitive zoom’ that allowed different compositions of level of detail and semantics to be displayed, relatively, within a single, inflected display. This provided an effective means to combine the legibility of a cartographic display and the advantages of familiarity that it brings - notably the east of applying existing geographical knowledge to its interpretation - with the denser informational potential of a cartographic representation.</p>
+
+<p>A further example of the potential benefit of animation was indicated by the partial development of a timeline panel that was reciprocally responsive to changes in the cartographic display, while affording multiple representational functions; these included the setting of time frames for analysis, and the use of this frame as a ‘playback head’ for temporal animation of the cartographic display. This timeline panel additionally provided a useful anchor that could remain consistent between views and between tools (e.g. should the radial view be integrated).</p>
+
+<p>It seems likely that an automated transition between states of cognitive zoom, contextually triggered according to the line of exploration pursued by the user, could be implemented. However there was no opportunity, within the scope of the workshop, to implement or evaluate a dynamic data-driven prototype</p>
+
+<p>In this, the findings of this Group, grounded in a broad exploration of a tightly defined agenda, reinforces those of Group 1 concerning the value and promise of an approach to visualising the Republic of Letters that links a suite of data-faceting tools, with fluidity of movement between different modes of representation.</p>
+
+<p>The output of the group was a prototype design that addresses the core challenge identified. It shows sufficient promise to suggest the benefit of further development and testing, as well as an additional phase of design to expand its functionality, perhaps to include additional facilities and to refine the timeline display, and to consider its application to other data sets. It may also provide a solid foundation for the visualisation of data concerning multiple, interrelated or comparative ego-networks, although this too will require a further phase of intensive design.
+ Areas for future consideration include:</p>
+
+<ul>
+  <li>
+    <p>Mobile Ego</p>
+
+    <p>How to optimise the legibility of any visualisation of Erasmus relative to the cartogram of correspondence.</p>
+  </li>
+  <li>
+    <p>Multiple Egos / Expanded Networks</p>
+
+    <p>How to extend the design to allow the meaningful exploration of two or more overlapping ego networks, in parallel and comparatively: e.g. Erasmus and Dantiskus.</p>
+  </li>
+  <li>
+    <p>Contextual events</p>
+
+    <p>How to represent contextual events in the timeline that may be uploaded as pre- determined data sets.</p>
+  </li>
+  <li>
+    <p>Contour Maps: Political Boundaries</p>
+
+    <p>Use of D3 contour maps to create lassoed contours for administrative/state groupings around letter clusters (figs. 2.1, 2.2)</p>
+  </li>
+</ul>
+
+<p><img src="/assets/images/2017-g3/fig4-1.jpg" alt="fig4-1" /></p>
+
+<p><em>Figs. 2.1 Geometric bounding of territorial affiliation, with individual letter icons to represent both dispatch (circle) and receipt (triangle) using variant colour-scheme for temporality/memory, clustered around city location using spiral algorithm.</em></p>
+
+<p><img src="/assets/images/2017-g3/fig4-2.jpg" alt="fig4-2" /></p>
+
+<p><em>Fig 2.2 Visual reference for use of contour maps to indicate irregular and overlapping bounding of territorially areas by e.g. administrative coherence or confessional dominance</em></p>
+
+<h3 id="practice">Practice</h3>
+
+<p>The workshop re-confirmed the value of the ‘design sprint’ methodology, following a first iteration a year earlier that had involved some of the same participants, and the benefit of close and intensive collaboration to both historical scholars and practice-base designers. The decision to pursue a narrow but rigorous focus was effective in producing a quite refined draft design, though less effective in generating an abundance of divergent possibilities for further investigation: a higher priority in an first than a second ‘sprint’ workshop.</p>
+
+<p>A possible approach to reshaping second-stage ‘sprints’ would be to schedule the first two exploratory/divergent days as something closer to a ‘sandbox’ in which fluid teams generate and filter approaches around themes that have emerged from the first sprint, with individuals gravitating to those with which the feel the greatest affinity and to which they could contribute most fully, during a Day 2 ‘convergent’ period, prior to a final three day ‘sprint’ to implement the designs.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#animation" class="page__taxonomy-item" rel="tag">animation</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#cognitive-zoom" class="page__taxonomy-item" rel="tag">cognitive zoom</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#context" class="page__taxonomy-item" rel="tag">context</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#correspondence" class="page__taxonomy-item" rel="tag">correspondence</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#ego-networks" class="page__taxonomy-item" rel="tag">ego networks</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#memory" class="page__taxonomy-item" rel="tag">memory</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#mobility" class="page__taxonomy-item" rel="tag">mobility</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#temporalities" class="page__taxonomy-item" rel="tag">temporalities</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#timeline" class="page__taxonomy-item" rel="tag">timeline</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#2017-cost-action" class="page__taxonomy-item" rel="tag">2017 COST Action</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-01-01T00:00:00+01:00">January 01, 2017</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Visualisations+with+memory%20%2F2017%2520cost%2520action%2Fvisualisations-with-memory%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2F2017%2520cost%2520action%2Fvisualisations-with-memory%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=%2F2017%2520cost%2520action%2Fvisualisations-with-memory%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2F2017%2520cost%2520action%2Fvisualisations-with-memory%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/2017%20cost%20action/intersecting-correspondences/" class="pagination--pager" title="Intersecting correspondences
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/2017%20cost%20action/intersecting-correspondences/" rel="permalink">Intersecting correspondences
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Exploring techniques for visualising multiple intersecting correspondences simultaneously
+
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/2017%20cost%20action/digital-critical-editions/" rel="permalink">Ideas for “EMLO 2.0”: Digital Critical Editions
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Transforming EMLO into a tool for scholars wishing to conduct research on correspondence from the early modern period
+
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/2017%20cost%20action/correspondences-over-itineraries/" rel="permalink">Correspondences over itineraries
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  12 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Strategies for superimposing the correspondence of a given individual on top of the physical itinerary of that individual.
+
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/2017%20cost%20action/Virtual-Research-Environment/" rel="permalink">Virtual Research Environment
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  15 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Create a virtual research environment (VRE) using the expansive data from the Republic of Letters.
+
+</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
